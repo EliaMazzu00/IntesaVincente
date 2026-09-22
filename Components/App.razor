@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#061029" />
+    <meta name="description" content="L'Intesa Vincente: due suggeritori, una parola e sessanta secondi. Da giocare in casa su più schermi." />
+
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <base href="/" />
+    <ResourcePreloader />
+
+    <link rel="stylesheet" href="@Assets["app.css"]" />
+    <link rel="stylesheet" href="@Assets["IntesaVincente.styles.css"]" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <ImportMap />
+    <title>L'Intesa Vincente</title>
+    <HeadOutlet @rendermode="@(new InteractiveServerRenderMode(prerender: false))" />
+</head>
+
+<body>
+    <Routes @rendermode="@(new InteractiveServerRenderMode(prerender: false))" />
+    <ReconnectModal />
+    <script src="@Assets["_framework/blazor.web.js"]"></script>
+    <script src="@Assets["gong.js"]"></script>
+</body>
+
+</html>

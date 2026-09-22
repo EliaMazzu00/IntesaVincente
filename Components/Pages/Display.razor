@@ -1,0 +1,168 @@
+@page "/display"
+@layout BareLayout
+@implements IDisposable
+@inject GameService Game
+@inject IJSRuntime JS
+
+@*
+    Lo schermo dei suggeritori: la parola da far indovinare, il tempo e il
+    punteggio. Non va mostrato a chi deve indovinare.
+*@
+
+<PageTitle>Display — L'Intesa Vincente</PageTitle>
+
+<div class="display @StatusClass">
+
+    <header class="hud">
+        <div class="hud-cell time @(IsRunningOut ? "danger" : "")">
+            <span class="hud-label">Tempo</span>
+            <span class="hud-value">@FormatTime(Game.RemainingSeconds)</span>
+        </div>
+
+        <div class="hud-cell">
+            <span class="hud-label">Passi</span>
+            <span class="hud-value">
+                @Game.PassesRemaining<span class="hud-of">/@Game.MaxPasses</span>
+            </span>
+        </div>
+
+        <div class="hud-cell">
+            <span class="hud-label">Raddoppi</span>
+            <span class="hud-value">
+                @Game.DoublesAllowedRemaining<span class="hud-of">/@Game.MaxDoubles</span>
+            </span>
+        </div>
+
+        <div class="hud-cell score">
+            <span class="hud-label">Punti</span>
+            <span class="hud-value">@Game.Score</span>
+        </div>
+    </header>
+
+    @* Barra del tempo: si vede da lontano meglio dei numeri. *@
+    <div class="timebar" role="presentation">
+        <div class="timebar-fill @(IsRunningOut ? "danger" : "")"
+             style="width:@RemainingPercent%"></div>
+    </div>
+
+    <div class="stage">
+        @if (Game.CurrentWord is { } word)
+        {
+            @if (Game.CurrentIsDouble)
+            {
+                <div class="double-tag">vale ×2</div>
+            }
+
+            <div class="word @WordSizeClass">@word</div>
+
+            @if (Game.Status == GameStatus.Frozen)
+            {
+                <div class="frozen">⏸ tempo fermo</div>
+            }
+        }
+        else if (Game.Status == GameStatus.Waiting)
+        {
+            <div class="waiting">
+                <div class="waiting-text">Pronti…</div>
+                <div class="waiting-dots" aria-hidden="true">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        }
+        else if (Game.Status == GameStatus.Finished)
+        {
+            <div class="ending">
+                <div class="ending-title">
+                    @(Game.EndReason == FinishReason.NoWords ? "🏁 Parole finite" : "⏱ Tempo!")
+                </div>
+                <div class="ending-score">
+                    <span class="ending-score-value">@Game.Score</span>
+                    <span class="ending-score-label">@(Game.Score == 1 ? "punto" : "punti")</span>
+                </div>
+                <div class="ending-stats">
+                    <span class="stat correct">✅ @Game.CorrectCount</span>
+                    <span class="stat wrong">❌ @Game.WrongCount</span>
+                    <span class="stat passed">⏭ @Game.PassedCount</span>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="idle">
+                <div class="idle-icon" aria-hidden="true">🎮</div>
+                <div class="idle-text">L'Intesa Vincente</div>
+                <div class="idle-sub">In attesa della partita…</div>
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    /// <summary>Soglia sotto la quale il tempo diventa allarmante.</summary>
+    private const int DangerSeconds = 10;
+
+    private GameStatus previousStatus;
+
+    private bool IsRunningOut =>
+        Game.Status == GameStatus.Live && Game.RemainingSeconds <= DangerSeconds;
+
+    private int RemainingPercent =>
+        (int)Math.Round((1 - Game.ElapsedFraction) * 100);
+
+    private string StatusClass => Game.Status switch
+    {
+        GameStatus.Live when Game.CurrentWord is not null => "is-word",
+        GameStatus.Frozen => "is-frozen",
+        GameStatus.Finished => "is-finished",
+        _ => "is-idle"
+    };
+
+    /// <summary>
+    /// Classe di dimensione della parola: più è lunga, più il carattere si riduce,
+    /// così anche "Giro d'Italia in bicicletta" resta su una riga leggibile.
+    /// </summary>
+    private string WordSizeClass => Game.CurrentWord?.Length switch
+    {
+        null => "size-l",
+        <= 9 => "size-xl",
+        <= 15 => "size-l",
+        <= 24 => "size-m",
+        _ => "size-s"
+    };
+
+    protected override void OnInitialized()
+    {
+        previousStatus = Game.Status;
+        Game.OnChange += OnGameChange;
+    }
+
+    /// <summary>
+    /// Ridisegna e, se il tempo è appena scaduto, suona il gong. Non suona quando
+    /// finiscono le parole: quella non è la fine "drammatica" della manche.
+    /// </summary>
+    private void OnGameChange() => InvokeAsync(async () =>
+    {
+        bool justRanOut = Game.Status == GameStatus.Finished
+            && previousStatus != GameStatus.Finished
+            && Game.EndReason == FinishReason.Time;
+
+        previousStatus = Game.Status;
+        StateHasChanged();
+
+        if (justRanOut)
+        {
+            try
+            {
+                await JS.InvokeVoidAsync("gong.play");
+            }
+            catch (JSException)
+            {
+                // Audio non disponibile: la partita finisce comunque.
+            }
+        }
+    });
+
+    private static string FormatTime(int seconds) => $"{seconds / 60}:{seconds % 60:00}";
+
+    public void Dispose() => Game.OnChange -= OnGameChange;
+}

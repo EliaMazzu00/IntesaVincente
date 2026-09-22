@@ -1,0 +1,644 @@
+# TEMA: Geografia, città e viaggi
+# 500 parole da 1 punto (una parola) + 100 da 2 punti (due o più parole).
+
+# --- Stati del mondo ---
+Italia
+Francia
+Spagna
+Portogallo
+Germania
+Austria
+Svizzera
+Belgio
+Olanda
+Lussemburgo
+Inghilterra
+Irlanda
+Scozia
+Galles
+Norvegia
+Svezia
+Finlandia
+Danimarca
+Islanda
+Polonia
+Russia
+Ucraina
+Grecia
+Turchia
+Croazia
+Slovenia
+Serbia
+Romania
+Ungheria
+Bulgaria
+Cina
+Giappone
+India
+Pakistan
+Iran
+Iraq
+Israele
+Egitto
+Marocco
+Tunisia
+Algeria
+Libia
+Kenya
+Etiopia
+Nigeria
+Sudafrica
+Congo
+Ghana
+Senegal
+Brasile
+Argentina
+Cile
+Perù
+Colombia
+Messico
+Canada
+Cuba
+Giamaica
+Australia
+Indonesia
+
+# --- Altri stati ---
+Vietnam
+Tailandia
+Filippine
+Malesia
+Corea
+Mongolia
+Nepal
+Afghanistan
+Siria
+Libano
+Giordania
+Arabia
+Yemen
+Qatar
+Kuwait
+Bolivia
+Ecuador
+Venezuela
+Uruguay
+Paraguay
+
+# --- Città del mondo ---
+Parigi
+Londra
+Madrid
+Berlino
+Vienna
+Atene
+Lisbona
+Mosca
+Pechino
+Tokyo
+Dublino
+Amsterdam
+Bruxelles
+Praga
+Varsavia
+Budapest
+Stoccolma
+Oslo
+Helsinki
+Cairo
+Nairobi
+Sydney
+Toronto
+Bangkok
+Istanbul
+Dubai
+Bombay
+Shanghai
+Singapore
+Barcellona
+
+# --- Altre città europee ---
+Marsiglia
+Monaco
+Amburgo
+Francoforte
+Zurigo
+Ginevra
+Edimburgo
+Manchester
+Liverpool
+Glasgow
+Anversa
+Rotterdam
+Copenaghen
+Cracovia
+Siviglia
+Valencia
+Lione
+Nizza
+Granada
+Salisburgo
+
+# --- Città italiane ---
+Milano
+Torino
+Genova
+Venezia
+Bologna
+Firenze
+Napoli
+Palermo
+Bari
+Cagliari
+Catania
+Verona
+Padova
+Trieste
+Brescia
+Bergamo
+Parma
+Modena
+Ravenna
+Rimini
+Ancona
+Perugia
+Pisa
+Siena
+Livorno
+Pescara
+Lecce
+Taranto
+Salerno
+Messina
+Trento
+Bolzano
+Udine
+Como
+Lecco
+Mantova
+Cremona
+Ferrara
+Pavia
+Aosta
+
+# --- Regioni italiane ---
+Lombardia
+Piemonte
+Liguria
+Veneto
+Toscana
+Lazio
+Campania
+Puglia
+Calabria
+Sicilia
+Sardegna
+Umbria
+Marche
+Abruzzo
+Molise
+Basilicata
+Emilia
+Trentino
+Friuli
+Romagna
+
+# --- Continenti, oceani e mari ---
+Europa
+Asia
+Africa
+America
+Oceania
+Antartide
+Atlantico
+Pacifico
+Indiano
+Artico
+Mediterraneo
+Adriatico
+Tirreno
+Ionio
+Egeo
+Baltico
+Caspio
+Caraibi
+Manica
+Equatore
+
+# --- Tipi di luogo ---
+Continente
+Nazione
+Stato
+Paese
+Regione
+Provincia
+Città
+Capitale
+Metropoli
+Borgo
+Villaggio
+Frazione
+Quartiere
+Periferia
+Centro
+Confine
+Frontiera
+Territorio
+Zona
+Area
+Distretto
+Comune
+Capoluogo
+Località
+Insediamento
+Colonia
+Repubblica
+Regno
+Impero
+Federazione
+Contea
+Cantone
+Emirato
+Sultanato
+Principato
+
+# --- Elementi geografici ---
+Isola
+Penisola
+Arcipelago
+Istmo
+Stretto
+Canale
+Golfo
+Baia
+Insenatura
+Fiordo
+Atollo
+Scoglio
+Promontorio
+Foce
+Estuario
+Delta
+Sorgente
+Affluente
+Bacino
+Altopiano
+
+# --- Monumenti famosi ---
+Colosseo
+Partenone
+Pantheon
+Acropoli
+Vaticano
+Cremlino
+Pentagono
+Louvre
+Prado
+Ermitage
+Alhambra
+Escorial
+Versailles
+Buckingham
+Bastiglia
+
+# --- Luoghi della città ---
+Piazza
+Via
+Viale
+Corso
+Vicolo
+Strada
+Largo
+Rotonda
+Incrocio
+Marciapiede
+Semaforo
+Ponte
+Sottopasso
+Cavalcavia
+Stazione
+Aeroporto
+Porto
+Molo
+Banchina
+Fermata
+Capolinea
+Parcheggio
+Edicola
+Municipio
+Tribunale
+Questura
+Caserma
+Ospedale
+Università
+Biblioteca
+Museo
+Cattedrale
+Duomo
+Basilica
+Moschea
+Sinagoga
+Cimitero
+Fontana
+Monumento
+Obelisco
+
+# --- Mezzi di trasporto ---
+Aereo
+Treno
+Nave
+Auto
+Automobile
+Macchina
+Bicicletta
+Moto
+Motorino
+Scooter
+Autobus
+Pullman
+Corriera
+Tram
+Metro
+Metropolitana
+Filobus
+Taxi
+Camion
+Furgone
+Camper
+Roulotte
+Traghetto
+Aliscafo
+Battello
+Motoscafo
+Barca
+Veliero
+Catamarano
+Gommone
+Canoa
+Zattera
+Elicottero
+Aliante
+Mongolfiera
+Dirigibile
+Funicolare
+Funivia
+Seggiovia
+Slitta
+
+# --- In viaggio ---
+Carrozza
+Vagone
+Locomotiva
+Cabina
+Volo
+Decollo
+Atterraggio
+Scalo
+Coincidenza
+Imbarco
+Sbarco
+Dogana
+Gate
+Terminal
+Hangar
+Equipaggio
+Bagagliaio
+Portellone
+Rotaia
+Binario
+
+# --- Cose da viaggio ---
+Valigia
+Trolley
+Zaino
+Borsone
+Baule
+Sacca
+Bagaglio
+Passaporto
+Biglietto
+Visto
+Documento
+Mappa
+Cartina
+Atlante
+Bussola
+Navigatore
+Guida
+Souvenir
+Cartolina
+Binocolo
+Borraccia
+Tenda
+Torcia
+Coltellino
+Repellente
+Adattatore
+Caricabatterie
+Crema
+Cappello
+Occhiali
+
+# --- Alloggio e turismo ---
+Albergo
+Hotel
+Ostello
+Pensione
+Motel
+Agriturismo
+Resort
+Campeggio
+Bungalow
+Chalet
+Rifugio
+Baita
+Reception
+Suite
+Cuccetta
+Crociera
+Gita
+Escursione
+Vacanza
+Viaggio
+Soggiorno
+Itinerario
+Tour
+Turista
+Comitiva
+
+# --- Mappa e orientamento ---
+Nord
+Sud
+Est
+Ovest
+Latitudine
+Longitudine
+Meridiano
+Parallelo
+Polo
+Tropico
+Coordinata
+Altitudine
+Distanza
+Direzione
+Rotta
+
+# --- Strade e infrastrutture ---
+Autostrada
+Tangenziale
+Statale
+Provinciale
+Casello
+Pedaggio
+Galleria
+Tunnel
+Viadotto
+Rotatoria
+Svincolo
+Corsia
+Carreggiata
+Guardrail
+Cartello
+
+# --- Mete e paesaggi ---
+Spiaggia
+Lido
+Stabilimento
+Terme
+Attrazione
+Panorama
+Veduta
+Belvedere
+Costa
+Riviera
+Litorale
+Entroterra
+Campagna
+Collina
+Pianura
+
+# --- Popoli e nazionalità ---
+Italiano
+Francese
+Spagnolo
+Tedesco
+Inglese
+Russo
+Cinese
+Giapponese
+Americano
+Africano
+Greco
+Egiziano
+Brasiliano
+Messicano
+Australiano
+Canadese
+Svedese
+Norvegese
+Olandese
+Portoghese
+
+# ============================================================
+#  PAROLE DA 2 PUNTI (almeno due parole per riga)
+# ============================================================
+Torre Eiffel
+Torre di Pisa
+Torre di Londra
+Statua della Libertà
+Grande Muraglia
+Muraglia cinese
+Mar Mediterraneo
+Mar Rosso
+Mar Morto
+Mar Nero
+Mar Baltico
+Mar Adriatico
+Mar Tirreno
+Oceano Atlantico
+Oceano Pacifico
+Oceano Indiano
+Lago di Garda
+Lago di Como
+Lago Maggiore
+Lago di Bracciano
+Stretto di Messina
+Stretto di Gibilterra
+Golfo di Napoli
+Golfo Persico
+Costa Azzurra
+Costa Smeralda
+Polo Nord
+Polo Sud
+Circolo Polare
+Penisola Italiana
+Penisola Iberica
+Penisola Balcanica
+Stati Uniti
+Regno Unito
+Gran Bretagna
+Città del Vaticano
+Città del Capo
+Città del Messico
+New York
+Hong Kong
+San Francisco
+Los Angeles
+Las Vegas
+Rio de Janeiro
+Buenos Aires
+Città Eterna
+Grande Mela
+Deserto del Sahara
+Deserto del Gobi
+Foresta Amazzonica
+Fiume Po
+Fiume Tevere
+Monte Bianco
+Monte Rosa
+Monte Everest
+Catena delle Alpi
+Cordigliera delle Ande
+Cascate del Niagara
+Grand Canyon
+Isola d'Elba
+Isole Eolie
+Costa Adriatica
+Riviera Ligure
+Piazza San Marco
+Piazza di Spagna
+Fontana di Trevi
+Ponte di Rialto
+Ponte Vecchio
+Ponte dei Sospiri
+Centro storico
+Città vecchia
+Borgo medievale
+Punto panoramico
+Stazione centrale
+Stazione ferroviaria
+Aeroporto internazionale
+Porto turistico
+Agenzia di viaggi
+Pacchetto vacanze
+Villaggio turistico
+Camera d'albergo
+Sacco a pelo
+Biglietto aereo
+Carta d'imbarco
+Carta geografica
+Punto cardinale
+Rosa dei venti
+Fuso orario
+Mezzo di trasporto
+Mezzi pubblici
+Treno ad alta velocità
+Nave da crociera
+Auto a noleggio
+Volo di linea
+Volo low cost
+Bagaglio a mano
+Guida turistica
+Meta turistica
+Giro turistico
+Viaggio organizzato

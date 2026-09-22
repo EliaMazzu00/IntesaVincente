@@ -1,0 +1,650 @@
+# TEMA: Emozioni, carattere e relazioni
+# 500 parole da 1 punto (una parola) + 100 da 2 punti (due o più parole).
+
+# --- Emozioni ---
+Gioia
+Felicità
+Allegria
+Tristezza
+Malinconia
+Rabbia
+Collera
+Ira
+Furia
+Paura
+Terrore
+Spavento
+Angoscia
+Ansia
+Sorpresa
+Stupore
+Meraviglia
+Disgusto
+Schifo
+Disprezzo
+Vergogna
+Imbarazzo
+Colpa
+Rimorso
+Rimpianto
+Nostalgia
+Speranza
+Delusione
+Entusiasmo
+Eccitazione
+Noia
+Indifferenza
+Curiosità
+Interesse
+Soddisfazione
+Frustrazione
+Serenità
+Calma
+Pace
+Euforia
+
+# --- Emozioni profonde ---
+Contentezza
+Beatitudine
+Estasi
+Esultanza
+Giubilo
+Tripudio
+Amarezza
+Afflizione
+Dolore
+Sofferenza
+Pena
+Cordoglio
+Lutto
+Disperazione
+Sgomento
+Costernazione
+Avvilimento
+Abbattimento
+Scoramento
+Tedio
+Apatia
+Languore
+Struggimento
+Commozione
+Trepidazione
+
+# --- Sentimenti ---
+Amore
+Affetto
+Tenerezza
+Passione
+Desiderio
+Attrazione
+Simpatia
+Antipatia
+Odio
+Rancore
+Gelosia
+Invidia
+Ammirazione
+Stima
+Rispetto
+Gratitudine
+Riconoscenza
+Compassione
+Pietà
+Empatia
+Solidarietà
+Devozione
+Fedeltà
+Lealtà
+Fiducia
+Diffidenza
+Sospetto
+Tradimento
+Perdono
+Indulgenza
+
+# --- Stati d'animo ---
+Umore
+Morale
+Spirito
+Animo
+Cuore
+Sentimento
+Emozione
+Sensazione
+Impressione
+Tensione
+Stress
+Inquietudine
+Agitazione
+Turbamento
+Sconforto
+Sollievo
+Conforto
+Benessere
+Malessere
+Trepidare
+
+# --- Paure e ansie ---
+Fobia
+Panico
+Timore
+Apprensione
+Trauma
+Shock
+Brivido
+Tremore
+Allarme
+Minaccia
+Insicurezza
+Vertigine
+Smarrimento
+Disagio
+Tormento
+
+# --- Carattere e tratti ---
+Carattere
+Personalità
+Indole
+Temperamento
+Natura
+Coraggio
+Audacia
+Timidezza
+Pazienza
+Impazienza
+Generosità
+Egoismo
+Bontà
+Cattiveria
+Gentilezza
+Onestà
+Sincerità
+Furbizia
+Astuzia
+Saggezza
+Ingenuità
+Pigrizia
+Vivacità
+Dolcezza
+Durezza
+Sensibilità
+Freddezza
+Orgoglio
+Umiltà
+Modestia
+
+# --- Sfumature del carattere ---
+Fierezza
+Baldanza
+Spavalderia
+Sfrontatezza
+Sicurezza
+Riservatezza
+Discrezione
+Cortesia
+Garbo
+Tatto
+Diplomazia
+Affabilità
+Cordialità
+Socievolezza
+Spontaneità
+Naturalezza
+Semplicità
+Schiettezza
+Franchezza
+Riserbo
+Compostezza
+Serietà
+Gravità
+Sobrietà
+Pacatezza
+
+# --- Virtù e valori ---
+Virtù
+Bene
+Male
+Giustizia
+Verità
+Libertà
+Onore
+Dignità
+Volontà
+Determinazione
+Costanza
+Perseveranza
+Disciplina
+Sacrificio
+Altruismo
+Tolleranza
+Comprensione
+Equilibrio
+Armonia
+Prudenza
+
+# --- Vizi e difetti ---
+Vizio
+Avidità
+Avarizia
+Superbia
+Vanità
+Bugia
+Menzogna
+Inganno
+Falsità
+Ipocrisia
+Crudeltà
+Vendetta
+Cinismo
+Arroganza
+Prepotenza
+
+# --- Famiglia ---
+Famiglia
+Genitore
+Madre
+Padre
+Mamma
+Papà
+Figlio
+Figlia
+Fratello
+Sorella
+Nonno
+Nonna
+Nipote
+Zio
+Zia
+Cugino
+Cugina
+Bisnonno
+Bisnonna
+Suocero
+Suocera
+Genero
+Nuora
+Cognato
+Cognata
+Marito
+Moglie
+Sposo
+Sposa
+Coniuge
+Parente
+Antenato
+Discendente
+Erede
+Famigliola
+
+# --- Parentela e affidi ---
+Madrina
+Padrino
+Figlioccio
+Gemello
+Gemella
+Primogenito
+Patrigno
+Matrigna
+Fratellastro
+Sorellastra
+Figliastro
+Orfano
+Trovatello
+Pupillo
+Beniamino
+Affidatario
+Tutore
+Balia
+Coetaneo
+Capofamiglia
+
+# --- Relazioni sociali ---
+Amico
+Amica
+Compagno
+Conoscente
+Vicino
+Collega
+Socio
+Partner
+Fidanzato
+Fidanzata
+Innamorato
+Spasimante
+Pretendente
+Corteggiatore
+Rivale
+Nemico
+Avversario
+Alleato
+Complice
+Estraneo
+Sconosciuto
+Ospite
+Invitato
+Padrone
+Inquilino
+Coinquilino
+Capo
+Subordinato
+Mentore
+Allievo
+
+# --- Gruppi e comunità ---
+Conoscenza
+Frequentazione
+Vicinato
+Convivenza
+Comunità
+Gruppo
+Cricca
+Squadra
+Clan
+Tribù
+Società
+Popolo
+Folla
+Assemblea
+Riunione
+Adunata
+Raduno
+Comitiva
+Circolo
+Combriccola
+
+# --- Amicizia e amore ---
+Amicizia
+Legame
+Rapporto
+Relazione
+Coppia
+Unione
+Intesa
+Complicità
+Confidenza
+Affinità
+Sintonia
+Compagnia
+Fratellanza
+Incontro
+Appuntamento
+Corteggiamento
+Innamoramento
+Bacio
+Abbraccio
+Carezza
+Coccola
+Fidanzamento
+Matrimonio
+Promessa
+Impegno
+
+# --- Conflitti ---
+Lite
+Litigio
+Discussione
+Bisticcio
+Battibecco
+Diverbio
+Scontro
+Contrasto
+Disaccordo
+Disputa
+Rivalità
+Competizione
+Malinteso
+Equivoco
+Incomprensione
+Offesa
+Insulto
+Provocazione
+Riconciliazione
+Tregua
+
+# --- Espressioni e gesti ---
+Sorriso
+Risata
+Riso
+Pianto
+Lacrima
+Singhiozzo
+Sospiro
+Sbuffo
+Grido
+Urlo
+Bisbiglio
+Sussurro
+Silenzio
+Sguardo
+Occhiata
+Smorfia
+Broncio
+Sbadiglio
+Risatina
+Ghigno
+
+# --- Gesti affettuosi ---
+Inchino
+Cenno
+Pacca
+Buffetto
+Solletico
+Bacetto
+Manata
+Gomitata
+Strattone
+Schiaffo
+Pizzicotto
+Sberla
+Effusione
+Smanceria
+Stretta
+
+# --- Reazioni del corpo ---
+Rossore
+Pallore
+Tremarella
+Battito
+Nodo
+Groppo
+Formicolio
+Fremito
+Sussulto
+Trasalimento
+Magone
+Brividi
+Palpitazione
+Affanno
+Sobbalzo
+
+# --- Mente e pensiero ---
+Pensiero
+Idea
+Opinione
+Convinzione
+Pregiudizio
+Dubbio
+Certezza
+Ricordo
+Memoria
+Oblio
+Coscienza
+Consapevolezza
+Mente
+Ragione
+Istinto
+Attenzione
+Concentrazione
+Distrazione
+Confusione
+Lucidità
+
+# --- Aspirazioni ---
+Ottimismo
+Pessimismo
+Realismo
+Idealismo
+Fede
+Credo
+Illusione
+Ambizione
+Aspirazione
+Bisogno
+Voglia
+Capriccio
+Smania
+Brama
+Motivazione
+Ispirazione
+Creatività
+Fantasia
+Immaginazione
+Intuizione
+
+# --- Vita ed eventi ---
+Vita
+Nascita
+Crescita
+Infanzia
+Fanciullezza
+Adolescenza
+Giovinezza
+Maturità
+Vecchiaia
+Morte
+Destino
+Sorte
+Fortuna
+Sfortuna
+Successo
+Fallimento
+Vittoria
+Sconfitta
+Cambiamento
+Scelta
+Decisione
+Rinuncia
+Addio
+Saluto
+Ritorno
+
+# --- Occasioni della vita ---
+Anniversario
+Festeggiamento
+Celebrazione
+Cerimonia
+Rito
+Tradizione
+Abitudine
+Routine
+Quotidianità
+Avventura
+Esperienza
+Impresa
+Occasione
+Opportunità
+Caso
+
+# ============================================================
+#  PAROLE DA 2 PUNTI (almeno due parole per riga)
+# ============================================================
+Colpo di fulmine
+Amore a prima vista
+Mal d'amore
+Pena d'amore
+Storia d'amore
+Vita di coppia
+Anima gemella
+Mezza arancia
+Migliore amico
+Amico del cuore
+Amico per la pelle
+Amico immaginario
+Vecchio amico
+Compagno di scuola
+Compagno di banco
+Compagno di giochi
+Amore materno
+Amore paterno
+Affetto sincero
+Legame profondo
+Buon umore
+Cattivo umore
+Stato d'animo
+Pace dei sensi
+Salto di gioia
+Lacrime di gioia
+Lacrime di coccodrillo
+Crisi di pianto
+Scoppio d'ira
+Attacco di panico
+Senso di colpa
+Punto debole
+Forza di volontà
+Presenza di spirito
+Pace interiore
+Gioia di vivere
+Voglia di fare
+Voglia matta
+Sete di vendetta
+Spirito di sacrificio
+Senso del dovere
+Sangue freddo
+Cuore tenero
+Cuore di pietra
+Cuore d'oro
+Buon cuore
+Faccia tosta
+Pelle d'oca
+Nodo alla gola
+Magone in gola
+Cuore in gola
+Lieto fine
+Vissero felici e contenti
+Festa in famiglia
+Pranzo di famiglia
+Albero genealogico
+Famiglia numerosa
+Famiglia allargata
+Padre di famiglia
+Madre premurosa
+Figlio unico
+Figlio adottivo
+Figli e nipoti
+Coppia di sposi
+Viaggio di nozze
+Festa di matrimonio
+Promessa di matrimonio
+Anello di fidanzamento
+Prima cotta
+Amore non corrisposto
+Cuori solitari
+Vita sociale
+Rete di amici
+Cerchia di amici
+Festa tra amici
+Cena tra amici
+Spirito di gruppo
+Senso di appartenenza
+Buoni rapporti
+Rapporto di fiducia
+Patto di sangue
+Stretta di mano
+Pacca sulla spalla
+Bacio sulla guancia
+Abbraccio caloroso
+Sguardo dolce
+Occhi a cuore
+Buon carattere
+Pessimo carattere
+Forte personalità
+Bel temperamento
+Animo gentile
+Spirito libero
+Carattere d'oro
+Doppia personalità
+Crisi d'identità
+Esame di coscienza
+Voce della coscienza
+Brutto carattere
+Legame di sangue

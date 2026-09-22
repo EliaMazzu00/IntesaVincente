@@ -1,0 +1,656 @@
+# TEMA: Arte e letteratura
+# 500 parole da 1 punto (una parola) + 100 da 2 punti (due o più parole).
+
+# --- Pittura: strumenti e tecniche ---
+Quadro
+Dipinto
+Tela
+Cavalletto
+Pennello
+Pennellessa
+Tavolozza
+Colore
+Tempera
+Acquerello
+Olio
+Acrilico
+Pastello
+Carboncino
+Sanguigna
+Gesso
+Spatola
+Vernice
+Smalto
+Cornice
+Telaio
+Bozzetto
+Schizzo
+Disegno
+Abbozzo
+Chiaroscuro
+Sfumato
+Prospettiva
+Tratto
+Pigmento
+
+# --- Generi pittorici ---
+Ritratto
+Autoritratto
+Paesaggio
+Marina
+Natura
+Veduta
+Nudo
+Affresco
+Murale
+Miniatura
+Icona
+Pala
+Trittico
+Polittico
+Mosaico
+
+# --- Scultura ---
+Scultura
+Statua
+Busto
+Monumento
+Bassorilievo
+Altorilievo
+Bronzo
+Marmo
+Creta
+Argilla
+Stucco
+Calco
+Modello
+Scalpello
+Mazzuolo
+Tornio
+Fusione
+Intaglio
+Cesello
+Piedistallo
+
+# --- Concetti dell'arte ---
+Arte
+Opera
+Capolavoro
+Bellezza
+Stile
+Tecnica
+Composizione
+Armonia
+Equilibrio
+Proporzione
+Simmetria
+Forma
+Volume
+Linea
+Luce
+Ombra
+Contrasto
+Profondità
+Movimento
+Espressione
+Soggetto
+Sfondo
+Dettaglio
+Insieme
+Estetica
+
+# --- Colori e pigmenti ---
+Tinta
+Tonalità
+Sfumatura
+Gradazione
+Cromia
+Velatura
+Campitura
+Macchia
+Tratteggio
+Pennellata
+Impasto
+Granulosità
+Trasparenza
+Opacità
+Lucentezza
+
+# --- Tecniche d'incisione e decoro ---
+Incisione
+Acquaforte
+Litografia
+Serigrafia
+Xilografia
+Calcografia
+Collage
+Vetrata
+Ceramica
+Maiolica
+Porcellana
+Terracotta
+Graffito
+Tatuaggio
+Decorazione
+Ornamento
+Arabesco
+Fregio
+Motivo
+Cesellatura
+
+# --- Generi letterari ---
+Letteratura
+Romanzo
+Racconto
+Novella
+Favola
+Fiaba
+Leggenda
+Mito
+Saga
+Epica
+Poesia
+Lirica
+Prosa
+Saggio
+Biografia
+Autobiografia
+Diario
+Memoriale
+Cronaca
+Giallo
+Thriller
+Fantasy
+Avventura
+Fantascienza
+Commedia
+
+# --- Opere e pubblicazioni ---
+Trilogia
+Antologia
+Raccolta
+Silloge
+Bestseller
+Pubblicazione
+Recensione
+Critica
+Editoriale
+Articolo
+Reportage
+Rubrica
+Quotidiano
+Rivista
+Giornale
+Periodico
+Almanacco
+Enciclopedia
+Dizionario
+Vocabolario
+
+# --- Poesia ---
+Poema
+Verso
+Strofa
+Rima
+Metrica
+Sonetto
+Ode
+Elegia
+Ballata
+Canzone
+Madrigale
+Endecasillabo
+Settenario
+Quartina
+Terzina
+Distico
+Ritmo
+Assonanza
+Allitterazione
+Metafora
+Similitudine
+Allegoria
+Iperbole
+Onomatopea
+Componimento
+
+# --- Figure retoriche ---
+Cesura
+Anafora
+Ossimoro
+Antitesi
+Eufemismo
+Personificazione
+Sineddoche
+Metonimia
+Paradosso
+Anagramma
+Acrostico
+Palindromo
+Calligramma
+Litote
+Iperbato
+
+# --- Elementi narrativi ---
+Trama
+Intreccio
+Storia
+Vicenda
+Protagonista
+Personaggio
+Eroe
+Antagonista
+Narratore
+Ambientazione
+Scenario
+Capitolo
+Paragrafo
+Episodio
+Inizio
+Sviluppo
+Climax
+Finale
+Epilogo
+Prologo
+Svolta
+Suspense
+Conflitto
+Dialogo
+Monologo
+Descrizione
+Flashback
+Citazione
+Morale
+Tema
+
+# --- Parti del libro ---
+Libro
+Fascicolo
+Tomo
+Copertina
+Pagina
+Indice
+Prefazione
+Introduzione
+Appendice
+Nota
+Titolo
+Sottotitolo
+Frontespizio
+Dorso
+Rilegatura
+Segnalibro
+Margine
+Carattere
+Stampa
+Edizione
+Ristampa
+Tiratura
+Collana
+Manoscritto
+Bozza
+
+# --- Scrittura e grammatica ---
+Parola
+Frase
+Periodo
+Testo
+Brano
+Discorso
+Sillaba
+Vocale
+Consonante
+Accento
+Punteggiatura
+Virgola
+Apostrofo
+Maiuscola
+Minuscola
+Sostantivo
+Verbo
+Aggettivo
+Avverbio
+Predicato
+Pronome
+Sinonimo
+Contrario
+Significato
+Vocabolo
+
+# --- Stile e linguaggio ---
+Registro
+Linguaggio
+Lessico
+Sintassi
+Grammatica
+Ortografia
+Simbolo
+Immagine
+Atmosfera
+Tono
+Pathos
+Ironia
+Sarcasmo
+Satira
+Parodia
+
+# --- Artisti e autori ---
+Artista
+Pittore
+Scultore
+Scrittore
+Poeta
+Romanziere
+Autore
+Drammaturgo
+Commediografo
+Saggista
+Critico
+Editore
+Tipografo
+Illustratore
+Disegnatore
+Fumettista
+Incisore
+Restauratore
+Mecenate
+Collezionista
+Calligrafo
+Miniatore
+Affreschista
+Acquerellista
+Ritrattista
+
+# --- Mestieri dell'arte e del libro ---
+Curatore
+Esperto
+Perito
+Antiquario
+Gallerista
+Rilegatore
+Stampatore
+Doratore
+Ceramista
+Mosaicista
+Decoratore
+Scenografo
+Grafico
+Vetraio
+Cesellatore
+
+# --- Figure letterarie ---
+Favolista
+Aforista
+Librettista
+Sceneggiatore
+Redattore
+Correttore
+Lettore
+Bibliofilo
+Erudito
+Letterato
+Umanista
+Filologo
+Cantastorie
+Aedo
+Bardo
+
+# --- Musei e luoghi ---
+Museo
+Galleria
+Pinacoteca
+Mostra
+Esposizione
+Collezione
+Atelier
+Studio
+Bottega
+Accademia
+Biblioteca
+Archivio
+Sala
+Vetrina
+Teca
+
+# --- Architettura ---
+Architettura
+Edificio
+Palazzo
+Cattedrale
+Cupola
+Volta
+Arco
+Colonna
+Capitello
+Pilastro
+Facciata
+Navata
+Abside
+Portale
+Rosone
+Guglia
+Campanile
+Torre
+Loggia
+Balconata
+Cornicione
+Timpano
+Frontone
+Pianta
+Pinnacolo
+
+# --- Architettura: dettagli ---
+Lesena
+Modanatura
+Chiostro
+Transetto
+Deambulatorio
+Pronao
+Architrave
+Balaustra
+Parapetto
+Cella
+Nicchia
+Bifora
+Trifora
+Merlatura
+Contrafforte
+
+# --- Movimenti artistici ---
+Classicismo
+Romanticismo
+Realismo
+Impressionismo
+Espressionismo
+Cubismo
+Futurismo
+Surrealismo
+Astrattismo
+Barocco
+Gotico
+Romanico
+Manierismo
+Rococò
+Simbolismo
+Naturalismo
+Dadaismo
+Liberty
+Verismo
+Decadentismo
+
+# --- Strumenti di scrittura ---
+Penna
+Matita
+Pennino
+Calamaio
+Inchiostro
+Stilografica
+Biro
+Tastiera
+Quaderno
+Taccuino
+Pergamena
+Tavoletta
+Lapis
+Gomma
+Temperino
+
+# --- Materiali artistici ---
+Doratura
+Patina
+Lacca
+Resina
+Cera
+Solvente
+Fissativo
+Mordente
+Diluente
+Trementina
+Biacca
+Sinopia
+Spolvero
+Mestica
+Imprimitura
+
+# --- Fumetto ---
+Fumetto
+Vignetta
+Nuvoletta
+Striscia
+Tavola
+Albo
+Supereroe
+Manga
+Cartoon
+Copione
+Riquadro
+Didascalia
+Balloon
+Disegnino
+Personaggetto
+
+# --- Ispirazione e talento ---
+Eroina
+Confidente
+Macchietta
+Caricatura
+Stereotipo
+Musa
+Genio
+Estro
+Fantasia
+Creatività
+Immaginazione
+Ispirazione
+Vena
+Inventiva
+Originalità
+Sensibilità
+Intuito
+Visione
+Idea
+Concetto
+
+# ============================================================
+#  PAROLE DA 2 PUNTI (almeno due parole per riga)
+# ============================================================
+Olio su tela
+Divina Commedia
+Opera d'arte
+Galleria d'arte
+Mostra d'arte
+Storia dell'arte
+Critica d'arte
+Pezzo unico
+Natura morta
+Nudo artistico
+Scena di genere
+Pittura a olio
+Pittura murale
+Tecnica mista
+Colori a tempera
+Colori ad olio
+Matita colorata
+Tavolozza dei colori
+Pennello a punta
+Cavalletto da pittore
+Colpo di pennello
+Effetto chiaroscuro
+Punto di fuga
+Linea d'orizzonte
+Scuola pittorica
+Affresco rinascimentale
+Statua di marmo
+Busto in bronzo
+Arte moderna
+Arte contemporanea
+Arte astratta
+Arte sacra
+Arte povera
+Belle arti
+Arti figurative
+Arti visive
+Opera prima
+Libro illustrato
+Romanzo storico
+Romanzo d'avventura
+Romanzo giallo
+Romanzo rosa
+Romanzo d'amore
+Romanzo di formazione
+Genere letterario
+Premio letterario
+Premio Nobel
+Colpo di scena
+Filo del racconto
+Voce narrante
+Punto di vista
+Flusso di coscienza
+Figura retorica
+Verso libero
+Rima baciata
+Rima alternata
+Versi sciolti
+Poesia d'amore
+Raccolta di poesie
+Componimento poetico
+Schema metrico
+Frontespizio del libro
+Quarta di copertina
+Numero di pagina
+Andare a capo
+Segno di interpunzione
+Punto e virgola
+Punto esclamativo
+Punto interrogativo
+Lettera maiuscola
+Filo del discorso
+Discorso diretto
+Discorso indiretto
+Personaggio principale
+Personaggio secondario
+Storia a fumetti
+Striscia a fumetti
+Nuvoletta del fumetto
+Albo a fumetti
+Cartone animato
+Casa editrice
+Diritti d'autore
+Bozza di stampa
+Carta da disegno
+Foglio bianco
+Pagina bianca
+Scritto a mano
+Bella copia
+Brutta copia
+Tema in classe
+Tela bianca
+Museo d'arte
+Capolavoro assoluto
+Opera lirica
+Penna e calamaio
+Foglio di carta
+Libro di poesie
+Romanzo a puntate
+Lieto fine
+Mostra di pittura

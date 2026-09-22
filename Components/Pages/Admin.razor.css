@@ -1,0 +1,871 @@
+/* ==========================================================================
+   Pannello di regia
+   --------------------------------------------------------------------------
+   Due colonne: a sinistra la preparazione (si guarda una volta), a destra la
+   conduzione (si usa per tutta la partita). Sotto i 1100px diventa una sola
+   colonna, con la conduzione per prima.
+   ========================================================================== */
+
+.admin {
+    min-height: 100vh;
+    background: var(--bg-spotlight);
+}
+
+/* ==========================================================================
+   Barra superiore
+   ========================================================================== */
+
+.topbar {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--s-4);
+    flex-wrap: wrap;
+    padding: var(--s-3) var(--s-5);
+    border-bottom: 1px solid var(--c-border);
+    background: rgba(6, 16, 41, .92);
+    backdrop-filter: blur(10px);
+}
+
+.brand {
+    display: flex;
+    align-items: baseline;
+    gap: var(--s-2);
+}
+
+.brand-icon {
+    font-size: 1.3rem;
+}
+
+.brand-text {
+    color: var(--c-azure);
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+.brand-sub {
+    color: var(--c-text-faint);
+    font-size: .85rem;
+}
+
+.topbar-right {
+    display: flex;
+    align-items: center;
+    gap: var(--s-3);
+    flex-wrap: wrap;
+}
+
+.topbar-score {
+    color: var(--c-text-dim);
+    font-size: .9rem;
+}
+
+.topbar-score strong {
+    color: var(--c-amber);
+    font-size: 1.15rem;
+}
+
+.status {
+    padding: .25rem .85rem;
+    border-radius: var(--r-pill);
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+
+.status-idle {
+    background: var(--c-surface-3);
+    color: var(--c-text-dim);
+}
+
+.status-live {
+    background: rgba(52, 211, 153, .18);
+    color: var(--c-green);
+    box-shadow: 0 0 0 1px rgba(52, 211, 153, .35);
+}
+
+.status-frozen {
+    background: rgba(251, 191, 36, .18);
+    color: var(--c-amber);
+    box-shadow: 0 0 0 1px rgba(251, 191, 36, .4);
+}
+
+.status-waiting {
+    background: rgba(56, 189, 248, .16);
+    color: var(--c-azure);
+    box-shadow: 0 0 0 1px rgba(56, 189, 248, .35);
+}
+
+.status-finished {
+    background: rgba(251, 113, 133, .16);
+    color: var(--c-red);
+    box-shadow: 0 0 0 1px rgba(251, 113, 133, .35);
+}
+
+.topbar-link {
+    color: var(--c-azure);
+    font-size: .9rem;
+    text-decoration: none;
+}
+
+.topbar-link:hover {
+    text-decoration: underline;
+}
+
+.topbar-link.as-button {
+    padding: 0;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    font-size: .9rem;
+}
+
+/* ==========================================================================
+   Legenda delle scorciatoie
+   ========================================================================== */
+
+.shortcuts {
+    margin: var(--s-4) var(--s-5) 0;
+    padding: var(--s-4);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-lg);
+    background: var(--c-surface);
+}
+
+.shortcuts-title {
+    margin-bottom: var(--s-3);
+    color: var(--c-azure);
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+}
+
+.shortcuts ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--s-2) var(--s-5);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: var(--c-text-dim);
+    font-size: .9rem;
+}
+
+.shortcuts-note {
+    margin-top: var(--s-3);
+    color: var(--c-text-faint);
+    font-size: .82rem;
+}
+
+kbd {
+    display: inline-block;
+    min-width: 1.6em;
+    padding: .1rem .4rem;
+    border: 1px solid var(--c-border);
+    border-bottom-width: 2px;
+    border-radius: var(--r-sm);
+    background: var(--c-surface-2);
+    color: var(--c-text);
+    font-family: var(--f-mono);
+    font-size: .8em;
+    text-align: center;
+}
+
+/* ==========================================================================
+   Griglia dei pannelli
+   ========================================================================== */
+
+.grid {
+    display: grid;
+    grid-template-columns: minmax(330px, 390px) minmax(0, 1fr);
+    gap: var(--s-4);
+    align-items: start;
+    padding: var(--s-4) var(--s-5) var(--s-6);
+}
+
+@media (max-width: 1100px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Su schermo stretto la conduzione viene prima: è quella che si usa. */
+    .panel.play {
+        order: -1;
+    }
+}
+
+.panel {
+    padding: var(--s-4);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-lg);
+    background: var(--c-surface);
+    box-shadow: var(--sh-md), var(--sh-inset);
+}
+
+.panel h2 {
+    margin: 0 0 var(--s-4);
+    color: var(--c-text-dim);
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+}
+
+/* ==========================================================================
+   Blocchi richiudibili della preparazione
+   ========================================================================== */
+
+.block {
+    margin-bottom: var(--s-3);
+    border: 1px solid var(--c-border-soft);
+    border-radius: var(--r-md);
+    background: rgba(0, 0, 0, .2);
+    overflow: hidden;
+}
+
+.block > summary {
+    padding: var(--s-3);
+    color: var(--c-text);
+    font-size: .95rem;
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+}
+
+.block > summary::before {
+    content: "▸";
+    display: inline-block;
+    width: 1.1em;
+    color: var(--c-text-faint);
+    transition: transform .15s ease;
+}
+
+.block[open] > summary::before {
+    transform: rotate(90deg);
+}
+
+.block > summary:hover {
+    background: rgba(255, 255, 255, .03);
+}
+
+.block-body {
+    padding: 0 var(--s-3) var(--s-3);
+}
+
+/* ==========================================================================
+   Campi
+   ========================================================================== */
+
+.field {
+    margin-bottom: var(--s-3);
+}
+
+.field > label {
+    display: block;
+    margin-bottom: var(--s-1);
+    color: var(--c-text-dim);
+    font-size: .85rem;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: .5rem .65rem;
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-md);
+    background: var(--c-bg-deep);
+    color: var(--c-text);
+    font-family: inherit;
+    font-size: .95rem;
+}
+
+input:focus,
+textarea:focus {
+    border-color: var(--c-azure);
+}
+
+textarea {
+    resize: vertical;
+    line-height: 1.5;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+fieldset:disabled {
+    opacity: .6;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    gap: var(--s-2);
+    padding: .3rem 0;
+    color: var(--c-text);
+    font-size: .92rem;
+    cursor: pointer;
+}
+
+.radio input {
+    width: 1.05rem;
+    height: 1.05rem;
+    accent-color: var(--c-azure);
+    cursor: pointer;
+}
+
+.radios {
+    display: flex;
+    gap: var(--s-4);
+    flex-wrap: wrap;
+    margin-bottom: var(--s-3);
+}
+
+.radios.stacked {
+    flex-direction: column;
+    gap: 0;
+}
+
+.hint {
+    margin: var(--s-1) 0 0;
+    color: var(--c-text-faint);
+    font-size: .82rem;
+    line-height: 1.5;
+}
+
+.hint code {
+    padding: .05rem .3rem;
+    border-radius: var(--r-sm);
+    background: rgba(255, 255, 255, .08);
+    font-family: var(--f-mono);
+}
+
+.hint strong {
+    color: var(--c-text-dim);
+}
+
+.hint.locked {
+    margin-bottom: var(--s-3);
+    color: var(--c-amber);
+}
+
+.hint.locked strong {
+    color: var(--c-amber);
+}
+
+.hint.warn {
+    margin-top: var(--s-2);
+    padding: var(--s-2);
+    border-left: 3px solid var(--c-red);
+    border-radius: var(--r-sm);
+    background: rgba(251, 113, 133, .1);
+    color: var(--c-red);
+}
+
+/* ==========================================================================
+   Temi
+   ========================================================================== */
+
+.themes-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--s-1);
+}
+
+.themes-head label {
+    color: var(--c-text-dim);
+    font-size: .85rem;
+}
+
+.themes-actions {
+    display: flex;
+    gap: var(--s-1);
+}
+
+.themes {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    max-height: 250px;
+    overflow-y: auto;
+    padding: var(--s-1);
+    border: 1px solid var(--c-border-soft);
+    border-radius: var(--r-md);
+}
+
+.theme {
+    display: flex;
+    align-items: center;
+    gap: var(--s-2);
+    padding: .35rem .5rem;
+    border-radius: var(--r-sm);
+    font-size: .92rem;
+    cursor: pointer;
+}
+
+.theme:hover {
+    background: var(--c-surface-2);
+}
+
+.theme.on {
+    background: rgba(56, 189, 248, .14);
+}
+
+.theme input {
+    accent-color: var(--c-azure);
+    cursor: pointer;
+}
+
+.theme-name {
+    flex: 1;
+}
+
+/* I due conteggi: parole da 1 punto e da 2 punti. */
+.theme-counts {
+    display: flex;
+    gap: .2rem;
+    font-size: .76rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.theme-counts span {
+    min-width: 1.9em;
+    padding: .05rem .35rem;
+    border-radius: var(--r-pill);
+    text-align: center;
+}
+
+.theme-counts .c1 {
+    background: rgba(255, 255, 255, .08);
+    color: var(--c-text-faint);
+}
+
+.theme-counts .c2 {
+    background: rgba(251, 191, 36, .16);
+    color: var(--c-amber);
+}
+
+/* ==========================================================================
+   Stato del caricamento parole
+   ========================================================================== */
+
+.loaded {
+    margin: var(--s-3) 0 0;
+    color: var(--c-azure-soft);
+    font-size: .88rem;
+}
+
+.message {
+    margin: var(--s-1) 0 0;
+    color: var(--c-amber);
+    font-size: .88rem;
+}
+
+/* ==========================================================================
+   Codice QR del telecomando
+   ========================================================================== */
+
+.qr {
+    text-align: center;
+}
+
+.qr-image {
+    display: inline-block;
+    padding: var(--s-2);
+    border-radius: var(--r-md);
+    background: #fff;
+    line-height: 0;
+}
+
+.qr-image ::deep svg {
+    display: block;
+    width: 160px;
+    height: 160px;
+}
+
+.qr-hint {
+    margin: var(--s-2) 0 0;
+    color: var(--c-text-dim);
+    font-size: .85rem;
+}
+
+.qr-url {
+    margin: var(--s-1) 0 0;
+    color: var(--c-text-faint);
+    font-family: var(--f-mono);
+    font-size: .8rem;
+    -webkit-user-select: all;
+    user-select: all;
+    word-break: break-all;
+}
+
+/* ==========================================================================
+   Tabellone dei numeri
+   ========================================================================== */
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: var(--s-2);
+    margin-bottom: var(--s-2);
+}
+
+.metric {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .15rem;
+    padding: var(--s-2) var(--s-3);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-md);
+    background: rgba(255, 255, 255, .04);
+}
+
+.metric-label {
+    color: var(--c-text-faint);
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+}
+
+.metric-value {
+    font-size: 1.9rem;
+    font-weight: 800;
+    line-height: 1.1;
+    font-variant-numeric: tabular-nums;
+}
+
+.metric-of {
+    color: var(--c-text-faint);
+    font-size: .55em;
+    font-weight: 600;
+}
+
+.metric.time .metric-value {
+    color: var(--c-azure);
+}
+
+.metric.time.danger {
+    border-color: var(--c-red);
+    background: rgba(251, 113, 133, .12);
+}
+
+.metric.time.danger .metric-value {
+    color: var(--c-red);
+}
+
+.metric.score {
+    border-color: rgba(251, 191, 36, .4);
+    background: rgba(251, 191, 36, .1);
+}
+
+.metric.score .metric-value {
+    color: var(--c-amber);
+}
+
+/* ---- Barra del tempo ---- */
+.timebar {
+    height: 5px;
+    margin-bottom: var(--s-4);
+    border-radius: var(--r-pill);
+    background: rgba(255, 255, 255, .08);
+    overflow: hidden;
+}
+
+.timebar-fill {
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, var(--c-azure-deep), var(--c-azure));
+    transition: width .95s linear;
+}
+
+.timebar-fill.danger {
+    background: linear-gradient(90deg, var(--c-red-deep), var(--c-red));
+}
+
+/* ==========================================================================
+   Bottoni
+   ========================================================================== */
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+    padding: .6rem 1.15rem;
+    border: 0;
+    border-radius: var(--r-md);
+    background: var(--c-surface-3);
+    color: var(--c-text);
+    font-size: .98rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: var(--sh-sm);
+    transition: filter .12s ease, transform .12s ease;
+}
+
+.btn:hover:not(:disabled) {
+    filter: brightness(1.18);
+}
+
+.btn:active:not(:disabled) {
+    transform: translateY(1px);
+}
+
+.btn:disabled {
+    opacity: .35;
+    cursor: not-allowed;
+}
+
+.btn kbd {
+    margin-left: .2rem;
+    border-color: rgba(0, 0, 0, .25);
+    background: rgba(0, 0, 0, .22);
+    color: inherit;
+    font-size: .7em;
+    opacity: .85;
+}
+
+.points {
+    padding: .05rem .4rem;
+    border-radius: var(--r-sm);
+    background: rgba(0, 0, 0, .22);
+    font-size: .85em;
+    font-variant-numeric: tabular-nums;
+}
+
+.btn-primary {
+    background: var(--c-azure-deep);
+}
+
+.btn-secondary {
+    background: var(--c-surface-3);
+}
+
+.btn-start {
+    background: linear-gradient(180deg, #3ddc9a 0%, var(--c-green-deep) 100%);
+    color: #04221a;
+    font-size: 1.05rem;
+}
+
+.btn-stop {
+    background: linear-gradient(180deg, var(--c-amber) 0%, var(--c-amber-deep) 100%);
+    color: #241703;
+}
+
+.btn-resume {
+    background: linear-gradient(180deg, #5cc8f5 0%, var(--c-azure-deep) 100%);
+    color: #04202e;
+}
+
+.btn-reset {
+    background: var(--c-red-deep);
+    color: #ffd7dd;
+}
+
+.btn-correct {
+    background: linear-gradient(180deg, #3ddc9a 0%, var(--c-green-deep) 100%);
+    color: #04221a;
+    font-size: 1.05rem;
+}
+
+.btn-wrong {
+    background: linear-gradient(180deg, #f9647f 0%, #9b1230 100%);
+    color: #fff;
+    font-size: 1.05rem;
+}
+
+.btn-pass {
+    background: var(--c-surface-3);
+    font-size: 1.05rem;
+}
+
+.btn-next {
+    background: linear-gradient(180deg, #5cc8f5 0%, var(--c-azure-deep) 100%);
+    color: #04202e;
+    font-size: 1.05rem;
+}
+
+.btn-next-double {
+    background: linear-gradient(180deg, var(--c-amber) 0%, var(--c-amber-deep) 100%);
+    color: #241703;
+    font-size: 1.05rem;
+}
+
+.btn-mini {
+    padding: .25rem .6rem;
+    border: 0;
+    border-radius: var(--r-sm);
+    background: var(--c-surface-3);
+    color: var(--c-text);
+    font-size: .78rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-mini:hover {
+    filter: brightness(1.2);
+}
+
+.controls {
+    display: flex;
+    gap: var(--s-2);
+    flex-wrap: wrap;
+    margin-bottom: var(--s-4);
+}
+
+/* ==========================================================================
+   Parola corrente
+   ========================================================================== */
+
+.stage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--s-2);
+    min-height: 190px;
+    padding: var(--s-5) var(--s-4);
+    border: 1px solid var(--c-border-soft);
+    border-radius: var(--r-lg);
+    background: var(--c-bg-deep);
+    text-align: center;
+}
+
+.double-badge {
+    padding: .2rem .8rem;
+    border-radius: var(--r-pill);
+    background: linear-gradient(180deg, var(--c-amber) 0%, var(--c-amber-deep) 100%);
+    color: #241703;
+    font-size: .8rem;
+    font-weight: 800;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.word {
+    font-size: clamp(1.8rem, 4.5vw, 3.2rem);
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -.01em;
+    text-wrap: balance;
+}
+
+.word-meta {
+    color: var(--c-text-faint);
+    font-size: .85rem;
+}
+
+.frozen-tag {
+    color: var(--c-amber);
+}
+
+.stage-msg {
+    color: var(--c-text-dim);
+    font-size: 1.1rem;
+}
+
+.stage-msg.dim {
+    color: var(--c-text-faint);
+}
+
+/* ---- Fine partita ---- */
+.ending {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--s-2);
+}
+
+.ending-title {
+    color: var(--c-amber);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.ending-score {
+    font-size: 2.6rem;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.ending-stats {
+    display: flex;
+    gap: var(--s-3);
+    margin-top: var(--s-1);
+}
+
+.stat {
+    padding: .15rem .7rem;
+    border-radius: var(--r-pill);
+    background: rgba(255, 255, 255, .06);
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.stat.correct {
+    color: var(--c-green);
+}
+
+.stat.wrong {
+    color: var(--c-red);
+}
+
+.stat.passed {
+    color: var(--c-text-dim);
+}
+
+/* ==========================================================================
+   Azioni di gioco
+   ========================================================================== */
+
+.actions {
+    margin-top: var(--s-4);
+}
+
+.actions-label {
+    margin-bottom: var(--s-2);
+    color: var(--c-text-dim);
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.actions-row {
+    display: flex;
+    gap: var(--s-2);
+    flex-wrap: wrap;
+}
+
+/* ==========================================================================
+   Riepilogo
+   ========================================================================== */
+
+.tally {
+    margin-top: var(--s-5);
+    padding-top: var(--s-3);
+    border-top: 1px solid var(--c-border-soft);
+    color: var(--c-text-faint);
+    font-size: .88rem;
+}
+
+.tally strong {
+    color: var(--c-text);
+    font-variant-numeric: tabular-nums;
+}
+
+.tally .correct {
+    color: var(--c-green);
+}
+
+.tally .wrong {
+    color: var(--c-red);
+}

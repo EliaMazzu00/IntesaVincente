@@ -1,0 +1,648 @@
+# TEMA: Animali del mondo
+# 500 parole da 1 punto (una parola) + 100 da 2 punti (due o più parole).
+
+# --- Mammiferi selvatici ---
+Leone
+Tigre
+Leopardo
+Ghepardo
+Giaguaro
+Pantera
+Lince
+Puma
+Ocelot
+Elefante
+Rinoceronte
+Ippopotamo
+Giraffa
+Zebra
+Bufalo
+Bisonte
+Gnu
+Antilope
+Gazzella
+Impala
+Cervo
+Daino
+Capriolo
+Alce
+Renna
+Cinghiale
+Orso
+Panda
+Koala
+Canguro
+Wallaby
+Opossum
+Lupo
+Volpe
+Sciacallo
+Iena
+Coyote
+Procione
+Tasso
+Donnola
+Faina
+Ermellino
+Martora
+Puzzola
+Lontra
+Castoro
+Scoiattolo
+Marmotta
+Ghiro
+Riccio
+Talpa
+Pipistrello
+Scimmia
+Gorilla
+Scimpanzé
+Orangotango
+Babbuino
+Lemure
+Gibbone
+Bradipo
+
+# --- Mammiferi domestici e da fattoria ---
+Cane
+Gatto
+Cavallo
+Pony
+Asino
+Mulo
+Mucca
+Toro
+Vitello
+Bue
+Pecora
+Agnello
+Montone
+Capra
+Capretto
+Maiale
+Porcello
+Coniglio
+Criceto
+Furetto
+Cavia
+Gerbillo
+Topo
+Ratto
+Bufala
+Lama
+Alpaca
+Dromedario
+Cammello
+Yak
+
+# --- Mammiferi marini ---
+Balena
+Delfino
+Orca
+Capodoglio
+Narvalo
+Beluga
+Foca
+Otaria
+Tricheco
+Lamantino
+Dugongo
+Megattera
+Focena
+Stenella
+Globicefalo
+
+# --- Mammiferi insoliti ---
+Tapiro
+Formichiere
+Armadillo
+Pangolino
+Ornitorinco
+Echidna
+Suricato
+Mangusta
+Genetta
+Zibetto
+Visone
+Zibellino
+Tamia
+Toporagno
+Arvicola
+Lemming
+Pika
+Capibara
+Aguti
+Paca
+Nutria
+Istrice
+Porcospino
+Vombato
+Numbat
+Quokka
+Bandicoot
+Dingo
+Okapi
+Guanaco
+
+# --- Razze di cani ---
+Barboncino
+Pastore
+Bulldog
+Boxer
+Mastino
+Alano
+Levriero
+Dobermann
+Rottweiler
+Setter
+Pointer
+Bracco
+Segugio
+Beagle
+Bassotto
+Volpino
+Chihuahua
+Carlino
+Terrier
+Schnauzer
+Husky
+Samoiedo
+Akita
+Spinone
+Maltese
+
+# --- Razze di cavalli ---
+Purosangue
+Avelignese
+Murgese
+Frisone
+Maremmano
+Mustang
+Appaloosa
+Lipizzano
+Arabo
+Shire
+
+# --- Uccelli rapaci e notturni ---
+Aquila
+Falco
+Falchetto
+Sparviero
+Poiana
+Nibbio
+Avvoltoio
+Condor
+Gufo
+Civetta
+Barbagianni
+Allocco
+Gheppio
+Grifone
+Aquilotto
+
+# --- Uccelli comuni ---
+Corvo
+Cornacchia
+Gazza
+Ghiandaia
+Taccola
+Merlo
+Tordo
+Usignolo
+Pettirosso
+Passero
+Fringuello
+Cardellino
+Verdone
+Canarino
+Cinciallegra
+Capinera
+Rondine
+Rondone
+Balestruccio
+Cuculo
+Picchio
+Upupa
+Gruccione
+Rigogolo
+Averla
+Allodola
+Storno
+Ciuffolotto
+Lucherino
+Crociere
+
+# --- Uccelli acquatici ed esotici ---
+Colibrì
+Pappagallo
+Cacatua
+Ara
+Inseparabile
+Cocorita
+Pellicano
+Cormorano
+Gabbiano
+Albatro
+Procellaria
+Sterna
+Cicogna
+Airone
+Gru
+Fenicottero
+Ibis
+Spatola
+Anatra
+Germano
+Oca
+Cigno
+Folaga
+Struzzo
+Emù
+Casuario
+Kiwi
+Nandù
+Pinguino
+Pavone
+Tucano
+Calao
+Quetzal
+
+# --- Pollame e uccelli da cortile ---
+Gallina
+Gallo
+Tacchino
+Faraona
+Quaglia
+Fagiano
+Pernice
+Starna
+Beccaccia
+Piccione
+Colombo
+Tortora
+
+# --- Pesci ---
+Squalo
+Tonno
+Spada
+Salmone
+Trota
+Merluzzo
+Nasello
+Sgombro
+Sardina
+Acciuga
+Alice
+Aringa
+Branzino
+Spigola
+Orata
+Dentice
+Cernia
+Sogliola
+Rombo
+Platessa
+Triglia
+Cefalo
+Muggine
+Anguilla
+Murena
+Razza
+Manta
+Storione
+Carpa
+Tinca
+Persico
+Luccio
+Palombo
+Gattuccio
+Lampreda
+Scorfano
+Pagello
+Sarago
+Occhiata
+Salpa
+
+# --- Altri pesci ---
+Pescecane
+Torpedine
+Tonnetto
+Palamita
+Ricciola
+Lampuga
+Pagro
+Mormora
+Boga
+Menola
+Sugarello
+Lanzardo
+Costardella
+Latterino
+Grongo
+Bavosa
+Ghiozzo
+Tracina
+Scorpena
+Cavedano
+Barbo
+Agone
+Coregone
+Temolo
+Guppy
+
+# --- Rettili ---
+Serpente
+Vipera
+Aspide
+Biscia
+Cobra
+Mamba
+Pitone
+Boa
+Anaconda
+Crotalo
+Lucertola
+Ramarro
+Geco
+Iguana
+Camaleonte
+Varano
+Tartaruga
+Testuggine
+Coccodrillo
+Alligatore
+Caimano
+Gaviale
+Serpe
+Orbettino
+Scinco
+
+# --- Anfibi ---
+Rana
+Rospo
+Raganella
+Ululone
+Tritone
+Salamandra
+Axolotl
+Girino
+Proteo
+Pelobate
+
+# --- Insetti ---
+Ape
+Vespa
+Calabrone
+Bombo
+Formica
+Termite
+Mosca
+Moscerino
+Zanzara
+Tafano
+Farfalla
+Falena
+Bruco
+Crisalide
+Libellula
+Cavalletta
+Locusta
+Grillo
+Cicala
+Mantide
+Coccinella
+Lucciola
+Scarabeo
+Maggiolino
+Scarafaggio
+Blatta
+Forbicina
+Pidocchio
+Pulce
+Cimice
+Punteruolo
+Tonchio
+Dorifora
+Afide
+Cocciniglia
+Effimera
+Tarlo
+Tarma
+Processionaria
+Tipula
+
+# --- Aracnidi e piccoli invertebrati ---
+Ragno
+Tarantola
+Scorpione
+Acaro
+Zecca
+Opilione
+Migale
+Licosa
+Pseudoscorpione
+Centopiedi
+Millepiedi
+Scolopendra
+Onisco
+Lombrico
+Sanguisuga
+
+# --- Molluschi e crostacei ---
+Polpo
+Piovra
+Calamaro
+Totano
+Seppia
+Moscardino
+Lumaca
+Chiocciola
+Lumacone
+Cozza
+Vongola
+Ostrica
+Capasanta
+Cannolicchio
+Tellina
+Patella
+Granchio
+Gambero
+Gamberetto
+Scampo
+Aragosta
+Astice
+Paguro
+Granceola
+Mazzancolla
+
+# --- Animali marini vari ---
+Medusa
+Attinia
+Oloturia
+Idra
+Polipo
+Madrepora
+Gorgonia
+Corallo
+Spugna
+Krill
+
+# --- Animali preistorici ---
+Dinosauro
+Mammut
+Dodo
+Tirannosauro
+Triceratopo
+Stegosauro
+Brontosauro
+Velociraptor
+Pterodattilo
+Diplodoco
+Allosauro
+Iguanodonte
+Mastodonte
+Smilodonte
+Megalodonte
+
+# --- Parti e caratteristiche ---
+Zampa
+Coda
+Muso
+Zoccolo
+Artiglio
+Unghia
+Zanna
+Corno
+Criniera
+Pelliccia
+Pelo
+Piuma
+Penna
+Becco
+Ala
+Pinna
+Branchia
+Squama
+Guscio
+Tentacolo
+
+# --- Erbivori e ungulati ---
+Stambecco
+Camoscio
+Muflone
+Orice
+Kudu
+Springbok
+Facocero
+Eland
+Saiga
+Serval
+Caracal
+Bongo
+Markhor
+Takin
+Gaur
+
+# ============================================================
+#  PAROLE DA 2 PUNTI (almeno due parole per riga)
+# ============================================================
+Orso polare
+Orso bruno
+Orso bianco
+Pesce rosso
+Pesce spada
+Pesce gatto
+Pesce palla
+Pesce martello
+Pesce pagliaccio
+Cavalluccio marino
+Stella marina
+Riccio di mare
+Cetriolo di mare
+Leone marino
+Elefante marino
+Leopardo delle nevi
+Cane lupo
+Cane pastore
+Cane da caccia
+Gatto selvatico
+Gatto soriano
+Gatto persiano
+Tigre del Bengala
+Volpe artica
+Lupo grigio
+Aquila reale
+Falco pellegrino
+Gufo reale
+Civetta delle nevi
+Picchio rosso
+Martin pescatore
+Uccello del paradiso
+Pappagallo cenerino
+Cigno reale
+Anatra selvatica
+Oca selvatica
+Tacchino selvatico
+Gallo cedrone
+Pollo ruspante
+Mucca da latte
+Toro da combattimento
+Cavallo da corsa
+Cavallo selvaggio
+Asino sardo
+Pecora nera
+Capra di montagna
+Maiale selvatico
+Coniglio selvatico
+Topo di campagna
+Topo di città
+Ratto di fogna
+Pipistrello vampiro
+Scimmia urlatrice
+Gorilla di montagna
+Orango del Borneo
+Panda gigante
+Panda rosso
+Koala australiano
+Canguro rosso
+Diavolo della Tasmania
+Vedova nera
+Ragno tessitore
+Mantide religiosa
+Cervo volante
+Lucciola notturna
+Ape regina
+Ape operaia
+Formica rossa
+Formica argentina
+Mosca cavallina
+Zanzara tigre
+Coccinella rossa
+Farfalla monarca
+Bruco peloso
+Lumaca di mare
+Chiocciola di terra
+Granchio reale
+Gambero di fiume
+Gamberetto rosa
+Aragosta blu
+Tartaruga marina
+Tartaruga di terra
+Serpente a sonagli
+Cobra reale
+Pitone reale
+Drago di Komodo
+Lucertola muraiola
+Coccodrillo del Nilo
+Rana toro
+Rospo comune
+Squalo bianco
+Squalo tigre
+Squalo balena
+Balena azzurra
+Balena bianca
+Delfino tursiope
+Foca monaca
+Tonno rosso
+Polpo gigante
+Verme solitario

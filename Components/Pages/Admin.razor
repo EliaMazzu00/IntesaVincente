@@ -1,0 +1,682 @@
+@page "/admin"
+@layout BareLayout
+@implements IAsyncDisposable
+@using QRCoder
+@inject GameService Game
+@inject IJSRuntime JS
+@inject NavigationManager Nav
+@inject ILogger<Admin> Logger
+
+@*
+    Il pannello di regia: qui si prepara la partita e la si conduce.
+    Mostra tutto, parola compresa: sta al conduttore non farlo vedere in giro.
+*@
+
+<PageTitle>Regia — L'Intesa Vincente</PageTitle>
+
+<div class="admin">
+
+    <header class="topbar">
+        <div class="brand">
+            <span class="brand-icon" aria-hidden="true">🎛️</span>
+            <span class="brand-text">Regia</span>
+            <span class="brand-sub">L'Intesa Vincente</span>
+        </div>
+
+        <div class="topbar-right">
+            @if (Game.IsActive || Game.Status == GameStatus.Finished)
+            {
+                <span class="topbar-score" title="Punteggio">
+                    <strong>@Game.Score</strong> punti
+                </span>
+            }
+
+            <span class="status status-@Game.Status.ToString().ToLowerInvariant()">@StatusLabel</span>
+
+            <a class="topbar-link" href="/display" target="_blank" rel="noopener">Display ↗</a>
+            <a class="topbar-link" href="/remote" target="_blank" rel="noopener">Telecomando ↗</a>
+
+            <button class="topbar-link as-button" @onclick="() => showShortcuts = !showShortcuts">
+                ⌨ Scorciatoie
+            </button>
+        </div>
+    </header>
+
+    @if (showShortcuts)
+    {
+        <div class="shortcuts" role="note">
+            <div class="shortcuts-title">Scorciatoie da tastiera</div>
+            <ul>
+                <li><kbd>G</kbd> risposta giusta</li>
+                <li><kbd>S</kbd> risposta sbagliata</li>
+                <li><kbd>P</kbd> passo</li>
+                <li><kbd>Invio</kbd> avvia la partita, poi manda la prossima parola ×1</li>
+                <li><kbd>D</kbd> chiama la parola ×2</li>
+                <li><kbd>Spazio</kbd> ferma o riprende il tempo</li>
+            </ul>
+            <div class="shortcuts-note">Non valgono mentre stai scrivendo in un campo di testo.</div>
+        </div>
+    }
+
+    <div class="grid">
+
+        <!-- ================= PREPARAZIONE ================= -->
+        <section class="panel">
+            <h2>Preparazione</h2>
+
+            <details class="block" open>
+                <summary>Regole della partita</summary>
+                <div class="block-body">
+                    <fieldset disabled="@Game.IsActive">
+                        @if (Game.IsActive)
+                        {
+                            <p class="hint locked">
+                                Le regole non si cambiano a partita in corso: premi
+                                <strong>Reset</strong> per sbloccare.
+                            </p>
+                        }
+
+                        <div class="field">
+                            <label for="timer">Durata (secondi)</label>
+                            <input id="timer" type="number" min="5" max="3600" @bind="cfgTimer" />
+                        </div>
+
+                        <div class="field">
+                            <label for="passes">Passi disponibili</label>
+                            <input id="passes" type="number" min="0" max="99" @bind="cfgPasses" />
+                        </div>
+
+                        <div class="field">
+                            <label for="doubles">Raddoppi disponibili (×2)</label>
+                            <input id="doubles" type="number" min="0" max="99" @bind="cfgDoubles" />
+                        </div>
+
+                        <div class="radios">
+                            <label class="radio">
+                                <input type="radio" name="order" checked="@(!cfgShuffle)"
+                                       @onchange="() => cfgShuffle = false" />
+                                <span>Parole in ordine</span>
+                            </label>
+                            <label class="radio">
+                                <input type="radio" name="order" checked="@cfgShuffle"
+                                       @onchange="() => cfgShuffle = true" />
+                                <span>Parole mescolate</span>
+                            </label>
+                        </div>
+
+                        <button class="btn btn-primary" @onclick="ApplyConfig">Applica</button>
+                    </fieldset>
+                </div>
+            </details>
+
+            <details class="block" open>
+                <summary>Da dove prendere le parole</summary>
+                <div class="block-body">
+                    <fieldset disabled="@Game.IsActive">
+                        <div class="radios stacked">
+                            <label class="radio">
+                                <input type="radio" name="source"
+                                       checked="@(cfgSource == WordSource.Program)"
+                                       @onchange="() => ChangeSource(WordSource.Program)" />
+                                <span>Parole del programma</span>
+                            </label>
+                            <label class="radio">
+                                <input type="radio" name="source"
+                                       checked="@(cfgSource == WordSource.File)"
+                                       @onchange="() => ChangeSource(WordSource.File)" />
+                                <span>Un file dal computer</span>
+                            </label>
+                            <label class="radio">
+                                <input type="radio" name="source"
+                                       checked="@(cfgSource == WordSource.Manual)"
+                                       @onchange="() => ChangeSource(WordSource.Manual)" />
+                                <span>Parole scritte a mano</span>
+                            </label>
+                        </div>
+
+                        @if (cfgSource == WordSource.Program)
+                        {
+                            <div class="field">
+                                <div class="themes-head">
+                                    <label>Temi</label>
+                                    <span class="themes-actions">
+                                        <button class="btn-mini" @onclick="SelectAllThemes">tutti</button>
+                                        <button class="btn-mini" @onclick="ClearThemes">nessuno</button>
+                                    </span>
+                                </div>
+
+                                <div class="themes">
+                                    @foreach (var theme in Game.AvailableThemes)
+                                    {
+                                        <label class="theme @(selectedThemes.Contains(theme.Id) ? "on" : "")">
+                                            <input type="checkbox"
+                                                   checked="@selectedThemes.Contains(theme.Id)"
+                                                   @onchange="e => ToggleTheme(theme.Id, e)" />
+                                            <span class="theme-name">@theme.Name</span>
+                                            <span class="theme-counts">
+                                                <span class="c1" title="parole da 1 punto">@theme.SingleCount</span>
+                                                <span class="c2" title="parole da 2 punti">@theme.DoubleCount</span>
+                                            </span>
+                                        </label>
+                                    }
+
+                                    @if (Game.AvailableThemes.Count == 0)
+                                    {
+                                        <p class="hint">
+                                            Nessun tema trovato nella cartella <code>temi/</code>.
+                                        </p>
+                                    }
+                                </div>
+                            </div>
+                        }
+                        else if (cfgSource == WordSource.File)
+                        {
+                            <div class="field">
+                                <label>File di testo, una parola per riga</label>
+                                <InputFile OnChange="OnFileSelected" accept=".txt,.csv,text/plain" />
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="field">
+                                <label for="manual">Scrivi o incolla le parole, una per riga</label>
+                                <textarea id="manual" rows="6" placeholder="Tavolo&#10;Lago di Garda"
+                                          @bind="manualText"></textarea>
+                                <button class="btn btn-secondary" @onclick="LoadManualWords">
+                                    Carica queste parole
+                                </button>
+                            </div>
+                        }
+                    </fieldset>
+
+                    <p class="loaded">@Game.WordsInfo</p>
+
+                    @if (message is not null)
+                    {
+                        <p class="message">@message</p>
+                    }
+
+                    <p class="hint">
+                        Il valore si deduce dalla riga: <strong>una parola</strong> vale 1 punto,
+                        <strong>due o più</strong> valgono 2 punti e sono quelle chiamabili.
+                    </p>
+
+                    @if (Game.SingleCount == 0 && Game.WordCount > 0)
+                    {
+                        <p class="hint warn">
+                            Non c'è nessuna parola da 1 punto: la partita comincia sempre da quelle.
+                        </p>
+                    }
+                </div>
+            </details>
+
+            @if (qrCode is not null)
+            {
+                <details class="block" open>
+                    <summary>Telecomando sul telefono</summary>
+                    <div class="block-body">
+                        <div class="qr">
+                            <div class="qr-image">@qrCode</div>
+                            <p class="qr-hint">Inquadra il codice per aprire il pulsante STOP</p>
+                            <p class="qr-url">@remoteUrl</p>
+                        </div>
+                    </div>
+                </details>
+            }
+        </section>
+
+        <!-- ================= CONDUZIONE ================= -->
+        <section class="panel play">
+
+            <div class="board">
+                <div class="metric time @(IsRunningOut ? "danger" : "")">
+                    <span class="metric-label">Tempo</span>
+                    <span class="metric-value">@FormatTime(Game.RemainingSeconds)</span>
+                </div>
+                <div class="metric score">
+                    <span class="metric-label">Punti</span>
+                    <span class="metric-value">@Game.Score</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Passi</span>
+                    <span class="metric-value">
+                        @Game.PassesRemaining<span class="metric-of">/@Game.MaxPasses</span>
+                    </span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Raddoppi</span>
+                    <span class="metric-value">
+                        @Game.DoublesAllowedRemaining<span class="metric-of">/@Game.MaxDoubles</span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="timebar">
+                <div class="timebar-fill @(IsRunningOut ? "danger" : "")"
+                     style="width:@RemainingPercent%"></div>
+            </div>
+
+            <div class="controls">
+                @if (Game.CanStart)
+                {
+                    <button class="btn btn-start" @onclick="Game.Start">▶ Avvia partita</button>
+                }
+
+                @if (Game.Status == GameStatus.Live)
+                {
+                    <button class="btn btn-stop" @onclick="Game.FreezeClock">⏸ Ferma tempo</button>
+                }
+                else if (Game.Status == GameStatus.Frozen)
+                {
+                    <button class="btn btn-resume" @onclick="Game.ResumeClock">▶ Riprendi tempo</button>
+                }
+
+                <button class="btn btn-reset" @onclick="Game.Reset">↺ Reset</button>
+            </div>
+
+            <!-- ---------------- Parola corrente ---------------- -->
+            <div class="stage">
+                @if (Game.CurrentWord is { } word)
+                {
+                    @if (Game.CurrentIsDouble)
+                    {
+                        <span class="double-badge">vale ×2</span>
+                    }
+
+                    <div class="word">@word</div>
+
+                    <div class="word-meta">
+                        Parola n° @(Game.PlayedCount + 1)
+                        @if (Game.Status == GameStatus.Frozen)
+                        {
+                            <span class="frozen-tag">· ⏸ tempo fermo</span>
+                        }
+                    </div>
+                }
+                else if (Game.Status == GameStatus.Waiting)
+                {
+                    <div class="stage-msg">Manda la prossima parola ↓</div>
+                }
+                else if (Game.Status == GameStatus.Finished)
+                {
+                    <div class="ending">
+                        <div class="ending-title">
+                            @(Game.EndReason == FinishReason.NoWords ? "🏁 Parole finite" : "⏱ Tempo scaduto")
+                        </div>
+                        <div class="ending-score">@Game.Score @(Game.Score == 1 ? "punto" : "punti")</div>
+                        <div class="ending-stats">
+                            <span class="stat correct">✅ @Game.CorrectCount</span>
+                            <span class="stat wrong">❌ @Game.WrongCount</span>
+                            <span class="stat passed">⏭ @Game.PassedCount</span>
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <div class="stage-msg dim">
+                        @(Game.SingleCount == 0
+                            ? "Carica delle parole per cominciare"
+                            : "Tutto pronto: avvia la partita")
+                    </div>
+                }
+            </div>
+
+            <!-- ---------------- Azioni ---------------- -->
+            <div class="actions">
+                @if (Game.CanJudge)
+                {
+                    <div class="actions-row">
+                        <button class="btn btn-correct" @onclick="Game.MarkCorrect">
+                            ✅ Giusta <span class="points">+@Game.CurrentValue</span>
+                            <kbd>G</kbd>
+                        </button>
+                        <button class="btn btn-wrong" @onclick="Game.MarkWrong">
+                            ❌ Sbagliata <span class="points">−@Game.CurrentValue</span>
+                            <kbd>S</kbd>
+                        </button>
+                        <button class="btn btn-pass" disabled="@(Game.PassesRemaining <= 0)"
+                                @onclick="Game.MarkPass">
+                            ⏭ Passo <span class="points">0</span>
+                            <kbd>P</kbd>
+                        </button>
+                    </div>
+                }
+                else if (Game.Status == GameStatus.Waiting)
+                {
+                    <div class="actions-label">Manda la prossima parola</div>
+                    <div class="actions-row">
+                        <button class="btn btn-next" disabled="@(Game.SinglesRemaining <= 0)"
+                                @onclick="() => Game.SendNext(false)">
+                            ▶ Parola <span class="points">×1</span>
+                            <kbd>Invio</kbd>
+                        </button>
+                        <button class="btn btn-next-double" disabled="@(!Game.CanCallDouble)"
+                                @onclick="() => Game.SendNext(true)">
+                            ▶▶ Chiamata <span class="points">×2</span>
+                            <kbd>D</kbd>
+                        </button>
+                    </div>
+
+                    @if (!Game.CanCallDouble && Game.DoublesRemaining > 0)
+                    {
+                        @if (Game.DoublesAllowedRemaining <= 0)
+                        {
+                            <p class="hint">Raddoppi esauriti: ne erano previsti @Game.MaxDoubles.</p>
+                        }
+                        else if (Game.Score < 2)
+                        {
+                            <p class="hint">
+                                La parola ×2 si può chiamare da <strong>2 punti</strong> in su:
+                                così una risposta sbagliata non porta sotto zero. Ora sei a @Game.Score.
+                            </p>
+                        }
+                    }
+                    else if (Game.DoublesRemaining == 0 && Game.DoubleCount > 0)
+                    {
+                        <p class="hint">Le parole da 2 punti sono finite.</p>
+                    }
+                }
+                else
+                {
+                    <p class="hint">
+                        @(Game.CanStart ? "Premi Avvia partita per cominciare." : "Carica delle parole per cominciare.")
+                    </p>
+                }
+            </div>
+
+            <div class="tally">
+                Giuste <strong class="correct">@Game.CorrectCount</strong> ·
+                Sbagliate <strong class="wrong">@Game.WrongCount</strong> ·
+                Passi usati <strong>@Game.PassedCount</strong> ·
+                Parole giocate <strong>@Game.PlayedCount</strong>
+            </div>
+        </section>
+    </div>
+</div>
+
+@code {
+    private const int DangerSeconds = 10;
+
+    // ---- Configurazione in modifica (applicata con "Applica") ----
+    private int cfgTimer;
+    private int cfgPasses;
+    private int cfgDoubles;
+    private bool cfgShuffle;
+    private WordSource cfgSource;
+
+    // ---- Stato locale del pannello ----
+    private string manualText = "";
+    private string? message;
+    private bool showShortcuts;
+    private HashSet<string> selectedThemes = new(StringComparer.OrdinalIgnoreCase);
+    private GameStatus previousStatus;
+
+    // ---- Telecomando ----
+    private string remoteUrl = "";
+    private MarkupString? qrCode;
+
+    // ---- Scorciatoie da tastiera (modulo JavaScript) ----
+    private IJSObjectReference? shortcutsModule;
+    private DotNetObjectReference<Admin>? selfReference;
+
+    private bool IsRunningOut =>
+        Game.Status == GameStatus.Live && Game.RemainingSeconds <= DangerSeconds;
+
+    private int RemainingPercent => (int)Math.Round((1 - Game.ElapsedFraction) * 100);
+
+    private string StatusLabel => Game.Status switch
+    {
+        GameStatus.Idle => "Pronto",
+        GameStatus.Live => "In corso",
+        GameStatus.Frozen => "Tempo fermo",
+        GameStatus.Waiting => "Attesa",
+        GameStatus.Finished => Game.EndReason == FinishReason.NoWords ? "Parole finite" : "Tempo scaduto",
+        _ => ""
+    };
+
+    protected override void OnInitialized()
+    {
+        cfgTimer = Game.TimerSeconds;
+        cfgPasses = Game.MaxPasses;
+        cfgDoubles = Game.MaxDoubles;
+        cfgShuffle = Game.Shuffle;
+        cfgSource = Game.Source;
+        selectedThemes = new HashSet<string>(Game.SelectedThemeIds, StringComparer.OrdinalIgnoreCase);
+        previousStatus = Game.Status;
+
+        BuildRemoteQrCode();
+
+        Game.OnChange += OnGameChange;
+    }
+
+    /// <summary>
+    /// Registra le scorciatoie da tastiera. Il modulo JavaScript ascolta i tasti a
+    /// livello di finestra, così funzionano senza dover prima cliccare sulla pagina.
+    /// </summary>
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (!firstRender)
+            return;
+
+        try
+        {
+            // Percorso relativo e senza impronta di versione: ci pensa la mappa dei
+            // moduli generata da <ImportMap /> a tradurlo nel file effettivo.
+            shortcutsModule = await JS.InvokeAsync<IJSObjectReference>(
+                "import", "./Components/Pages/Admin.razor.js");
+
+            selfReference = DotNetObjectReference.Create(this);
+            await shortcutsModule.InvokeVoidAsync("registerShortcuts", selfReference);
+        }
+        catch (JSException ex)
+        {
+            // Le scorciatoie sono una comodità, non una funzione indispensabile: se il
+            // modulo non si carica si continua coi bottoni, ma il motivo va nel log.
+            Logger.LogWarning(ex, "Scorciatoie da tastiera non attivate: modulo non caricato.");
+            shortcutsModule = null;
+        }
+    }
+
+    /// <summary>
+    /// Ridisegna e, se il tempo è appena scaduto, suona il gong anche in regia:
+    /// il conduttore deve sentirlo pure se il Display è su un altro PC.
+    /// </summary>
+    private void OnGameChange() => InvokeAsync(async () =>
+    {
+        bool justRanOut = Game.Status == GameStatus.Finished
+            && previousStatus != GameStatus.Finished
+            && Game.EndReason == FinishReason.Time;
+
+        previousStatus = Game.Status;
+        StateHasChanged();
+
+        if (justRanOut)
+        {
+            try
+            {
+                await JS.InvokeVoidAsync("gong.play");
+            }
+            catch (JSException)
+            {
+                // Audio non disponibile: la partita finisce comunque.
+            }
+        }
+    });
+
+    // ============================================================
+    //  Codice QR del telecomando
+    // ============================================================
+
+    /// <summary>
+    /// Costruisce l'indirizzo di <c>/remote</c> raggiungibile dai telefoni e il codice
+    /// QR che lo apre. Se la regia sta navigando su <c>localhost</c> l'host viene
+    /// sostituito con l'indirizzo di rete del PC: altrimenti il QR porterebbe il
+    /// telefono a casa propria invece che qui.
+    /// </summary>
+    private void BuildRemoteQrCode()
+    {
+        try
+        {
+            var uri = new Uri(Nav.BaseUri);
+            var host = uri.Host;
+
+            if (host is "localhost" or "127.0.0.1" or "[::1]")
+                host = NetworkInfo.GetPreferredLanAddress() ?? host;
+
+            var port = uri.IsDefaultPort ? "" : $":{uri.Port}";
+            remoteUrl = $"{uri.Scheme}://{host}{port}/remote";
+
+            using var generator = new QRCodeGenerator();
+            using var data = generator.CreateQrCode(remoteUrl, QRCodeGenerator.ECCLevel.M);
+
+            qrCode = new MarkupString(new SvgQRCode(data).GetGraphic(4));
+        }
+        catch (Exception ex) when (ex is UriFormatException or InvalidOperationException)
+        {
+            // Niente QR: il resto della pagina funziona comunque e l'indirizzo si può
+            // sempre digitare a mano.
+            Logger.LogWarning(ex, "Codice QR del telecomando non generato.");
+            qrCode = null;
+        }
+    }
+
+    // ============================================================
+    //  Configurazione e parole
+    // ============================================================
+
+    private void ApplyConfig()
+    {
+        Game.Configure(cfgTimer, cfgPasses, cfgDoubles, cfgShuffle);
+
+        // Rileggo i valori normalizzati dal servizio: quelli fuori scala sono già
+        // stati riportati nei limiti.
+        cfgTimer = Game.TimerSeconds;
+        cfgPasses = Game.MaxPasses;
+        cfgDoubles = Game.MaxDoubles;
+
+        message = "Regole applicate.";
+    }
+
+    private void ChangeSource(WordSource source)
+    {
+        cfgSource = source;
+        message = source == WordSource.Program
+            ? Game.UseProgramThemes(selectedThemes).Message
+            : null;
+    }
+
+    private void ToggleTheme(string themeId, ChangeEventArgs e)
+    {
+        if (e.Value is true)
+            selectedThemes.Add(themeId);
+        else
+            selectedThemes.Remove(themeId);
+
+        message = Game.UseProgramThemes(selectedThemes).Message;
+    }
+
+    private void SelectAllThemes()
+    {
+        selectedThemes = Game.AvailableThemes
+            .Select(theme => theme.Id)
+            .ToHashSet(StringComparer.OrdinalIgnoreCase);
+
+        message = Game.UseProgramThemes(selectedThemes).Message;
+    }
+
+    private void ClearThemes()
+    {
+        selectedThemes.Clear();
+        message = Game.UseProgramThemes(selectedThemes).Message;
+    }
+
+    private async Task OnFileSelected(InputFileChangeEventArgs e)
+    {
+        const long maxSize = 5 * 1024 * 1024;
+
+        try
+        {
+            using var reader = new StreamReader(e.File.OpenReadStream(maxSize));
+            var content = await reader.ReadToEndAsync();
+            message = Game.SetWordsFromUpload(e.File.Name, content).Message;
+        }
+        catch (IOException ex)
+        {
+            message = $"Non riesco a leggere il file: {ex.Message}";
+        }
+    }
+
+    private void LoadManualWords() =>
+        message = Game.SetWordsFromText(manualText).Message;
+
+    // ============================================================
+    //  Scorciatoie da tastiera
+    // ============================================================
+
+    /// <summary>
+    /// Riceve un tasto premuto dal modulo JavaScript. Viene chiamato solo quando il
+    /// fuoco non è in un campo di testo, così configurare la partita non fa scattare
+    /// giudizi per sbaglio.
+    /// </summary>
+    /// <param name="key">Il tasto, nella forma restituita da <c>KeyboardEvent.key</c>.</param>
+    [JSInvokable]
+    public void OnShortcut(string key)
+    {
+        switch (key.ToUpperInvariant())
+        {
+            case "G":
+                Game.MarkCorrect();
+                break;
+
+            case "S":
+                Game.MarkWrong();
+                break;
+
+            case "P":
+                Game.MarkPass();
+                break;
+
+            case "D":
+                Game.SendNext(doubled: true);
+                break;
+
+            case "ENTER" when Game.Status == GameStatus.Waiting:
+                Game.SendNext(doubled: false);
+                break;
+
+            case "ENTER":
+                Game.Start();
+                break;
+
+            case " ":
+                // Un tasto solo per fermare e riprendere: a mani impegnate è più comodo.
+                if (Game.Status == GameStatus.Live)
+                    Game.FreezeClock();
+                else if (Game.Status == GameStatus.Frozen)
+                    Game.ResumeClock();
+                break;
+        }
+    }
+
+    private static string FormatTime(int seconds) => $"{seconds / 60}:{seconds % 60:00}";
+
+    public async ValueTask DisposeAsync()
+    {
+        Game.OnChange -= OnGameChange;
+
+        if (shortcutsModule is not null)
+        {
+            try
+            {
+                await shortcutsModule.InvokeVoidAsync("unregisterShortcuts");
+                await shortcutsModule.DisposeAsync();
+            }
+            catch (JSDisconnectedException)
+            {
+                // La pagina è già stata chiusa: non c'è più niente da ripulire.
+            }
+        }
+
+        selfReference?.Dispose();
+    }
+}

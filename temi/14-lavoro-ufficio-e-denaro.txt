@@ -1,0 +1,650 @@
+# TEMA: Lavoro, ufficio e denaro
+# 500 parole da 1 punto (una parola) + 100 da 2 punti (due o più parole).
+
+# --- Oggetti d'ufficio ---
+Scrivania
+Sedia
+Poltrona
+Computer
+Stampante
+Fotocopiatrice
+Scanner
+Telefono
+Fax
+Calcolatrice
+Agenda
+Calendario
+Quaderno
+Blocco
+Foglio
+Penna
+Matita
+Evidenziatore
+Graffetta
+Spillatrice
+Perforatore
+Nastro
+Forbici
+Colla
+Gomma
+Righello
+Timbro
+Tampone
+Cartella
+Faldone
+Raccoglitore
+Classificatore
+Schedario
+Cassetto
+Scaffale
+
+# --- Ruoli aziendali ---
+Direttore
+Dirigente
+Manager
+Capo
+Capoufficio
+Responsabile
+Coordinatore
+Supervisore
+Impiegato
+Segretaria
+Segretario
+Assistente
+Contabile
+Ragioniere
+Amministratore
+Presidente
+Vicepresidente
+Socio
+Titolare
+Imprenditore
+Dipendente
+Collaboratore
+Stagista
+Apprendista
+Consulente
+
+# --- Denaro e valute ---
+Denaro
+Soldi
+Moneta
+Banconota
+Spicciolo
+Centesimo
+Euro
+Dollaro
+Sterlina
+Yen
+Franco
+Lira
+Marco
+Rublo
+Contante
+Resto
+Mancia
+Gruzzolo
+Patrimonio
+Ricchezza
+Fortuna
+Tesoro
+Capitale
+Fondo
+Cassa
+
+# --- Banca e finanza ---
+Banca
+Bancomat
+Conto
+Carta
+Assegno
+Bonifico
+Prelievo
+Versamento
+Deposito
+Prestito
+Mutuo
+Finanziamento
+Interesse
+Tasso
+Investimento
+Azione
+Obbligazione
+Borsa
+Titolo
+Dividendo
+Rendita
+Risparmio
+Salvadanaio
+Cassaforte
+Caveau
+Sportello
+Cassiere
+Cambio
+Valuta
+Saldo
+
+# --- Documenti e burocrazia ---
+Documento
+Modulo
+Modello
+Certificato
+Attestato
+Diploma
+Licenza
+Permesso
+Autorizzazione
+Contratto
+Accordo
+Patto
+Clausola
+Firma
+Marca
+Bollo
+Ricevuta
+Fattura
+Scontrino
+Bolletta
+Tassa
+Imposta
+Multa
+Verbale
+Pratica
+Domanda
+Richiesta
+Scadenza
+Modulistica
+Protocollo
+
+# --- Commercio ---
+Negozio
+Bottega
+Magazzino
+Mercato
+Supermercato
+Vetrina
+Bancone
+Carrello
+Cliente
+Acquirente
+Consumatore
+Fornitore
+Grossista
+Dettagliante
+Sconto
+Offerta
+Prezzo
+Costo
+Affare
+Merce
+Prodotto
+Articolo
+Vendita
+Acquisto
+Ordine
+
+# --- Concetti del lavoro ---
+Lavoro
+Mestiere
+Professione
+Occupazione
+Impiego
+Carriera
+Incarico
+Compito
+Mansione
+Ruolo
+Turno
+Orario
+Pausa
+Ferie
+Riposo
+Straordinario
+Assunzione
+Licenziamento
+Dimissioni
+Pensione
+Colloquio
+Curriculum
+Concorso
+Selezione
+Promozione
+Trasferimento
+Sciopero
+Sindacato
+Tirocinio
+Formazione
+
+# --- Stipendio ed economia ---
+Stipendio
+Salario
+Paga
+Compenso
+Retribuzione
+Guadagno
+Reddito
+Entrata
+Uscita
+Spesa
+Profitto
+Perdita
+Utile
+Ricavo
+Fatturato
+Bilancio
+Budget
+Preventivo
+Consuntivo
+Economia
+Inflazione
+Crisi
+Debito
+Credito
+Tassazione
+
+# --- Comunicazione di lavoro ---
+Riunione
+Conferenza
+Meeting
+Trattativa
+Presentazione
+Relazione
+Email
+Messaggio
+Telefonata
+Comunicato
+Avviso
+Circolare
+Memo
+Promemoria
+Scadenzario
+Convocazione
+Delega
+Mandato
+Bacheca
+Brainstorming
+
+# --- Aziende e settori ---
+Azienda
+Ditta
+Impresa
+Società
+Fabbrica
+Industria
+Stabilimento
+Officina
+Cantiere
+Studio
+Agenzia
+Filiale
+Sede
+Reparto
+Ufficio
+Dipartimento
+Settore
+Ente
+Cooperativa
+Multinazionale
+
+# --- Tecnologia d'ufficio ---
+Laptop
+Tablet
+Monitor
+Tastiera
+Mouse
+Schermo
+Webcam
+Proiettore
+Lavagna
+Toner
+Cartuccia
+Risma
+Etichetta
+Badge
+Tesserino
+Cartellino
+Microfono
+Stampato
+Pendrive
+Server
+
+# --- Mestieri e professioni ---
+Operaio
+Artigiano
+Tecnico
+Ingegnere
+Architetto
+Geometra
+Avvocato
+Notaio
+Commercialista
+Medico
+Insegnante
+Professore
+Giornalista
+Programmatore
+Analista
+Grafico
+Designer
+Pubblicitario
+Traduttore
+Interprete
+Cuoco
+Cameriere
+Autista
+Fattorino
+Operatore
+Centralinista
+Receptionist
+Portiere
+Custode
+Guardia
+Vigilante
+Addetto
+Usciere
+Hostess
+Steward
+Bidello
+Magazziniere
+Facchino
+Manovale
+Capomastro
+
+# --- Qualità professionali ---
+Esperienza
+Competenza
+Abilità
+Talento
+Bravura
+Impegno
+Dedizione
+Puntualità
+Precisione
+Efficienza
+Produttività
+Qualità
+Merito
+Responsabilità
+Iniziativa
+Ambizione
+Motivazione
+Professionalità
+Affidabilità
+Flessibilità
+
+# --- Negozi specializzati ---
+Panetteria
+Pasticceria
+Macelleria
+Pescheria
+Salumeria
+Drogheria
+Gelateria
+Pizzeria
+Farmacia
+Profumeria
+Cartoleria
+Libreria
+Ferramenta
+Tabaccheria
+Edicola
+Gioielleria
+Oreficeria
+Calzoleria
+Boutique
+Erboristeria
+
+# --- Operazioni di denaro ---
+Pagare
+Comprare
+Vendere
+Guadagnare
+Spendere
+Risparmiare
+Investire
+Incassare
+Riscuotere
+Versare
+Prelevare
+Depositare
+Contrattare
+Negoziare
+Scambiare
+
+# --- Enti e burocrazia ---
+Comune
+Municipio
+Anagrafe
+Catasto
+Tribunale
+Questura
+Prefettura
+Ministero
+Camera
+Coda
+Fila
+Istanza
+Ricorso
+Reclamo
+Denuncia
+Querela
+Sentenza
+Bollettino
+Tessera
+Sportellista
+
+# --- Gestione e progetti ---
+Progetto
+Programma
+Piano
+Strategia
+Obiettivo
+Traguardo
+Risultato
+Termine
+Priorità
+Urgenza
+Procedura
+Processo
+Sistema
+Metodo
+Organizzazione
+Gestione
+Direzione
+Coordinamento
+Pianificazione
+Controllo
+
+# --- Portamonete e valori ---
+Portafoglio
+Portamonete
+Borsellino
+Forziere
+Scrigno
+Libretto
+Carnet
+Buono
+Voucher
+Gettone
+Fiche
+Lingotto
+Verga
+Bancarella
+Cambiavalute
+
+# --- Professioni digitali ---
+Webmaster
+Blogger
+Influencer
+Youtuber
+Sviluppatore
+Informatico
+Sistemista
+Tester
+Copywriter
+Promoter
+Animatore
+Organizzatore
+Recruiter
+Formatore
+Coach
+Tutor
+Speaker
+Moderatore
+Relatore
+Oratore
+
+# --- Mercato ---
+Concorrenza
+Monopolio
+Mercanzia
+Esportazione
+Importazione
+Dogana
+Tariffa
+Listino
+Catalogo
+Marchio
+Brevetto
+Logo
+Slogan
+Insegna
+Pubblicità
+
+# --- Persone d'affari ---
+Utente
+Contatto
+Referente
+Investitore
+Azionista
+Creditore
+Debitore
+Garante
+Mediatore
+Intermediario
+Agente
+Rappresentante
+Procuratore
+Delegato
+Portavoce
+
+# --- Produzione e logistica ---
+Capannone
+Macchinario
+Attrezzatura
+Strumentazione
+Scorta
+Inventario
+Bancale
+Pallet
+Imballaggio
+Spedizione
+Consegna
+Logistica
+Produzione
+Lavorazione
+Assemblaggio
+
+# ============================================================
+#  PAROLE DA 2 PUNTI (almeno due parole per riga)
+# ============================================================
+Conto corrente
+Conto in banca
+Carta di credito
+Carta di debito
+Cassetta di sicurezza
+Cassa di risparmio
+Libretto di risparmio
+Salvadanaio pieno
+Busta paga
+Tredicesima mensilità
+Posto fisso
+Posto di lavoro
+Orario di lavoro
+Orario d'ufficio
+Pausa caffè
+Pausa pranzo
+Colloquio di lavoro
+Curriculum vitae
+Lettera di presentazione
+Lettera di dimissioni
+Contratto di lavoro
+Tempo indeterminato
+Tempo determinato
+Tempo pieno
+Mezza giornata
+Lavoro nero
+Lavoro di squadra
+Mondo del lavoro
+Cartellino da timbrare
+Capo ufficio
+Capo reparto
+Direttore generale
+Amministratore delegato
+Consiglio di amministrazione
+Riunione di lavoro
+Viaggio di lavoro
+Pranzo di lavoro
+Giorno di paga
+Aumento di stipendio
+Premio di produzione
+Conto in rosso
+Bilancio in attivo
+Dichiarazione dei redditi
+Partita Iva
+Codice fiscale
+Carta d'identità
+Permesso di soggiorno
+Patente di guida
+Marca da bollo
+Modulo da compilare
+Domanda di lavoro
+Offerta di lavoro
+Annuncio di lavoro
+Agenzia interinale
+Ufficio postale
+Ufficio del personale
+Ufficio reclami
+Sportello bancario
+Cassa automatica
+Banco dei pegni
+Borsa valori
+Mercato azionario
+Fondo pensione
+Piano di risparmio
+Tasso d'interesse
+Tasso fisso
+Prestito personale
+Mutuo per la casa
+Rata mensile
+Spese di gestione
+Costo della vita
+Potere d'acquisto
+Centro commerciale
+Grande magazzino
+Negozio di scarpe
+Carrello della spesa
+Lista della spesa
+Buono sconto
+Carta fedeltà
+Soldi in tasca
+Soldi spiccioli
+Denaro contante
+Pagamento in contanti
+Pagamento a rate
+Fattura elettronica
+Ricevuta fiscale
+Scontrino fiscale
+Cassa integrazione
+Settore privato
+Settore pubblico
+Libero professionista
+Lavoratore autonomo
+Lavoratore dipendente
+Capitale di rischio
+Soci in affari
+Numeri in rosso
+Conto alla rovescia
+Ferie pagate
+Giorno libero
+Banca dati

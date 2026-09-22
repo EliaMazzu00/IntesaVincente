@@ -1,0 +1,658 @@
+# TEMA: Spazio e astronomia
+# 500 parole da 1 punto (una parola) + 100 da 2 punti (due o più parole).
+
+# --- Corpi celesti ---
+Stella
+Pianeta
+Satellite
+Luna
+Sole
+Cometa
+Meteora
+Meteorite
+Asteroide
+Galassia
+Nebulosa
+Costellazione
+Quasar
+Pulsar
+Nova
+Supernova
+Aurora
+Eclissi
+Cratere
+Anello
+Chioma
+Bolide
+Plutoide
+Planetoide
+Astro
+Magnetar
+Cefeide
+Protostella
+Nana
+Gigante
+
+# --- Sistema solare ---
+Mercurio
+Venere
+Terra
+Marte
+Giove
+Saturno
+Urano
+Nettuno
+Plutone
+Cerere
+Eris
+Fobos
+Deimos
+Io
+Europa
+Ganimede
+Callisto
+Titano
+Encelado
+Tritone
+Caronte
+Vesta
+Pallade
+Giunone
+Igea
+
+# --- Stelle ---
+Sirio
+Vega
+Polaris
+Altair
+Antares
+Betelgeuse
+Rigel
+Aldebaran
+Arturo
+Capella
+Procione
+Deneb
+Spica
+Regolo
+Castore
+Polluce
+Bellatrix
+Canopo
+Fomalhaut
+Mizar
+
+# --- Universo e cosmo ---
+Universo
+Cosmo
+Spazio
+Vuoto
+Materia
+Antimateria
+Energia
+Gravità
+Massa
+Dimensione
+Infinito
+Espansione
+Singolarità
+Orizzonte
+Etere
+Plasma
+Polvere
+Filamento
+Ammasso
+Galassie
+
+# --- Zodiaco e costellazioni ---
+Ariete
+Toro
+Gemelli
+Cancro
+Leone
+Vergine
+Bilancia
+Scorpione
+Sagittario
+Capricorno
+Acquario
+Pesci
+Orsa
+Cigno
+Aquila
+Pegaso
+Andromeda
+Perseo
+Orione
+Cassiopea
+Drago
+Lira
+Auriga
+Boote
+Centauro
+
+# --- Luna e fasi ---
+Plenilunio
+Novilunio
+Fase
+Quarto
+Falce
+Crescente
+Calante
+Selene
+Lunazione
+Alone
+Perigeo
+Apogeo
+Albedo
+Terminatore
+Penombra
+
+# --- Fenomeni astronomici ---
+Allineamento
+Congiunzione
+Opposizione
+Transito
+Occultazione
+Parallasse
+Precessione
+Rotazione
+Rivoluzione
+Orbita
+Traiettoria
+Gravitazione
+Brillamento
+Protuberanza
+Radiazione
+Spettro
+Effemeride
+Apside
+Afelio
+Perielio
+Zenit
+Nadir
+Declinazione
+Ascensione
+Culminazione
+
+# --- Astronautica ---
+Astronauta
+Cosmonauta
+Razzo
+Missile
+Navicella
+Astronave
+Modulo
+Capsula
+Lanciatore
+Vettore
+Sonda
+Rover
+Stazione
+Shuttle
+Navetta
+Lancio
+Decollo
+Rientro
+Ammaraggio
+Allunaggio
+Missione
+Equipaggio
+Tuta
+Casco
+Propellente
+Propulsore
+Ugello
+Stadio
+Serbatoio
+Booster
+
+# --- Strumenti di osservazione ---
+Telescopio
+Cannocchiale
+Osservatorio
+Planetario
+Lente
+Specchio
+Obiettivo
+Oculare
+Radiotelescopio
+Spettroscopio
+Astrolabio
+Sestante
+Bussola
+Atlante
+Globo
+Mappamondo
+Cupola
+Antenna
+Parabola
+Mirino
+
+# --- A bordo ---
+Scafandro
+Visiera
+Respiratore
+Ossigeno
+Galleggiamento
+Aggancio
+Liofilizzato
+Oblò
+Portello
+Boccaporto
+Corrimano
+Manipolatore
+Esperimento
+Microgravità
+Decompressione
+Pressurizzazione
+Cuccetta
+Vivanda
+Filtro
+Generatore
+
+# --- Fantascienza ---
+Alieno
+Extraterrestre
+Marziano
+Androide
+Cyborg
+Replicante
+Clone
+Disco
+Ufo
+Raggio
+Laser
+Blaster
+Teletrasporto
+Iperspazio
+Impero
+Federazione
+Colonia
+Base
+Avamposto
+Wormhole
+Portale
+Multiverso
+Futuro
+Distopia
+Cyberspazio
+Invasione
+Ologramma
+Esoscheletro
+Terraformazione
+Razzia
+
+# --- Creature e civiltà ---
+Droide
+Mech
+Tripode
+Creatura
+Entità
+Specie
+Razza
+Civiltà
+Visitatore
+Pioniere
+Colono
+Sopravvissuto
+Esemplare
+Ibrido
+Simbionte
+
+# --- Fisica dello spazio ---
+Velocità
+Luce
+Tempo
+Distanza
+Parsec
+Magnitudine
+Luminosità
+Temperatura
+Densità
+Pressione
+Forza
+Accelerazione
+Quanto
+Particella
+Fotone
+Onda
+Frequenza
+Campo
+Magnetismo
+Fissione
+Fusione
+Inerzia
+Attrazione
+Repulsione
+Spinta
+
+# --- Energia e reazioni ---
+Atomo
+Molecola
+Elettrone
+Protone
+Neutrone
+Ione
+Reattore
+Calore
+Kelvin
+Combustione
+Propulsione
+Accensione
+Detonazione
+Implosione
+Esplosione
+
+# --- Coordinate celesti ---
+Meridiana
+Equinozio
+Solstizio
+Eclittica
+Zodiaco
+Emisfero
+Asse
+Equatore
+Tropico
+Meridiano
+Parallelo
+Latitudine
+Longitudine
+Coordinate
+Reticolo
+Quadrante
+Polo
+Cardine
+Volta
+Firmamento
+
+# --- Controllo missione ---
+Cabina
+Plancia
+Comando
+Pulsantiera
+Strumentazione
+Radar
+Sensore
+Telemetria
+Pilota
+Comandante
+Specialista
+Rampa
+Hangar
+Bunker
+Schermo
+Console
+Monitor
+Joystick
+Manetta
+Cloche
+
+# --- Luce e bagliori ---
+Splendore
+Bagliore
+Scintillio
+Luccichio
+Riflesso
+Fascio
+Arcobaleno
+Corona
+Velo
+Banda
+Lampo
+Scia
+Luminescenza
+Fosforescenza
+Iridescenza
+
+# --- Galassie e ammassi ---
+Spirale
+Ellittica
+Globulare
+Braccio
+Bulge
+Vortice
+Stellina
+Pianetino
+Lunetta
+Sistema
+Famiglia
+Sciame
+Pioggia
+Nube
+Disco volante
+
+# --- Missioni e sonde ---
+Apollo
+Sputnik
+Gemini
+Mercury
+Soyuz
+Vostok
+Voyager
+Pioneer
+Cassini
+Hubble
+Curiosity
+Spirit
+Opportunity
+Perseverance
+Juno
+Galileo
+Rosetta
+Falcon
+Dragon
+Ariane
+
+# --- Superfici planetarie ---
+Aureola
+Calotta
+Crosta
+Magma
+Geyser
+Canyon
+Altopiano
+Voragine
+Dorsale
+Catena
+Picco
+Vetta
+Bacino
+Conca
+Faglia
+Scarpata
+Duna
+Regolite
+Suolo
+Roccia
+
+# --- Studiosi e metodo ---
+Astronomo
+Astrofisico
+Cosmologo
+Osservatore
+Studioso
+Ricercatore
+Catalogo
+Censimento
+Misurazione
+Previsione
+Modello
+Simulazione
+Teoria
+Ipotesi
+Calcolo
+
+# --- Comunicazioni spaziali ---
+Trasmettitore
+Ricevitore
+Segnale
+Comunicazione
+Trasmissione
+Collegamento
+Dati
+Codice
+Software
+Algoritmo
+Circuito
+Cavo
+Schermata
+Interfaccia
+Database
+
+# --- Oggetti minori ---
+Makemake
+Haumea
+Sedna
+Quaoar
+Orco
+Varuna
+Bennu
+Ryugu
+Itokawa
+Halley
+Encke
+Hale
+Tempel
+Oort
+Kuiper
+
+# --- Altre costellazioni ---
+Idra
+Balena
+Lince
+Lepre
+Corvo
+Tucano
+Fenice
+Pavone
+Freccia
+Delfino
+
+# --- Strati e involucri ---
+Magnitudo
+Cromosfera
+Fotosfera
+Eliosfera
+Esosfera
+Ionosfera
+Stratosfera
+Atmosfera
+Troposfera
+Mesosfera
+Termosfera
+
+# --- Detriti e residui ---
+Coma
+Meteoroide
+Micrometeorite
+Pulviscolo
+Detrito
+Frammento
+Scheggia
+Nucleo
+Crinale
+Bordo
+
+# ============================================================
+#  PAROLE DA 2 PUNTI (almeno due parole per riga)
+# ============================================================
+Buco nero
+Stazione spaziale
+Sistema solare
+Via Lattea
+Anno luce
+Velocità della luce
+Stella cadente
+Stella polare
+Stella nana
+Stella gigante
+Nana bianca
+Nana rossa
+Gigante rossa
+Gigante gassoso
+Pianeta nano
+Pianeta gassoso
+Pianeta roccioso
+Pianeta abitabile
+Sistema planetario
+Cintura di asteroidi
+Fascia di Kuiper
+Nube di Oort
+Polvere cosmica
+Materia oscura
+Energia oscura
+Onde gravitazionali
+Campo magnetico
+Vento solare
+Macchia solare
+Eruzione solare
+Tempesta solare
+Aurora boreale
+Aurora australe
+Eclissi di sole
+Eclissi di luna
+Eclissi totale
+Fasi lunari
+Luna piena
+Luna nuova
+Primo quarto
+Ultimo quarto
+Faccia nascosta
+Mare della tranquillità
+Suolo lunare
+Pianeta rosso
+Pianeta azzurro
+Anelli di Saturno
+Lune di Giove
+Grande macchia rossa
+Volta celeste
+Sfera celeste
+Mappa stellare
+Carta celeste
+Segno zodiacale
+Stella di Natale
+Orsa Maggiore
+Orsa Minore
+Croce del Sud
+Cane Maggiore
+Telescopio spaziale
+Telescopio Hubble
+Osservatorio astronomico
+Radio telescopio
+Sonda spaziale
+Navicella spaziale
+Modulo lunare
+Tuta spaziale
+Casco spaziale
+Passeggiata spaziale
+Lancio del razzo
+Base spaziale
+Centro di controllo
+Conto alla rovescia
+Corsa allo spazio
+Volo spaziale
+Viaggio interstellare
+Viaggio nel tempo
+Velocità di fuga
+Forza di gravità
+Assenza di gravità
+Caduta libera
+Campo gravitazionale
+Esplorazione spaziale
+Missione spaziale
+Programma spaziale
+Astronave aliena
+Vita extraterrestre
+Forme di vita
+Pianeta alieno
+Guerre stellari
+Viaggio sulla luna
+Sbarco sulla luna
+Primo uomo sulla luna
+Un piccolo passo
+Razzo spaziale
+Tuta da astronauta
+Buco di verme
+Stella del mattino
+Stella della sera

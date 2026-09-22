@@ -1,0 +1,654 @@
+# TEMA: Musica, cinema e spettacolo
+# 500 parole da 1 punto (una parola) + 100 da 2 punti (due o più parole).
+
+# --- Strumenti musicali ---
+Pianoforte
+Piano
+Tastiera
+Organo
+Fisarmonica
+Chitarra
+Basso
+Mandolino
+Banjo
+Ukulele
+Arpa
+Violino
+Viola
+Violoncello
+Contrabbasso
+Liuto
+Cetra
+Balalaika
+Sitar
+Flauto
+Ottavino
+Clarinetto
+Oboe
+Fagotto
+Sassofono
+Tromba
+Trombone
+Cornetta
+Corno
+Tuba
+Bombardino
+Armonica
+Cornamusa
+Zampogna
+Ocarina
+Batteria
+Tamburo
+Tamburello
+Grancassa
+Rullante
+Piatti
+Timpani
+Triangolo
+Xilofono
+Vibrafono
+Marimba
+Glockenspiel
+Maracas
+Bonghi
+Conga
+Tamtam
+Gong
+Campana
+Sonaglio
+Nacchere
+
+# --- Altri strumenti ---
+Celesta
+Clavicembalo
+Spinetta
+Theremin
+Synth
+Sampler
+Pedaliera
+Diapason
+Metallofono
+Castagnette
+Cabasa
+Guiro
+Claves
+Djembe
+Cajon
+
+# --- Generi musicali ---
+Rock
+Pop
+Jazz
+Blues
+Soul
+Funk
+Reggae
+Rap
+Hiphop
+Metal
+Punk
+Country
+Folk
+Classica
+Lirica
+Techno
+House
+Disco
+Elettronica
+Swing
+Gospel
+Ska
+Trap
+Indie
+Grunge
+
+# --- Sottogeneri ---
+Ambient
+Lounge
+Fusion
+Bebop
+Ragtime
+Dubstep
+Garage
+Calypso
+Cumbia
+Latino
+
+# --- Teoria musicale ---
+Nota
+Pentagramma
+Chiave
+Battuta
+Pausa
+Tempo
+Ritmo
+Melodia
+Armonia
+Accordo
+Scala
+Tonalità
+Ottava
+Semitono
+Bemolle
+Diesis
+Bequadro
+Crescendo
+Ritornello
+Spartito
+Partitura
+Arrangiamento
+Assolo
+Strofa
+Inciso
+Intro
+Refrain
+Metronomo
+Acuto
+Grave
+
+# --- Voce e canto ---
+Voce
+Canto
+Soprano
+Contralto
+Mezzosoprano
+Tenore
+Baritono
+Falsetto
+Vibrato
+Ugola
+Stonatura
+Vocalizzo
+
+# --- Canzoni ed elementi ---
+Canzone
+Brano
+Pezzo
+Singolo
+Album
+Hit
+Successo
+Sigla
+Inno
+Serenata
+Ninnananna
+Motivetto
+Tormentone
+Cover
+Medley
+
+# --- Figure della musica ---
+Musicista
+Cantante
+Cantautore
+Compositore
+Direttore
+Orchestra
+Banda
+Complesso
+Solista
+Corista
+Quartetto
+Duetto
+Crooner
+Rapper
+Rocker
+Frontman
+Polistrumentista
+Liutaio
+Accordatore
+Dj
+
+# --- Musicisti per strumento ---
+Chitarrista
+Pianista
+Batterista
+Violinista
+Bassista
+Tastierista
+Trombettista
+Flautista
+Sassofonista
+Clarinettista
+Arpista
+Organista
+Fisarmonicista
+Percussionista
+Mandolinista
+
+# --- Audio e registrazione ---
+Microfono
+Amplificatore
+Cassa
+Altoparlante
+Cuffie
+Mixer
+Plettro
+Bacchetta
+Leggio
+Custodia
+Tasto
+Manopola
+Jack
+Vinile
+Cd
+Mangianastri
+Giradischi
+Stereo
+Jukebox
+Musicassetta
+Equalizzatore
+Riverbero
+Distorsore
+Traccia
+Registratore
+Microfonia
+Feedback
+Playback
+Karaoke
+Loop
+
+# --- Generi cinematografici ---
+Commedia
+Dramma
+Thriller
+Horror
+Fantasy
+Fantascienza
+Avventura
+Azione
+Giallo
+Western
+Musical
+Documentario
+Cortometraggio
+Lungometraggio
+Kolossal
+Noir
+Biografico
+Animazione
+
+# --- Mestieri del cinema ---
+Regista
+Attore
+Attrice
+Comparsa
+Controfigura
+Stuntman
+Sceneggiatore
+Produttore
+Operatore
+Cameraman
+Montatore
+Doppiatore
+Truccatore
+Costumista
+Scenografo
+Fonico
+Tecnico
+Protagonista
+Antagonista
+Caratterista
+Critico
+Spettatore
+Cast
+Generico
+Diva
+
+# --- Produzione e ripresa ---
+Film
+Pellicola
+Scena
+Sequenza
+Ciak
+Inquadratura
+Carrellata
+Zoom
+Panoramica
+Riflettore
+Set
+Studio
+Backstage
+Provino
+Casting
+Copione
+Soggetto
+Trama
+Sequel
+Prequel
+Remake
+Trailer
+Locandina
+Manifesto
+Titoli
+Effetti
+Montaggio
+Doppiaggio
+Bobina
+Proiezione
+
+# --- Sceneggiatura e racconto ---
+Storia
+Racconto
+Personaggio
+Eroe
+Cattivo
+Spalla
+Comprimario
+Narratore
+Flashback
+Suspense
+Gag
+Tensione
+Intreccio
+Svolta
+Genere
+
+# --- Teatro ---
+Teatro
+Palco
+Palcoscenico
+Ribalta
+Quinte
+Boccascena
+Sipario
+Platea
+Galleria
+Loggione
+Camerino
+Botola
+Fondale
+Scenografia
+Prologo
+Epilogo
+Monologo
+Dialogo
+Recita
+Prova
+Debutto
+Replica
+Applauso
+Bis
+Suggeritore
+Mimo
+Guitto
+Tragedia
+Farsa
+Pantomima
+
+# --- Opera e palcoscenico ---
+Operetta
+Libretto
+Aria
+Recitativo
+Ouverture
+Intermezzo
+Melodramma
+Cabaret
+Rivista
+Sketch
+Numero
+Burattino
+Marionetta
+Tragicommedia
+Sceneggiata
+
+# --- Danza ---
+Danza
+Ballo
+Balletto
+Ballerino
+Ballerina
+Coreografia
+Coreografo
+Piroetta
+Tutù
+Punte
+Valzer
+Tango
+Mazurca
+Polka
+Flamenco
+Tiptap
+Twist
+Rumba
+Samba
+Charleston
+
+# --- Televisione e intrattenimento ---
+Televisione
+Programma
+Trasmissione
+Telegiornale
+Telefilm
+Serie
+Sitcom
+Soap
+Telenovela
+Talkshow
+Reality
+Varietà
+Spot
+Pubblicità
+Puntata
+Episodio
+Stagione
+Conduttore
+Presentatore
+Showman
+Comico
+Cabarettista
+Imitatore
+Concorrente
+Ospite
+Telecomando
+Antenna
+Canale
+Palinsesto
+Share
+
+# --- Circo ---
+Circo
+Tendone
+Pista
+Acrobata
+Trapezista
+Giocoliere
+Equilibrista
+Funambolo
+Domatore
+Clown
+Pagliaccio
+Mago
+Illusionista
+Prestigiatore
+Contorsionista
+
+# --- Pubblico e luoghi ---
+Pubblico
+Folla
+Fan
+Claque
+Biglietto
+Botteghino
+Abbonamento
+Posto
+Fila
+Foyer
+Cartellone
+Anfiteatro
+Teatrino
+Cineforum
+Multisala
+
+# --- Premi ed eventi ---
+Oscar
+Palma
+Leone
+Orso
+Grammy
+Festival
+Anteprima
+Rassegna
+Concerto
+Tournée
+Spettacolo
+Esibizione
+Performance
+Recital
+Concorso
+Telegatto
+Globo
+Sanremo
+Eurovision
+Burlesque
+
+# --- Azioni dello spettacolo ---
+Recitare
+Cantare
+Suonare
+Ballare
+Applaudire
+Fischiare
+Esibirsi
+Improvvisare
+Interpretare
+Doppiare
+Filmare
+Girare
+Provare
+Debuttare
+Esordire
+
+# --- Star e talento ---
+Star
+Celebrità
+Idolo
+Talento
+Esordiente
+Veterano
+Promessa
+Fenomeno
+Mattatore
+Beniamino
+Mimica
+Espressione
+Gesto
+Posa
+Maschera
+
+# --- Suono e sala ---
+Acustica
+Sonoro
+Volume
+Timbro
+Eco
+Silenzio
+Ovazione
+Encore
+Fischio
+Buio
+
+# ============================================================
+#  PAROLE DA 2 PUNTI (almeno due parole per riga)
+# ============================================================
+Colonna sonora
+Tappeto rosso
+Sala cinematografica
+Effetti speciali
+Effetti sonori
+Primo piano
+Campo lungo
+Macchina da presa
+Sala di registrazione
+Sala prove
+Buca dell'orchestra
+Direttore d'orchestra
+Musica classica
+Musica leggera
+Musica dal vivo
+Musica da camera
+Strumento a corda
+Strumento a fiato
+Strumento a percussione
+Chitarra elettrica
+Chitarra acustica
+Basso elettrico
+Pianoforte a coda
+Batteria acustica
+Cassa armonica
+Corde vocali
+Voce bianca
+Canto gregoriano
+Coro polifonico
+Festival di Sanremo
+Festival di Cannes
+Festival del cinema
+Notte degli Oscar
+Premio Oscar
+Leone d'oro
+Palma d'oro
+Orso d'oro
+Disco d'oro
+Disco di platino
+Hit parade
+Concerto rock
+Concerto dal vivo
+Tour mondiale
+Sala da ballo
+Scuola di danza
+Lago dei cigni
+Danza classica
+Danza moderna
+Danza del ventre
+Passo a due
+Numero da circo
+Numero di magia
+Trucco di magia
+Bacchetta magica
+Coniglio dal cilindro
+Spettacolo di varietà
+Spettacolo teatrale
+Prima teatrale
+Compagnia teatrale
+Sala da concerto
+Film d'azione
+Film horror
+Film d'animazione
+Film muto
+Cinema muto
+Cartone animato
+Cartoni animati
+Serie televisiva
+Serie tv
+Programma televisivo
+Talent show
+Reality show
+Telegiornale della sera
+Sigla finale
+Titoli di coda
+Titoli di testa
+Schermo gigante
+Schermo cinematografico
+Banda sonora
+Brano musicale
+Strumento musicale
+Lettore cd
+Lettore mp3
+Cassa acustica
+Asta del microfono
+Spartito musicale
+Nota musicale
+Chiave di violino
+Chiave di basso
+Tempo di valzer
+Quattro quarti
+Giro di basso
+Assolo di chitarra
+Stella del cinema
+Star del cinema
+Festa del cinema
+Pellicola in bianco e nero
+Bianco e nero
+Sala da concerto piena
+Numero musicale

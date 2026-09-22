@@ -1,0 +1,646 @@
+# TEMA: Corpo, salute e mestieri
+# 500 parole da 1 punto (una parola) + 100 da 2 punti (due o più parole).
+
+# --- Parti del corpo ---
+Testa
+Capo
+Collo
+Nuca
+Gola
+Spalla
+Braccio
+Avambraccio
+Gomito
+Polso
+Mano
+Ascella
+Petto
+Torace
+Seno
+Pancia
+Ventre
+Addome
+Ombelico
+Fianco
+Schiena
+Dorso
+Vita
+Anca
+Bacino
+Gluteo
+Coscia
+Ginocchio
+Polpaccio
+Stinco
+Caviglia
+Piede
+Tallone
+Dito
+Pollice
+Indice
+Mignolo
+Unghia
+Nocca
+Gamba
+Calcagno
+Inguine
+Camice
+Garretto
+Malleolo
+
+# --- Viso e testa ---
+Viso
+Faccia
+Volto
+Fronte
+Tempia
+Sopracciglio
+Ciglio
+Occhio
+Palpebra
+Pupilla
+Iride
+Naso
+Narice
+Guancia
+Zigomo
+Orecchio
+Lobo
+Bocca
+Labbro
+Dente
+Gengiva
+Lingua
+Palato
+Mento
+Mascella
+
+# --- Organi interni ---
+Cuore
+Polmone
+Fegato
+Stomaco
+Intestino
+Rene
+Milza
+Pancreas
+Vescica
+Cervello
+Cervelletto
+Midollo
+Esofago
+Trachea
+Bronco
+Diaframma
+Colon
+Duodeno
+Cistifellea
+Tiroide
+Ipofisi
+Aorta
+Vena
+Arteria
+Capillare
+Nervo
+Tendine
+Legamento
+Cartilagine
+Ghiandola
+
+# --- Ossa ---
+Cranio
+Mandibola
+Clavicola
+Scapola
+Sterno
+Costola
+Vertebra
+Femore
+Tibia
+Perone
+Rotula
+Omero
+Ulna
+Falange
+Metacarpo
+Tarso
+Coccige
+Sacro
+Carpo
+Metatarso
+
+# --- Tessuti e sistemi ---
+Muscolo
+Bicipite
+Tricipite
+Pelle
+Cute
+Epidermide
+Sangue
+Plasma
+Globulo
+Linfa
+Osso
+Scheletro
+Articolazione
+Capello
+Barba
+
+# --- Dettagli del corpo ---
+Baffi
+Basette
+Ciuffo
+Frangia
+Voce
+Respiro
+Battito
+Sguardo
+Sorriso
+Smorfia
+Ruga
+Lentiggine
+Neo
+Cicatrice
+Fossetta
+Carnagione
+Incarnato
+Postura
+Andatura
+Stretta
+
+# --- Malattie e disturbi ---
+Salute
+Malattia
+Influenza
+Raffreddore
+Febbre
+Tosse
+Bronchite
+Polmonite
+Asma
+Allergia
+Otite
+Faringite
+Tonsillite
+Gastrite
+Colite
+Ulcera
+Diabete
+Anemia
+Emicrania
+Cefalea
+Vertigine
+Nausea
+Insonnia
+Stress
+Carie
+Frattura
+Distorsione
+Slogatura
+Lussazione
+Contusione
+Ferita
+Taglio
+Graffio
+Livido
+Bernoccolo
+Callo
+Verruca
+Morbillo
+Varicella
+Orticaria
+
+# --- Sintomi ---
+Dolore
+Prurito
+Bruciore
+Crampo
+Brivido
+Sudore
+Stanchezza
+Debolezza
+Gonfiore
+Arrossamento
+Eruzione
+Starnuto
+Singhiozzo
+Sbadiglio
+Capogiro
+
+# --- Medicine e cure ---
+Medicina
+Medicinale
+Farmaco
+Pillola
+Pastiglia
+Compressa
+Capsula
+Sciroppo
+Pomata
+Crema
+Cerotto
+Benda
+Garza
+Disinfettante
+Iniezione
+Puntura
+Vaccino
+Antibiotico
+Antidolorifico
+Antipiretico
+Vitamina
+Integratore
+Cura
+Terapia
+Visita
+Diagnosi
+Ricetta
+Operazione
+Intervento
+Anestesia
+
+# --- Strumenti medici ---
+Stetoscopio
+Termometro
+Siringa
+Ago
+Bisturi
+Pinza
+Forbici
+Laccio
+Barella
+Lettiga
+Stampella
+Gruccia
+Carrozzina
+Tutore
+Gesso
+Stecca
+Apparecchio
+Defibrillatore
+Elettrocardiogramma
+Radiografia
+Ecografia
+Tac
+Risonanza
+Mascherina
+Garze
+
+# --- Cure e presidi ---
+Flebo
+Cannula
+Catetere
+Bombola
+Collirio
+Supposta
+Fiala
+Tampone
+Spray
+Antisettico
+
+# --- Ospedale e reparti ---
+Ospedale
+Clinica
+Ambulatorio
+Reparto
+Corsia
+Degenza
+Ambulanza
+Farmacia
+Infermeria
+Lettino
+Camera
+Chirurgia
+Pediatria
+Cardiologia
+Radiologia
+
+# --- Professioni mediche ---
+Medico
+Dottore
+Chirurgo
+Infermiere
+Pediatra
+Dentista
+Oculista
+Cardiologo
+Dermatologo
+Ortopedico
+Ginecologo
+Veterinario
+Farmacista
+Psicologo
+Ostetrica
+
+# --- Mestieri artigiani ---
+Falegname
+Fabbro
+Muratore
+Carpentiere
+Idraulico
+Elettricista
+Imbianchino
+Piastrellista
+Vetraio
+Calzolaio
+Sarto
+Sarta
+Stilista
+Modista
+Pellettiere
+Orafo
+Gioielliere
+Orologiaio
+Ceramista
+Vasaio
+Scultore
+Intagliatore
+Restauratore
+Tappezziere
+Arrotino
+Stagnino
+Lattoniere
+Saldatore
+Meccanico
+Carrozziere
+Gommista
+Tornitore
+Fonditore
+Cestaio
+Liutaio
+Bottaio
+Maniscalco
+Spazzacamino
+Tipografo
+Rilegatore
+
+# --- Mestieri del commercio e servizi ---
+Commerciante
+Negoziante
+Cassiere
+Commesso
+Venditore
+Magazziniere
+Fornaio
+Panettiere
+Pasticcere
+Macellaio
+Pescivendolo
+Fruttivendolo
+Salumiere
+Droghiere
+Lattaio
+Cuoco
+Chef
+Cameriere
+Barista
+Pizzaiolo
+Oste
+Albergatore
+Portiere
+Parrucchiere
+Barbiere
+Estetista
+Massaggiatore
+Fioraio
+Edicolante
+Tabaccaio
+Libraio
+Postino
+Corriere
+Fattorino
+Spazzino
+Netturbino
+Giardiniere
+Lavavetri
+Cameriera
+Babysitter
+
+# --- Professioni varie ---
+Avvocato
+Notaio
+Giudice
+Architetto
+Ingegnere
+Geometra
+Ragioniere
+Contabile
+Bancario
+Impiegato
+Segretario
+Direttore
+Manager
+Operaio
+Artigiano
+Contadino
+Agricoltore
+Allevatore
+Pescatore
+Boscaiolo
+Minatore
+Pompiere
+Poliziotto
+Carabiniere
+Vigile
+Soldato
+Marinaio
+Pilota
+Autista
+Tassista
+Camionista
+Macchinista
+Bigliettaio
+Controllore
+Hostess
+Steward
+Bagnino
+Guardiano
+Custode
+Operaia
+
+# --- Altre professioni ---
+Bibliotecario
+Traduttore
+Interprete
+Giornalista
+Cronista
+Fotografo
+Reporter
+Scrittore
+Poeta
+Pittore
+Disegnatore
+Politico
+Sindaco
+Ministro
+Diplomatico
+Ambasciatore
+Prete
+Sacerdote
+Monaco
+Suora
+Frate
+Vescovo
+Missionario
+Astronauta
+Scienziato
+Ricercatore
+Professore
+Maestro
+Educatore
+Logopedista
+
+# --- Strumenti di lavoro ---
+Attrezzo
+Utensile
+Martello
+Chiave
+Tenaglia
+Cazzuola
+Spatola
+Pennello
+Rullo
+Trapano
+Sega
+Pialla
+Lima
+Incudine
+Tornio
+
+# --- Igiene e benessere ---
+Igiene
+Pulizia
+Sapone
+Shampoo
+Dentifricio
+Spazzolino
+Asciugamano
+Pettine
+Rasoio
+Deodorante
+Profumo
+Cosmetico
+Massaggio
+Benessere
+Riposo
+
+# --- Salute e forma ---
+Dieta
+Forma
+Statura
+Vitalità
+Guarigione
+Convalescenza
+Ricovero
+Dimissione
+Prevenzione
+Contagio
+Epidemia
+Sonno
+Veglia
+Appetito
+Digestione
+
+# ============================================================
+#  PAROLE DA 2 PUNTI (almeno due parole per riga)
+# ============================================================
+Pronto soccorso
+Camice bianco
+Sala operatoria
+Sala d'attesa
+Pressione alta
+Pressione bassa
+Battito cardiaco
+Frequenza cardiaca
+Globuli rossi
+Globuli bianchi
+Gruppo sanguigno
+Analisi del sangue
+Prelievo del sangue
+Trasfusione di sangue
+Visita medica
+Visita di controllo
+Esame del sangue
+Sistema immunitario
+Sistema nervoso
+Sistema digerente
+Apparato respiratorio
+Apparato digerente
+Mal di testa
+Mal di gola
+Mal di pancia
+Mal di denti
+Mal di schiena
+Mal d'orecchi
+Colpo di sole
+Colpo della strega
+Punto di sutura
+Filo di sutura
+Cassa toracica
+Gabbia toracica
+Midollo osseo
+Midollo spinale
+Spina dorsale
+Colonna vertebrale
+Cavo orale
+Globo oculare
+Bulbo oculare
+Padiglione auricolare
+Cordone ombelicale
+Pomo d'Adamo
+Dito indice
+Dito medio
+Dito mignolo
+Pianta del piede
+Dorso della mano
+Palmo della mano
+Pelle d'oca
+Occhio nero
+Naso chiuso
+Medico di base
+Medico di famiglia
+Medico condotto
+Dottore in medicina
+Infermiere professionale
+Chirurgo plastico
+Dentista per bambini
+Croce rossa
+Donatore di sangue
+Cartella clinica
+Ricetta medica
+Prescrizione medica
+Stato di salute
+Stile di vita
+Vita sana
+Alimentazione sana
+Attività fisica
+Riposo assoluto
+Sonno profondo
+Igiene personale
+Igiene orale
+Spazzolino da denti
+Filo interdentale
+Acqua ossigenata
+Olio di ricino
+Sale da bagno
+Asciugamano pulito
+Vigile del fuoco
+Vigile urbano
+Forze dell'ordine
+Capo cantiere
+Operaio specializzato
+Posto di lavoro
+Orario di lavoro
+Colloquio di lavoro
+Curriculum vitae
+Libero professionista
+Lavoro a tempo pieno
+Lavoro part time
+Maestra d'asilo
+Maestro elementare
+Professore universitario
+Banco dei pegni
+Officina meccanica
+Bottega artigiana
+Studio dentistico
+Sala parto

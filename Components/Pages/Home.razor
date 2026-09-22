@@ -1,0 +1,87 @@
+@page "/"
+@layout BareLayout
+@inject IConfiguration Config
+
+<PageTitle>L'Intesa Vincente</PageTitle>
+
+<div class="landing">
+
+    <header class="hero">
+        <div class="clock-mark" aria-hidden="true">
+            <span class="clock-hand"></span>
+            <span class="clock-face">60</span>
+        </div>
+        <h1>L'Intesa Vincente</h1>
+        <p class="tagline">Due suggeritori · una parola · sessanta secondi</p>
+    </header>
+
+    <nav class="cards" aria-label="Schermate del gioco">
+        <a class="card card-admin" href="/admin">
+            <span class="card-icon" aria-hidden="true">🎛️</span>
+            <span class="card-title">Regia</span>
+            <span class="card-desc">Configura, giudica le risposte, tieni il punteggio</span>
+            <span class="card-hint">da aprire sul PC che conduce</span>
+        </a>
+
+        <a class="card card-display" href="/display">
+            <span class="card-icon" aria-hidden="true">📺</span>
+            <span class="card-title">Display</span>
+            <span class="card-desc">La parola, il tempo e il punteggio</span>
+            <span class="card-hint">solo per i due suggeritori</span>
+        </a>
+
+        <a class="card card-remote" href="/remote">
+            <span class="card-icon" aria-hidden="true">🛑</span>
+            <span class="card-title">Telecomando</span>
+            <span class="card-desc">Un pulsante grande per fermare il tempo</span>
+            <span class="card-hint">telefono o tablet</span>
+        </a>
+    </nav>
+
+    <section class="lan" aria-label="Come collegare gli altri dispositivi">
+        <h2>Per gli altri schermi, sulla stessa rete</h2>
+
+        @if (addresses.Count > 0)
+        {
+            <ul class="lan-list">
+                @foreach (var address in addresses)
+                {
+                    <li><code>http://@address:@port/display</code></li>
+                }
+            </ul>
+            <p class="lan-note">
+                Apri uno di questi indirizzi dal browser dell'altro dispositivo.
+                Per il telecomando, sostituisci <code>/display</code> con <code>/remote</code>
+                — oppure inquadra il codice QR che trovi in regia.
+            </p>
+        }
+        else
+        {
+            <p class="lan-note">
+                Usa l'indirizzo IP di questo PC seguito da <code>:@port/display</code>.
+            </p>
+        }
+
+        <p class="lan-note warning">
+            Il <strong>Display</strong> non va mostrato a chi deve indovinare:
+            è lì che compare la parola.
+        </p>
+
+        <p class="lan-note firewall">
+            Alla prima esecuzione Windows può chiedere di autorizzare l'app nel firewall:
+            consenti l'accesso alle <strong>reti private</strong>, altrimenti gli altri
+            dispositivi non riescono a collegarsi.
+        </p>
+    </section>
+</div>
+
+@code {
+    private IReadOnlyList<string> addresses = Array.Empty<string>();
+    private int port;
+
+    protected override void OnInitialized()
+    {
+        port = Config.GetValue("Server:Port", 5080);
+        addresses = NetworkInfo.GetLanAddresses();
+    }
+}

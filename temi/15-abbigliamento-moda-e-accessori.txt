@@ -1,0 +1,656 @@
+# TEMA: Abbigliamento, moda e accessori
+# 500 parole da 1 punto (una parola) + 100 da 2 punti (due o più parole).
+
+# --- Capi sopra ---
+Maglia
+Maglietta
+Maglione
+Pullover
+Cardigan
+Felpa
+Camicia
+Camicetta
+Blusa
+Polo
+Canotta
+Top
+Gilet
+Panciotto
+Giacca
+Blazer
+Cappotto
+Soprabito
+Giaccone
+Giubbotto
+Giubbino
+Bomber
+Trench
+Impermeabile
+Piumino
+Parka
+Mantella
+Poncho
+Scialle
+Coprispalle
+
+# --- Capi sotto ---
+Pantaloni
+Pantaloncini
+Jeans
+Bermuda
+Short
+Leggings
+Fuseaux
+Gonna
+Minigonna
+Pinocchietto
+Salopette
+Calzoni
+Calzamaglia
+Collant
+Calze
+Calzini
+Calzettoni
+Parigine
+Pantalone
+Tuta
+
+# --- Intimo ---
+Mutande
+Slip
+Boxer
+Reggiseno
+Reggicalze
+Body
+Sottoveste
+Sottana
+Combinazione
+Perizoma
+Pigiama
+Vestaglia
+Accappatoio
+Babydoll
+Mutandine
+
+# --- Abiti interi ---
+Vestito
+Abito
+Tailleur
+Completo
+Smoking
+Frac
+Tight
+Tutina
+Grembiule
+Camice
+Toga
+Tunica
+Caftano
+Sari
+Costume
+
+# --- Calzature ---
+Scarpe
+Scarponi
+Scarpette
+Stivali
+Stivaletti
+Sandali
+Ciabatte
+Pantofole
+Mocassini
+Sneakers
+Ballerine
+Zeppe
+Zoccoli
+Sabot
+Espadrillas
+Infradito
+Anfibi
+Polacchine
+Tronchetti
+Stringate
+Scarponcini
+Galosce
+Doposci
+Tacco
+Suola
+Soletta
+Lacci
+Stringhe
+Fibbia
+Plateau
+
+# --- Copricapo ---
+Cappello
+Berretto
+Cuffia
+Cappuccio
+Basco
+Coppola
+Cilindro
+Bombetta
+Paglietta
+Sombrero
+Borsalino
+Tuba
+Visiera
+Bandana
+Turbante
+Velo
+Foulard
+Fez
+Colbacco
+Zucchetto
+
+# --- Accessori ---
+Cintura
+Bretelle
+Cravatta
+Papillon
+Sciarpa
+Guanti
+Muffole
+Manicotto
+Occhiali
+Orologio
+Ombrello
+Ventaglio
+Spilla
+Fermaglio
+Molletta
+Cerchietto
+Fascia
+Gemelli
+Calzascarpe
+Monocolo
+Bastone
+Cravattino
+Pochette
+Stola
+Coccarda
+
+# --- Gioielli ---
+Anello
+Bracciale
+Braccialetto
+Collana
+Girocollo
+Pendente
+Ciondolo
+Medaglione
+Orecchino
+Cavigliera
+Fede
+Solitario
+Diadema
+Tiara
+Corona
+Catenina
+Perla
+Diamante
+Rubino
+Zaffiro
+Smeraldo
+Topazio
+Cammeo
+Gemma
+Brillante
+
+# --- Borse ---
+Borsa
+Borsetta
+Borsone
+Zaino
+Zainetto
+Tracolla
+Marsupio
+Cartella
+Valigetta
+Trolley
+Sacca
+Shopper
+Ventiquattrore
+Portadocumenti
+Bauletto
+
+# --- Tessuti ---
+Cotone
+Lino
+Lana
+Seta
+Velluto
+Raso
+Satin
+Chiffon
+Tulle
+Pizzo
+Merletto
+Denim
+Fustagno
+Flanella
+Cachemire
+Mohair
+Angora
+Tweed
+Feltro
+Pelle
+Camoscio
+Pelliccia
+Ecopelle
+Nylon
+Poliestere
+Lycra
+Viscosa
+Jersey
+Spugna
+Canapa
+
+# --- Altri tessuti ---
+Broccato
+Damasco
+Organza
+Taffetà
+Mussola
+Garza
+Tela
+Fibra
+Filato
+Maglieria
+Trama
+Ordito
+Gabardine
+Popeline
+Tartan
+
+# --- Parti di un capo ---
+Collo
+Colletto
+Bavero
+Risvolto
+Manica
+Polsino
+Spalla
+Spallina
+Tasca
+Taschino
+Orlo
+Bordo
+Fodera
+Asola
+Bottoniera
+Cerniera
+Zip
+Cintola
+Cavallo
+Sprone
+Pince
+Piega
+Plissé
+Balza
+Volant
+Frangia
+Scollo
+Scollatura
+Strascico
+Bottone
+
+# --- Cucito e sartoria ---
+Cucitura
+Punto
+Filo
+Ago
+Spillo
+Ditale
+Rocchetto
+Gomitolo
+Stoffa
+Cartamodello
+Misura
+Taglia
+Modello
+Orlatura
+Rammendo
+Rattoppo
+Toppa
+Imbastitura
+Sarto
+Cucito
+
+# --- Dettagli e decorazioni ---
+Paillette
+Lustrino
+Strass
+Borchia
+Rivetto
+Nappa
+Pompon
+Fiocco
+Nastro
+Ricamo
+Bottoncino
+Passamaneria
+Gancio
+Occhiello
+Coulisse
+
+# --- Moda ---
+Moda
+Stile
+Tendenza
+Eleganza
+Look
+Outfit
+Collezione
+Sfilata
+Passerella
+Modella
+Indossatrice
+Stilista
+Griffe
+Marchio
+Brand
+Boutique
+Atelier
+Manichino
+Camerino
+Saldi
+Capospalla
+Guardaroba
+Vestiario
+Corredo
+Cappelliera
+
+# --- Trucco e bellezza ---
+Trucco
+Rossetto
+Mascara
+Fondotinta
+Cipria
+Blush
+Fard
+Matita
+Eyeliner
+Ombretto
+Smalto
+Profumo
+Crema
+Lozione
+Balsamo
+Tonico
+Struccante
+Pennello
+Spazzola
+Pettine
+Phon
+Piastra
+Bigodino
+Forcina
+Specchietto
+
+# --- Cura della persona ---
+Lacca
+Gel
+Schiuma
+Cera
+Henné
+Scrub
+Siero
+Salviette
+Dischetti
+Limetta
+Tronchesina
+Pinzetta
+Rasoio
+Smaltatura
+Manicure
+
+# --- Acconciature ---
+Elastico
+Treccia
+Codino
+Chignon
+Frangetta
+Parrucca
+Extension
+Boccolo
+Ricciolo
+Ciuffo
+Cresta
+Caschetto
+Coda
+Acconciatura
+Pettinatura
+
+# --- Abbigliamento bimbi ---
+Pagliaccetto
+Bavaglino
+Pannolino
+Scarpine
+Cuffietta
+Grembiulino
+Costumino
+Mantellina
+Cappottino
+Vestitino
+Maglioncino
+Calzine
+Scaldacollo
+Paraorecchie
+Camiciola
+
+# --- Capi e varianti ---
+Tubino
+Chemisier
+Prendisole
+Spolverino
+Caban
+Montgomery
+Eskimo
+Loden
+Smanicato
+Corpetto
+Bustier
+Dolcevita
+Lupetto
+Longuette
+Pareo
+Sarong
+Kilt
+Gonnella
+Sottogonna
+Crinolina
+
+# --- Calzature e parti ---
+Décolleté
+Babbuccia
+Calzatura
+Tomaia
+Sandalo
+Stivaletto
+Mocassino
+Pantofola
+Ciabattina
+Pianella
+Zatterone
+Tacchetto
+Plantare
+Lacciolo
+Linguetta
+
+# --- Gioielli e bigiotteria ---
+Bigiotteria
+Monile
+Gioiello
+Castone
+Montatura
+Pendaglio
+Charm
+Sigillo
+Anellino
+Fermacravatta
+Spilletta
+Distintivo
+Nastrino
+Medaglia
+Perlina
+
+# --- Mestieri della moda ---
+Sarta
+Modista
+Calzolaio
+Pellicciaio
+Stiratrice
+Lavandaia
+Tintore
+Ricamatrice
+Maglierista
+Tessitore
+Filatore
+Conciatore
+Pellettiere
+Borsaio
+Cappellaio
+
+# --- Colori e aspetto ---
+Monocromo
+Bicolore
+Sgargiante
+Pastello
+Fluo
+Neutro
+Acceso
+Tenue
+Sbiadito
+Lavato
+Slavato
+Sfumato
+Cangiante
+Iridescente
+Opaco
+
+# --- Accessori e chiusure ---
+Borsellino
+Portamonete
+Astuccio
+Trousse
+Custodia
+Passante
+Gancetto
+Automatico
+Velcro
+Cordoncino
+Laccetto
+Cinturino
+Fascetta
+Bustino
+Mantello
+Cappa
+Tabarro
+Casacca
+Divisa
+Uniforme
+
+# ============================================================
+#  PAROLE DA 2 PUNTI (almeno due parole per riga)
+# ============================================================
+Giacca a vento
+Borsa a tracolla
+Borsa a mano
+Maglietta a maniche corte
+Maglione a collo alto
+Camicia a quadri
+Camicia a righe
+Gonna a pieghe
+Gonna a ruota
+Pantaloni a sigaretta
+Pantaloni a zampa
+Jeans strappati
+Tuta da ginnastica
+Vestito da sera
+Abito da sposa
+Abito da cerimonia
+Vestito lungo
+Abito su misura
+Scarpe col tacco
+Scarpe da ginnastica
+Scarpe da tennis
+Scarpe da calcio
+Stivali di gomma
+Sandali bassi
+Tacco alto
+Tacco a spillo
+Punta in ferro
+Suola di gomma
+Cappello di paglia
+Berretto di lana
+Sciarpa di lana
+Guanti di pelle
+Cintura di cuoio
+Occhiali da sole
+Occhiali da vista
+Orologio da polso
+Anello di fidanzamento
+Anello di diamanti
+Collana di perle
+Orecchini a cerchio
+Bracciale d'oro
+Catenina d'oro
+Spilla da balia
+Cravatta a righe
+Nodo alla cravatta
+Manica corta
+Manica lunga
+Mezza manica
+Senza maniche
+Scollo a V
+Collo alto
+Girocollo di lana
+Tinta unita
+Tessuto a fiori
+Stampa floreale
+Pelle scamosciata
+Pelliccia sintetica
+Lana cotta
+Seta naturale
+Filo di seta
+Su misura
+Taglia unica
+Taglia forte
+Fuori taglia
+Numero di scarpe
+Capo di abbigliamento
+Cambio di stagione
+Capo firmato
+Vestito firmato
+Borsa firmata
+Sfilata di moda
+Casa di moda
+Settimana della moda
+Buon gusto
+Vestito della festa
+Abito da lavoro
+Tuta da lavoro
+Divisa scolastica
+Grembiule da cucina
+Camice bianco
+Costume da bagno
+Costume intero
+Due pezzi
+Vestaglia da camera
+Pigiama a righe
+Calze a rete
+Calzini corti
+Calze velate
+Cappotto di lana
+Piumino d'oca
+Sciarpa di seta
+Guanti di lana
+Borsa di pelle
+Portafoglio di pelle
+Specchio dell'armadio
+Filo e ago
+Macchina da cucire
+Metro da sarta
+Prova del vestito
+Cambio d'abito

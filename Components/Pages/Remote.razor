@@ -1,0 +1,84 @@
+@page "/remote"
+@layout BareLayout
+@implements IDisposable
+@inject GameService Game
+
+@*
+    Il telecomando: un pulsante grande per fermare il tempo, da tenere in mano.
+    Non mostra la parola, così si può usare anche davanti a chi deve indovinare.
+*@
+
+<PageTitle>Telecomando — L'Intesa Vincente</PageTitle>
+
+<div class="remote @StatusClass">
+
+    @if (Game.Status == GameStatus.Live)
+    {
+        <div class="clock @(IsRunningOut ? "danger" : "")">@FormatTime(Game.RemainingSeconds)</div>
+
+        <button class="stop" @onclick="Game.FreezeClock">
+            <span class="stop-icon" aria-hidden="true">✋</span>
+            <span class="stop-text">STOP</span>
+        </button>
+
+        <p class="note">Ferma il tempo quando il concorrente risponde</p>
+    }
+    else if (Game.Status == GameStatus.Frozen)
+    {
+        <div class="state">
+            <div class="state-icon" aria-hidden="true">⏸</div>
+            <div class="state-text">Tempo fermo</div>
+            <div class="state-sub">La regia assegna i punti</div>
+            <div class="state-clock">@FormatTime(Game.RemainingSeconds)</div>
+        </div>
+    }
+    else if (Game.Status == GameStatus.Waiting)
+    {
+        <div class="state">
+            <div class="state-icon" aria-hidden="true">⏭</div>
+            <div class="state-text">Prossima parola</div>
+            <div class="state-sub">Aspetta che la regia la mandi</div>
+            <div class="state-clock">@FormatTime(Game.RemainingSeconds)</div>
+        </div>
+    }
+    else if (Game.Status == GameStatus.Finished)
+    {
+        <div class="state finished">
+            <div class="state-icon" aria-hidden="true">🏁</div>
+            <div class="state-text">@Game.Score @(Game.Score == 1 ? "punto" : "punti")</div>
+            <div class="state-sub">
+                @(Game.EndReason == FinishReason.NoWords ? "Parole finite" : "Tempo scaduto")
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="state">
+            <div class="state-icon" aria-hidden="true">🎮</div>
+            <div class="state-text">In attesa</div>
+            <div class="state-sub">La partita non è ancora cominciata</div>
+        </div>
+    }
+</div>
+
+@code {
+    private const int DangerSeconds = 10;
+
+    private bool IsRunningOut => Game.RemainingSeconds <= DangerSeconds;
+
+    private string StatusClass => Game.Status switch
+    {
+        GameStatus.Live => "is-live",
+        GameStatus.Frozen => "is-frozen",
+        GameStatus.Finished => "is-finished",
+        _ => "is-idle"
+    };
+
+    protected override void OnInitialized() => Game.OnChange += OnGameChange;
+
+    private void OnGameChange() => InvokeAsync(StateHasChanged);
+
+    private static string FormatTime(int seconds) => $"{seconds / 60}:{seconds % 60:00}";
+
+    public void Dispose() => Game.OnChange -= OnGameChange;
+}

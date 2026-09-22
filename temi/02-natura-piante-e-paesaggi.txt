@@ -1,0 +1,642 @@
+# TEMA: Natura, piante e paesaggi
+# 500 parole da 1 punto (una parola) + 100 da 2 punti (due o più parole).
+
+# --- Alberi ---
+Quercia
+Pino
+Abete
+Faggio
+Betulla
+Castagno
+Noce
+Nocciolo
+Olmo
+Frassino
+Acero
+Tiglio
+Platano
+Pioppo
+Salice
+Ontano
+Carpino
+Larice
+Cedro
+Cipresso
+Sequoia
+Baobab
+Palma
+Ulivo
+Sughero
+Leccio
+Ginepro
+Tasso
+Magnolia
+Eucalipto
+Mogano
+Ebano
+Bambù
+Mandorlo
+Melo
+Pero
+Ciliegio
+Fico
+Gelso
+Corbezzolo
+
+# --- Arbusti e piante ---
+Rosa
+Edera
+Vite
+Rovo
+Biancospino
+Ginestra
+Lavanda
+Rosmarino
+Salvia
+Timo
+Basilico
+Origano
+Menta
+Prezzemolo
+Alloro
+Felce
+Muschio
+Lichene
+Ortica
+Cardo
+Trifoglio
+Erba
+Canna
+Giunco
+Papiro
+Agave
+Aloe
+Cactus
+Succulenta
+Vischio
+Caprifoglio
+Oleandro
+Azalea
+Ortensia
+Gelsomino
+
+# --- Fiori ---
+Margherita
+Tulipano
+Girasole
+Papavero
+Viola
+Violetta
+Primula
+Narciso
+Giacinto
+Bucaneve
+Mughetto
+Garofano
+Dalia
+Begonia
+Peonia
+Camelia
+Orchidea
+Iris
+Anemone
+Ranuncolo
+Geranio
+Petunia
+Ciclamino
+Crisantemo
+Gladiolo
+Mimosa
+Glicine
+Lillà
+Fiordaliso
+Calendula
+Zafferano
+Loto
+Ninfea
+Campanula
+Genziana
+Bocciolo
+Petalo
+Polline
+Nettare
+Stelo
+
+# --- Frutti e semi selvatici ---
+Mora
+Lampone
+Mirtillo
+Ribes
+Castagna
+Ghianda
+Nocciola
+Pinolo
+Bacca
+Sorba
+Faggiola
+Pigna
+Seme
+Gheriglio
+Buccia
+Polpa
+Torsolo
+Picciolo
+Guscio
+Spina
+
+# --- Funghi ---
+Fungo
+Porcino
+Champignon
+Galletto
+Ovulo
+Chiodino
+Prataiolo
+Tartufo
+Spugnola
+Mazza
+
+# --- Parti delle piante ---
+Radice
+Fusto
+Tronco
+Ramo
+Rametto
+Foglia
+Fronda
+Chioma
+Corteccia
+Linfa
+Germoglio
+Gemma
+Spiga
+Pistillo
+Stame
+
+# --- Paesaggi e geografia naturale ---
+Montagna
+Monte
+Collina
+Altopiano
+Pianura
+Valle
+Vallata
+Gola
+Canyon
+Burrone
+Dirupo
+Precipizio
+Cima
+Vetta
+Picco
+Cresta
+Versante
+Pendio
+Costa
+Scogliera
+Falesia
+Promontorio
+Capo
+Golfo
+Baia
+Insenatura
+Spiaggia
+Litorale
+Duna
+Deserto
+Oasi
+Bosco
+Foresta
+Selva
+Boschetto
+Radura
+Prateria
+Brughiera
+Palude
+Acquitrino
+Stagno
+Laguna
+Isola
+Penisola
+Arcipelago
+
+# --- Acqua ---
+Mare
+Oceano
+Lago
+Fiume
+Torrente
+Ruscello
+Rio
+Cascata
+Sorgente
+Fonte
+Pozza
+Laghetto
+Rapida
+Corrente
+Onda
+Marea
+Spuma
+Goccia
+Rugiada
+Brina
+Ghiacciaio
+Iceberg
+Cascatella
+Mulinello
+Guado
+
+# --- Terra e roccia ---
+Roccia
+Masso
+Sasso
+Pietra
+Ciottolo
+Ghiaia
+Sabbia
+Terra
+Argilla
+Fango
+Polvere
+Zolla
+Humus
+Torba
+Lava
+Magma
+Cratere
+Vulcano
+Caverna
+Grotta
+
+# --- Minerali e pietre ---
+Quarzo
+Granito
+Marmo
+Calcare
+Ardesia
+Basalto
+Ossidiana
+Selce
+Gesso
+Salgemma
+Carbone
+Zolfo
+Diamante
+Smeraldo
+Rubino
+Zaffiro
+Topazio
+Ametista
+Opale
+Turchese
+Agata
+Giada
+Corallo
+Perla
+Ambra
+
+# --- Meteo e atmosfera ---
+Sole
+Luna
+Stella
+Cielo
+Nuvola
+Nube
+Pioggia
+Pioggerella
+Acquazzone
+Temporale
+Tempesta
+Burrasca
+Uragano
+Tornado
+Ciclone
+Tifone
+Fulmine
+Lampo
+Tuono
+Saetta
+Vento
+Brezza
+Raffica
+Bufera
+Nebbia
+Foschia
+Neve
+Nevischio
+Grandine
+Ghiaccio
+Gelo
+Gelata
+Arcobaleno
+Tramonto
+Alba
+
+# --- Cielo e astri ---
+Pianeta
+Cometa
+Meteora
+Galassia
+Costellazione
+Eclissi
+Plenilunio
+Crepuscolo
+Aurora
+Zenit
+Orizzonte
+Firmamento
+Universo
+Cosmo
+Spazio
+
+# --- Stagioni e cicli ---
+Primavera
+Estate
+Autunno
+Inverno
+Stagione
+Disgelo
+Fioritura
+Raccolto
+Mietitura
+Vendemmia
+
+# --- Piccola fauna ---
+Ape
+Farfalla
+Libellula
+Coccinella
+Lucciola
+Cavalletta
+Grillo
+Cicala
+Formica
+Scarabeo
+Bruco
+Ragno
+Lumaca
+Chiocciola
+Rana
+Rospo
+Lucertola
+Biscia
+Riccio
+Scoiattolo
+Talpa
+Pipistrello
+Civetta
+Gufo
+Picchio
+Rondine
+Passero
+Merlo
+Cinciallegra
+Usignolo
+Sciame
+
+# --- Luoghi verdi e coltivi ---
+Sentiero
+Mulattiera
+Pineta
+Boscaglia
+Macchia
+Sottobosco
+Prato
+Campo
+Pascolo
+Maggese
+Filare
+Frutteto
+Vigneto
+Uliveto
+Agrumeto
+Castagneto
+Querceto
+Canneto
+Roveto
+Siepe
+Cespuglio
+Arbusto
+Aiuola
+Orto
+Serra
+
+# --- Elementi e fenomeni ---
+Fuoco
+Fiamma
+Cenere
+Brace
+Scintilla
+Fumo
+Aria
+Vapore
+Bruma
+Calore
+Ombra
+Luce
+Raggio
+Riflesso
+Eco
+Frescura
+Afa
+Umidità
+Siccità
+Alluvione
+Inondazione
+Frana
+Slavina
+Valanga
+Terremoto
+Maremoto
+Eruzione
+Smottamento
+Rovescio
+
+# --- Botanica e specie ---
+Ortaggio
+Cespo
+Tubero
+Bulbo
+Rizoma
+Spora
+Alga
+Plancton
+Sargasso
+Liana
+Rampicante
+Pungitopo
+Agrifoglio
+Mirto
+Lentisco
+Erica
+Brugo
+Tamerice
+Acacia
+Robinia
+Sambuco
+Pruno
+Melograno
+Cotogno
+Sorbo
+Nespolo
+Albicocco
+Pesco
+Susino
+Kaki
+Avocado
+Banano
+Cacao
+Vaniglia
+Cannella
+Zenzero
+Curcuma
+Peperoncino
+Capperi
+Carrubo
+
+# --- Morfologia del terreno ---
+Altura
+Sella
+Forra
+Canalone
+Ghiaione
+Morena
+Conca
+Avvallamento
+Pianoro
+Tavoliere
+Landa
+Steppa
+Tundra
+Savana
+Giungla
+Macereto
+Pietraia
+Sabbione
+Greto
+Alveo
+Foce
+Estuario
+Delta
+Affluente
+Confluenza
+Cateratta
+Gora
+Risorgiva
+Geyser
+Fumarola
+Solfatara
+Caldera
+Faglia
+Crepaccio
+Voragine
+Inghiottitoio
+Dolina
+Stalattite
+Stalagmite
+Concrezione
+
+# ============================================================
+#  PAROLE DA 2 PUNTI (almeno due parole per riga)
+# ============================================================
+Stella cadente
+Aurora boreale
+Stella alpina
+Via Lattea
+Buco nero
+Sistema solare
+Cielo stellato
+Luna piena
+Luna nuova
+Mezza luna
+Raggio di sole
+Colpo di sole
+Onda anomala
+Alta marea
+Bassa marea
+Acqua dolce
+Acqua salata
+Mare aperto
+Mare calmo
+Mare mosso
+Mar Mediterraneo
+Mar Rosso
+Lago di montagna
+Corso d'acqua
+Letto del fiume
+Foce del fiume
+Sorgente termale
+Acqua sorgiva
+Goccia di rugiada
+Fiocco di neve
+Manto nevoso
+Banco di nebbia
+Vento di tramontana
+Brezza marina
+Aria fresca
+Cielo sereno
+Cielo nuvoloso
+Nube temporalesca
+Tempo variabile
+Bel tempo
+Arcobaleno doppio
+Eruzione vulcanica
+Colata lavica
+Scossa di terremoto
+Frana di fango
+Bosco di querce
+Albero secolare
+Foresta pluviale
+Foresta vergine
+Macchia mediterranea
+Prato fiorito
+Campo di grano
+Campo di girasoli
+Distesa di fiori
+Mazzo di fiori
+Fiore di campo
+Petalo di rosa
+Foglia secca
+Foglie d'autunno
+Frutti di bosco
+Pigna di pino
+Catena montuosa
+Cima innevata
+Passo alpino
+Sentiero di montagna
+Rifugio alpino
+Parete rocciosa
+Costa frastagliata
+Spiaggia sabbiosa
+Sabbia fine
+Granello di sabbia
+Pietra preziosa
+Pietra focaia
+Sale marino
+Acqua piovana
+Pozza d'acqua
+Specchio d'acqua
+Cascata d'acqua
+Sole cocente
+Caldo afoso
+Notte stellata
+Primo sole
+Ultimo raggio
+Terra fertile
+Terreno argilloso
+Suolo roccioso
+Strato di neve
+Lingua di ghiaccio
+Lastra di ghiaccio
+Fiume in piena
+Piena del fiume
+Riva del lago
+Sponda del fiume
+Isola deserta
+Isola tropicale
+Deserto di sabbia
+Oasi nel deserto
+Polo Nord
+Polo Sud
+Linea dell'orizzonte

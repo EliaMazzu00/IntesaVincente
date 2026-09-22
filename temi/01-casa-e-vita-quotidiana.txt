@@ -1,0 +1,643 @@
+# TEMA: Casa e vita quotidiana
+# 500 parole da 1 punto (una parola) + 100 da 2 punti (due o più parole).
+# Righe vuote e righe che iniziano con # vengono ignorate.
+
+# --- Mobili e arredamento ---
+Tavolo
+Sedia
+Poltrona
+Divano
+Sgabello
+Panca
+Credenza
+Madia
+Armadio
+Cassettiera
+Comò
+Comodino
+Scrivania
+Libreria
+Scaffale
+Mensola
+Vetrina
+Guardaroba
+Attaccapanni
+Appendiabiti
+Cassapanca
+Pouf
+Branda
+Culla
+Lettino
+Materasso
+Rete
+Testiera
+Baldacchino
+Specchiera
+Toeletta
+Console
+Tavolino
+Portaombrelli
+Portariviste
+Scarpiera
+Servomuto
+Paravento
+Pensile
+Carrello
+
+# --- Letto e tessili ---
+Letto
+Cuscino
+Federa
+Lenzuolo
+Coperta
+Piumone
+Trapunta
+Plaid
+Copriletto
+Guanciale
+Tovaglia
+Tovagliolo
+Strofinaccio
+Canovaccio
+Asciugamano
+Accappatoio
+Telo
+Tappeto
+Zerbino
+Tenda
+Tendaggio
+Drappo
+Centrino
+Scendiletto
+Stuoia
+
+# --- Cucina: utensili ---
+Forchetta
+Coltello
+Cucchiaio
+Cucchiaino
+Mestolo
+Schiumarola
+Frusta
+Spatola
+Pinza
+Apribottiglie
+Cavatappi
+Apriscatole
+Schiacciapatate
+Grattugia
+Colino
+Colapasta
+Imbuto
+Tagliere
+Mattarello
+Setaccio
+Frullino
+Spremiagrumi
+Macinino
+Mortaio
+Pestello
+Romaiolo
+Spiedo
+Spiedino
+Stampino
+Teglia
+Tortiera
+Pirofila
+Padella
+Pentola
+Casseruola
+Tegame
+Wok
+Bollitore
+
+# --- Stoviglie ---
+Piatto
+Fondina
+Scodella
+Ciotola
+Insalatiera
+Zuppiera
+Vassoio
+Bicchiere
+Calice
+Coppa
+Tazza
+Tazzina
+Boccale
+Brocca
+Caraffa
+Bottiglia
+Borraccia
+Thermos
+Teiera
+Caffettiera
+Zuccheriera
+Lattiera
+Saliera
+Oliera
+Portauovo
+
+# --- Elettrodomestici ---
+Frigorifero
+Congelatore
+Forno
+Fornello
+Microonde
+Lavastoviglie
+Lavatrice
+Asciugatrice
+Aspirapolvere
+Frullatore
+Mixer
+Tritatutto
+Centrifuga
+Tostapane
+Bilancia
+Ferro
+Stendino
+Phon
+Asciugacapelli
+Rasoio
+Ventilatore
+Condizionatore
+Stufa
+Termosifone
+Radiatore
+Caldaia
+Boiler
+Scaldabagno
+Climatizzatore
+Umidificatore
+Deumidificatore
+Purificatore
+Piastra
+Tostiera
+Macchinetta
+
+# --- Bagno ---
+Lavandino
+Lavabo
+Rubinetto
+Doccia
+Vasca
+Water
+Bidet
+Sciacquone
+Sapone
+Saponetta
+Shampoo
+Balsamo
+Bagnoschiuma
+Dentifricio
+Pettine
+Spazzola
+Salvietta
+Spugna
+Pomice
+Forbicine
+Tagliaunghie
+Pinzetta
+Specchietto
+Ciabatte
+Tappetino
+
+# --- Pulizia ---
+Scopa
+Paletta
+Ramazza
+Mocio
+Secchio
+Straccio
+Spazzolone
+Piumino
+Detersivo
+Detergente
+Candeggina
+Ammorbidente
+Sgrassatore
+Disinfettante
+Sturalavandini
+Guanti
+Cera
+Lucido
+Scovolino
+Vaporella
+Battipanni
+Pattumiera
+Bidone
+Cestino
+Sgorgante
+
+# --- Illuminazione ed elettrico ---
+Lampada
+Lampadario
+Lampadina
+Faretto
+Piantana
+Applique
+Plafoniera
+Candela
+Candeliere
+Candelabro
+Torcia
+Lanterna
+Interruttore
+Presa
+Spina
+Prolunga
+Filo
+Cavo
+Pila
+Batteria
+
+# --- Porte e finestre ---
+Porta
+Portone
+Finestra
+Finestrino
+Persiana
+Tapparella
+Serranda
+Scuretto
+Vetro
+Vetrata
+Davanzale
+Soglia
+Stipite
+Cardine
+Maniglia
+Pomello
+Serratura
+Chiave
+Chiavistello
+Catenaccio
+Lucchetto
+Spioncino
+Campanello
+Citofono
+Cancello
+
+# --- Struttura della casa ---
+Muro
+Parete
+Soffitto
+Pavimento
+Tetto
+Comignolo
+Camino
+Caminetto
+Scala
+Scalino
+Gradino
+Pianerottolo
+Corridoio
+Ingresso
+Atrio
+Soppalco
+Mansarda
+Soffitta
+Cantina
+Garage
+Box
+Terrazzo
+Balcone
+Veranda
+Cortile
+
+# --- Stanze ---
+Cucina
+Salotto
+Soggiorno
+Tinello
+Camera
+Cameretta
+Bagno
+Studio
+Dispensa
+Ripostiglio
+Lavanderia
+Sgabuzzino
+Anticamera
+Salone
+Stanza
+
+# --- Bricolage e attrezzi ---
+Martello
+Chiodo
+Vite
+Bullone
+Dado
+Rondella
+Tassello
+Cacciavite
+Tenaglia
+Brugola
+Trapano
+Punta
+Sega
+Seghetto
+Lima
+Raspa
+Scalpello
+Pialla
+Morsa
+Livella
+Metro
+Squadra
+Compasso
+Nastro
+Colla
+Silicone
+Stucco
+Mastice
+Vernice
+Pennello
+Rullo
+Smeriglio
+Saldatore
+Morsetto
+Cassetta
+
+# --- Cucito e abbigliamento ---
+Ago
+Spillo
+Ditale
+Forbici
+Bottone
+Cerniera
+Asola
+Gancio
+Fibbia
+Cintura
+Bretelle
+Elastico
+Merletto
+Pizzo
+Stoffa
+Tessuto
+Lana
+Cotone
+Seta
+Velluto
+Maglione
+Maglietta
+Camicia
+Camicetta
+Pantaloni
+Gonna
+Vestito
+Giacca
+Cappotto
+Giubbotto
+Felpa
+Tuta
+Pigiama
+Vestaglia
+Calze
+Mutande
+Canottiera
+Sciarpa
+Cappello
+Berretto
+
+# --- Scarpe e accessori ---
+Scarpe
+Stivali
+Sandali
+Pantofole
+Mocassini
+Sneakers
+Zoccoli
+Lacci
+Soletta
+Borsa
+Borsetta
+Zaino
+Valigia
+Trolley
+Portafoglio
+Portamonete
+Occhiali
+Orologio
+Ombrello
+Bastone
+
+# --- Cancelleria ---
+Penna
+Matita
+Gomma
+Temperino
+Righello
+Quaderno
+Foglio
+Agenda
+Calendario
+Diario
+Pennarello
+Evidenziatore
+Graffetta
+Puntina
+Spillatrice
+Cartella
+Raccoglitore
+Busta
+Francobollo
+Timbro
+
+# --- Decorazioni e piante ---
+Quadro
+Cornice
+Poster
+Stampa
+Vaso
+Vasetto
+Soprammobile
+Statuetta
+Ninnolo
+Portafoto
+Sveglia
+Pendola
+Pianta
+Fiore
+Bonsai
+Cactus
+Annaffiatoio
+Sottovaso
+Fioriera
+Ghirlanda
+Festone
+Fiocco
+Profumatore
+Diffusore
+Incenso
+
+# --- Dispensa ---
+Pane
+Pasta
+Riso
+Farina
+Zucchero
+Sale
+Pepe
+Olio
+Aceto
+Latte
+Caffè
+Tè
+Burro
+Uova
+Formaggio
+Marmellata
+Miele
+Biscotti
+Cereali
+Cracker
+Grissini
+Conserva
+Passata
+Brodo
+Tonno
+Legumi
+Lenticchie
+Fagioli
+Ceci
+Yogurt
+
+# --- Oggetti vari di casa ---
+Portachiavi
+Salvadanaio
+Cassaforte
+Estintore
+Allarme
+Termometro
+Calamita
+Sacco
+Cesto
+Gruccia
+Molletta
+Spago
+Corda
+Scotch
+Accendino
+Fiammiferi
+Cerini
+Telecomando
+Telefono
+Cellulare
+Caricabatterie
+Televisore
+Radio
+Tappo
+Ventola
+Asse
+Stendibiancheria
+Reggimensola
+Asciugapiatti
+Portasapone
+Portarotolo
+Scolapiatti
+
+# ============================================================
+#  PAROLE DA 2 PUNTI (almeno due parole per riga)
+# ============================================================
+Ferro da stiro
+Asse da stiro
+Carta di credito
+Macchina del caffè
+Forno a microonde
+Sacco a pelo
+Carta igienica
+Carta assorbente
+Filo interdentale
+Tavolo da pranzo
+Tavolino da salotto
+Sedia a dondolo
+Letto a castello
+Letto matrimoniale
+Armadio a muro
+Cabina armadio
+Specchio da parete
+Lampada da tavolo
+Lampada da terra
+Lampadario di cristallo
+Tenda da doccia
+Tappeto persiano
+Quadro a olio
+Vaso di fiori
+Pianta grassa
+Macchina da cucire
+Cassetta degli attrezzi
+Chiave inglese
+Metro a nastro
+Nastro adesivo
+Carta vetrata
+Filo a piombo
+Spazzola per capelli
+Spazzolino da denti
+Sapone di Marsiglia
+Sale grosso
+Sale fino
+Olio di oliva
+Aceto balsamico
+Zucchero a velo
+Tazza da tè
+Servizio di piatti
+Set di posate
+Pentola a pressione
+Padella antiaderente
+Coltello da cucina
+Tagliere di legno
+Bicchiere di vetro
+Caffettiera napoletana
+Bollitore elettrico
+Robot da cucina
+Frusta elettrica
+Borsa della spesa
+Carrello della spesa
+Lista della spesa
+Sacchetto di plastica
+Bidone dei rifiuti
+Raccolta differenziata
+Bottiglia di vetro
+Carta da regalo
+Carta da parati
+Tavolo da lavoro
+Sedia da ufficio
+Lampada da lettura
+Presa di corrente
+Interruttore della luce
+Campanello di casa
+Porta blindata
+Porta scorrevole
+Maniglia della porta
+Cassetta della posta
+Mazzo di chiavi
+Asciugamano da bagno
+Accappatoio di spugna
+Tappetino del bagno
+Coperta di lana
+Cuscino del divano
+Federa del cuscino
+Lenzuola di cotone
+Macchina per il pane
+Spremiagrumi elettrico
+Tostapane elettrico
+Aspirapolvere senza fili
+Bilancia da cucina
+Grembiule da cucina
+Guanto da forno
+Carta da forno
+Pellicola trasparente
+Foglio di alluminio
+Stuzzicadenti di legno
+Tovaglia a quadri
+Centrotavola di fiori
+Portacandele di vetro
+Orologio a pendolo
+Sveglia digitale
+Cornice portafoto
+Zerbino di cocco
+Cassetto della scrivania
+Mensola a muro
+Stendino da terra

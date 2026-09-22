@@ -1,0 +1,648 @@
+# TEMA: Storia e civiltà antiche
+# 500 parole da 1 punto (una parola) + 100 da 2 punti (due o più parole).
+
+# --- Epoche e periodi ---
+Preistoria
+Antichità
+Medioevo
+Rinascimento
+Storia
+Era
+Epoca
+Periodo
+Età
+Secolo
+Millennio
+Decennio
+Evo
+Cronologia
+Dinastia
+Impero
+Regno
+Civiltà
+Epopea
+Passato
+
+# --- Preistoria ---
+Caverna
+Grotta
+Fuoco
+Selce
+Ascia
+Clava
+Mazza
+Lancia
+Tribù
+Cacciatore
+Raccoglitore
+Nomade
+Mammut
+Bisonte
+Dinosauro
+Fossile
+Graffito
+Pittura
+Capanna
+Falò
+
+# --- Antico Egitto ---
+Faraone
+Piramide
+Sfinge
+Mummia
+Sarcofago
+Geroglifico
+Papiro
+Obelisco
+Tempio
+Tomba
+Scriba
+Sacerdote
+Ankh
+Scarabeo
+Amuleto
+Oasi
+Deserto
+Nilo
+Schiavo
+Faraona
+Cleopatra
+Tutankhamon
+Anubi
+Horus
+Bendaggio
+Canopo
+Piena
+Mastaba
+Cartiglio
+Necropoli
+
+# --- Antica Grecia ---
+Acropoli
+Partenone
+Colonna
+Anfora
+Vaso
+Filosofo
+Oratore
+Olimpiade
+Discobolo
+Tragedia
+Commedia
+Mito
+Eroe
+Olimpo
+Polis
+Agorà
+Democrazia
+Spartano
+Ateniese
+Falange
+Trireme
+Peplo
+Lira
+Filosofia
+Ginnasio
+Oracolo
+Mausoleo
+Cariatide
+Frontone
+Capitello
+
+# --- Antica Roma ---
+Colosseo
+Anfiteatro
+Foro
+Senato
+Senatore
+Console
+Imperatore
+Gladiatore
+Arena
+Circo
+Acquedotto
+Legione
+Legionario
+Centurione
+Soldato
+Esercito
+Tunica
+Toga
+Sandali
+Spada
+Carro
+Biga
+Auriga
+Terme
+Domus
+Villa
+Mosaico
+Affresco
+Pantheon
+Catacomba
+Patrizio
+Plebeo
+Tribuno
+Vestale
+Aquila
+Insula
+Atrio
+Triclinio
+Gladio
+Scudo
+
+# --- Medioevo ---
+Castello
+Cavaliere
+Armatura
+Elmo
+Corazza
+Cotta
+Visiera
+Torneo
+Giostra
+Re
+Principe
+Duca
+Conte
+Barone
+Vassallo
+Feudo
+Servo
+Monaco
+Frate
+Abate
+Convento
+Monastero
+Crociata
+Crociato
+Templare
+Pellegrino
+Trovatore
+Menestrello
+Giullare
+Peste
+Maniero
+Borgo
+Cinta
+Bastione
+Spadone
+
+# --- Civiltà del mondo ---
+Sumeri
+Babilonesi
+Assiri
+Persiani
+Fenici
+Etruschi
+Celti
+Vichinghi
+Maya
+Aztechi
+Incas
+Mongoli
+Unni
+Barbari
+Goti
+Visigoti
+Longobardi
+Normanni
+Cartaginesi
+Ittiti
+Cinesi
+Giapponesi
+Indiani
+Aborigeni
+Galli
+
+# --- Figure storiche ---
+Sovrano
+Monarca
+Imperatrice
+Principessa
+Cortigiano
+Cancelliere
+Generale
+Comandante
+Ammiraglio
+Guerriero
+Mercante
+Profeta
+Scienziato
+Inventore
+Esploratore
+Navigatore
+Conquistatore
+Tiranno
+Dittatore
+Regnante
+Reggente
+Erede
+Successore
+Usurpatore
+Pretendente
+
+# --- Guerra e armi ---
+Guerra
+Battaglia
+Assedio
+Conquista
+Invasione
+Vittoria
+Sconfitta
+Trattato
+Alleanza
+Pugnale
+Faretra
+Arco
+Freccia
+Balestra
+Catapulta
+Ariete
+Trabucco
+Fionda
+Giavellotto
+Alabarda
+Scimitarra
+Sciabola
+Picca
+Mannaia
+Trincea
+Fortezza
+Muraglia
+Fortino
+Bottino
+Maglio
+
+# --- Eserciti e milizie ---
+Truppe
+Milizia
+Cavalleria
+Fanteria
+Artiglieria
+Schieramento
+Accampamento
+Vessillo
+Stendardo
+Insegna
+Tamburo
+Tromba
+Scudiero
+Paggio
+Araldo
+Sentinella
+Vedetta
+Avamposto
+Guarnigione
+Drappello
+
+# --- Archeologia ---
+Reperto
+Rovina
+Rudere
+Scavo
+Scoperta
+Sito
+Tesoro
+Moneta
+Cocci
+Ceramica
+Statua
+Busto
+Stele
+Iscrizione
+Pergamena
+Manoscritto
+Tavoletta
+Sigillo
+Corredo
+Ossa
+Teschio
+Resti
+Frammento
+Calco
+Datazione
+
+# --- Materiali e arte antica ---
+Bronzo
+Ferro
+Rame
+Argilla
+Terracotta
+Marmo
+Pietra
+Avorio
+Ambra
+Giada
+Ossidiana
+Vetro
+Smalto
+Bassorilievo
+Altorilievo
+Fregio
+Timpano
+Metopa
+Acroterio
+Lapide
+
+# --- Vita quotidiana antica ---
+Bottega
+Forno
+Mulino
+Pozzo
+Fontana
+Lucerna
+Brocca
+Otre
+Telaio
+Fuso
+Aratro
+Falce
+Zappa
+Vanga
+Giogo
+Botte
+Cesto
+Stadera
+Abaco
+Clessidra
+Meridiana
+Granaio
+Cisterna
+Tonaca
+Bisaccia
+
+# --- Scrittura e cultura ---
+Scrittura
+Alfabeto
+Lettera
+Rune
+Cuneiforme
+Inchiostro
+Calamo
+Pennino
+Codice
+Volume
+Rotolo
+Biblioteca
+Maestro
+Numeri
+Calcolo
+Mappa
+Calendario
+Sapere
+Cultura
+Tradizione
+
+# --- Monumenti antichi ---
+Santuario
+Altare
+Colonnato
+Portico
+Ninfeo
+Stadio
+Ippodromo
+Ziggurat
+Palazzo
+Reggia
+Cittadella
+Rocca
+Torre
+Mura
+Porta
+Cripta
+Faro
+Latomia
+Tholos
+Propileo
+
+# --- Religione e mito ---
+Divinità
+Dio
+Dea
+Sacrificio
+Rito
+Preghiera
+Offerta
+Idolo
+Profezia
+Augure
+Aruspice
+Druido
+Sciamano
+Totem
+Leggenda
+Titani
+Ade
+Inferi
+Aldilà
+Anima
+Demone
+Tempietto
+Culto
+Mitologia
+Voto
+
+# --- Imperi e popoli ---
+Provincia
+Territorio
+Dominio
+Confine
+Tributo
+Schiavitù
+Servitù
+Nobiltà
+Clero
+Popolo
+Plebe
+Casta
+Stirpe
+Lignaggio
+Discendenza
+Trono
+Corona
+Scettro
+Diadema
+Manto
+
+# --- Personaggi storici ---
+Cesare
+Augusto
+Nerone
+Annibale
+Alessandro
+Spartaco
+Attila
+Carlomagno
+Leonida
+Pericle
+Socrate
+Omero
+Ulisse
+Achille
+Romolo
+
+# --- Mestieri e ruoli medievali ---
+Castellano
+Siniscalco
+Damigella
+Dama
+Falconiere
+Cavallerizzo
+Stalliere
+Mugnaio
+Speziale
+Cerusico
+Boia
+Carnefice
+Banditore
+Mercenario
+Locandiere
+Oste
+Fante
+Manigoldo
+Saraceno
+Crociere
+
+# --- Esplorazioni e scoperte ---
+Esplorazione
+Spedizione
+Caravella
+Colonia
+Indie
+Spezie
+Seta
+Commercio
+Carovana
+Galeone
+Mappamondo
+Astrolabio
+Portolano
+Approdo
+Insediamento
+
+# --- Eventi storici ---
+Caduta
+Ascesa
+Declino
+Riforma
+Rivolta
+Rivoluzione
+Esilio
+Incoronazione
+Trionfo
+Sacco
+Distruzione
+Fondazione
+Espansione
+Colonizzazione
+Dominazione
+Insurrezione
+Congiura
+Tregua
+Armistizio
+Saccheggio
+
+# ============================================================
+#  PAROLE DA 2 PUNTI (almeno due parole per riga)
+# ============================================================
+Antico Egitto
+Antica Roma
+Antica Grecia
+Antica civiltà
+Impero Romano
+Impero Bizantino
+Antico Oriente
+Età della pietra
+Età del bronzo
+Età del ferro
+Età antica
+Età di mezzo
+Caduta dell'impero
+Foro romano
+Anfiteatro romano
+Circo Massimo
+Via Appia
+Muro di Adriano
+Colonna Traiana
+Arco di trionfo
+Terme romane
+Bagni pubblici
+Acquedotto romano
+Strada consolare
+Legione romana
+Aquila imperiale
+Giochi gladiatori
+Combattimento tra gladiatori
+Carro da guerra
+Cavallo di Troia
+Guerra di Troia
+Cavallo di battaglia
+Campo di battaglia
+Tomba del faraone
+Valle dei Re
+Camera funeraria
+Maschera funeraria
+Scrittura geroglifica
+Pietra di Rosetta
+Giardini pensili
+Sette meraviglie
+Colosso di Rodi
+Grande Piramide
+Sfinge di Giza
+Tempio greco
+Cavallo alato
+Vello d'oro
+Tavola della legge
+Cavalieri della tavola rotonda
+Cavaliere medievale
+Armatura del cavaliere
+Cotta di maglia
+Torneo cavalleresco
+Castello medievale
+Ponte levatoio
+Torre di guardia
+Sala del trono
+Spada del re
+Corona reale
+Scettro reale
+Manto regale
+Re sole
+Sacro Romano Impero
+Crociata in Terrasanta
+Voto di castità
+Ordine cavalleresco
+Codice cavalleresco
+Peste nera
+Morte nera
+Caccia alle streghe
+Tribunale dell'inquisizione
+Scoperta dell'America
+Nuovo mondo
+Viaggio di Colombo
+Rotta delle Indie
+Via della seta
+Commercio delle spezie
+Grandi esplorazioni
+Carro dei buoi
+Ruota del vasaio
+Vita di corte
+Banchetto reale
+Festa medievale
+Mercato cittadino
+Manoscritto miniato
+Pergamena antica
+Tavoletta di argilla
+Vaso greco
+Statua di marmo
+Busto di bronzo
+Moneta antica
+Scavo archeologico
+Sito archeologico
+Reperto storico
+Museo archeologico
+Civiltà perduta
+Tesoro nascosto
+Antiche rovine
+Tempi antichi
+Tomba etrusca

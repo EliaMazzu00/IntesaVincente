@@ -1,0 +1,654 @@
+# TEMA: Trasporti e veicoli
+# 500 parole da 1 punto (una parola) + 100 da 2 punti (due o più parole).
+
+# --- Tipi di auto ---
+Auto
+Automobile
+Macchina
+Berlina
+Utilitaria
+Coupé
+Cabriolet
+Spider
+Station
+Familiare
+Monovolume
+Suv
+Fuoristrada
+Crossover
+Limousine
+Sportiva
+Decappottabile
+Roadster
+Citycar
+Compatta
+Sedan
+Furgone
+Furgoncino
+Pulmino
+Calesse
+Carrozzella
+Cocchio
+Diligenza
+Vettura
+Bolide
+
+# --- Parti dell'auto ---
+Volante
+Sterzo
+Cruscotto
+Pedale
+Freno
+Frizione
+Acceleratore
+Cambio
+Marcia
+Leva
+Sedile
+Cintura
+Airbag
+Specchietto
+Retrovisore
+Tergicristallo
+Parabrezza
+Lunotto
+Finestrino
+Portiera
+Sportello
+Cofano
+Bagagliaio
+Portabagagli
+Paraurti
+Targa
+Faro
+Fanale
+Freccia
+Clacson
+Marmitta
+Scappamento
+Serbatoio
+Motore
+Radiatore
+Batteria
+Ruota
+Pneumatico
+Cerchione
+Gomma
+
+# --- Due ruote ---
+Moto
+Motocicletta
+Motorino
+Scooter
+Vespa
+Ciclomotore
+Enduro
+Chopper
+Bicicletta
+Bici
+Tandem
+Monopattino
+Risciò
+Triciclo
+Quad
+Sidecar
+Manubrio
+Sellino
+Pedalata
+Catena
+
+# --- Mezzi pubblici ---
+Autobus
+Pullman
+Corriera
+Tram
+Filobus
+Metropolitana
+Metro
+Taxi
+Tassì
+Navetta
+Funicolare
+Funivia
+Cabinovia
+Seggiovia
+Sciovia
+Ovovia
+Telecabina
+Vaporetto
+Risalita
+Capolinea
+
+# --- Treni e ferrovia ---
+Treno
+Locomotiva
+Locomotore
+Vagone
+Convoglio
+Direttissimo
+Espresso
+Intercity
+Regionale
+Cuccetta
+Scompartimento
+Binario
+Rotaia
+Traversina
+Scambio
+Deposito
+Stazione
+Galleria
+Pantografo
+Catenaria
+Marciapiede
+Banchina
+Sottopassaggio
+Capostazione
+Macchinista
+
+# --- Navi e imbarcazioni ---
+Nave
+Barca
+Battello
+Traghetto
+Aliscafo
+Motoscafo
+Yacht
+Veliero
+Galeone
+Vascello
+Goletta
+Brigantino
+Caravella
+Fregata
+Galera
+Sommergibile
+Sottomarino
+Gommone
+Canotto
+Canoa
+Kayak
+Zattera
+Catamarano
+Piroscafo
+Mercantile
+Petroliera
+Portaerei
+Rimorchiatore
+Chiatta
+Scialuppa
+
+# --- Parti della nave ---
+Prua
+Poppa
+Scafo
+Chiglia
+Ponte
+Albero
+Vela
+Timone
+Ancora
+Remo
+Pagaia
+Elica
+Oblò
+Sartie
+Stiva
+Cabina
+Plancia
+Boa
+Salvagente
+Cima
+
+# --- Aerei e volo ---
+Aereo
+Aeroplano
+Velivolo
+Jet
+Caccia
+Bombardiere
+Elicottero
+Aliante
+Idrovolante
+Deltaplano
+Parapendio
+Mongolfiera
+Dirigibile
+Pallone
+Razzo
+Biplano
+Monoplano
+Ultraleggero
+Drone
+Aeromobile
+Cargo
+Charter
+Jumbo
+Aviogetto
+Apparecchio
+
+# --- Parti dell'aereo ---
+Ala
+Fusoliera
+Carlinga
+Coda
+Turbina
+Reattore
+Carrello
+Cockpit
+Abitacolo
+Alettone
+Flap
+Hangar
+Pista
+Torre
+Decollo
+
+# --- Veicoli da lavoro ---
+Camion
+Autocarro
+Tir
+Autotreno
+Bisarca
+Cisterna
+Betoniera
+Ruspa
+Escavatore
+Scavatrice
+Bulldozer
+Gru
+Muletto
+Sollevatore
+Trattore
+Mietitrebbia
+Spazzaneve
+Spazzatrice
+Ambulanza
+Autopompa
+Autobotte
+Carroattrezzi
+Roulotte
+Camper
+Caravan
+
+# --- Veicoli vari e storici ---
+Carro
+Carretto
+Carrozzino
+Birroccio
+Slitta
+Slittino
+Bob
+Portantina
+Lettiga
+Velocipede
+Monociclo
+Pattino
+Pattini
+Rollerblade
+Skateboard
+Segway
+Gondola
+Piroga
+Sampan
+Giunca
+
+# --- Strada e segnaletica ---
+Strada
+Via
+Autostrada
+Tangenziale
+Statale
+Provinciale
+Corsia
+Carreggiata
+Ciclabile
+Incrocio
+Rotonda
+Rotatoria
+Semaforo
+Stop
+Segnale
+Cartello
+Striscia
+Passaggio
+Sottopasso
+Cavalcavia
+Casello
+Pedaggio
+Svincolo
+Guardrail
+Spartitraffico
+Dosso
+Curva
+Tornante
+Bivio
+Viadotto
+
+# --- Guida e patente ---
+Guida
+Patente
+Foglio
+Esame
+Guidatore
+Conducente
+Autista
+Passeggero
+Pedone
+Ciclista
+Motociclista
+Automobilista
+Camionista
+Multa
+Sosta
+Parcheggio
+Posteggio
+Divieto
+Revisione
+Tagliando
+
+# --- Carburante e motore ---
+Benzina
+Gasolio
+Diesel
+Metano
+Gpl
+Carburante
+Pieno
+Distributore
+Pompa
+Colonnina
+Olio
+Filtro
+Candela
+Pistone
+Cilindro
+Valvola
+Cinghia
+Turbo
+Catalizzatore
+Cavalli
+Potenza
+Consumo
+Avviamento
+Accensione
+Iniezione
+
+# --- Carrozzeria e parti ---
+Telaio
+Carrozzeria
+Scocca
+Parafango
+Spoiler
+Modanatura
+Maniglia
+Serratura
+Antenna
+Tettuccio
+Parasole
+Poggiatesta
+Bracciolo
+Portaoggetti
+Tappetino
+Coprisedile
+Bullone
+Cric
+Triangolo
+Ruotino
+
+# --- Traffico e percorso ---
+Traffico
+Colonna
+Ingorgo
+Senso
+Direzione
+Sorpasso
+Frenata
+Sterzata
+Manovra
+Retromarcia
+Tragitto
+Percorso
+Itinerario
+Viaggio
+Spostamento
+Tappa
+Fermata
+Deviazione
+Scorciatoia
+Rettilineo
+
+# --- Luoghi del trasporto ---
+Garage
+Box
+Officina
+Autolavaggio
+Autorimessa
+Autosalone
+Concessionaria
+Aeroporto
+Porto
+Molo
+Terminal
+Autogrill
+Benzinaio
+Gommista
+Carrozziere
+
+# --- In aeroporto e in volo ---
+Comandante
+Equipaggio
+Imbarco
+Atterraggio
+Volo
+Scalo
+Coincidenza
+Bagaglio
+Biglietteria
+Sbarco
+Dogana
+Passaporto
+Hostess
+Steward
+Quota
+
+# --- Marineria ---
+Marinaio
+Capitano
+Nostromo
+Mozzo
+Timoniere
+Ciurma
+Attracco
+Ormeggio
+Approdo
+Naufragio
+Relitto
+Boma
+Bussola
+Sestante
+Bandiera
+Polena
+Sartiame
+Gavitello
+Gavone
+Murata
+
+# --- Veicoli piccoli ---
+Carrozzone
+Vagoncino
+Trenino
+Carrellino
+Vetturetta
+Macchinina
+Automobilina
+Veicolo
+Mezzo
+Trasporto
+Autoarticolato
+Autosnodato
+Microcar
+Camioncino
+Scuolabus
+
+# --- Dispositivi stradali ---
+Lampeggiante
+Sirena
+Girofaro
+Catarifrangente
+Paletto
+Cono
+Transenna
+Barriera
+Sbarra
+Sbarramento
+Parchimetro
+Autovelox
+Tutor
+Spia
+Tachimetro
+
+# --- Mobilità e servizi ---
+Mobilità
+Pendolare
+Corsa
+Tratta
+Linea
+Rete
+Servizio
+Orario
+Abbonamento
+Obliteratrice
+Tornello
+Pensilina
+Contravvenzione
+Assicurazione
+Bollo
+
+# --- Parti di bici e moto ---
+Forcella
+Raggi
+Pignone
+Corona
+Deragliatore
+Cavalletto
+Campanello
+Portapacchi
+Fanalino
+Dinamo
+Sospensione
+Ammortizzatore
+Carburatore
+Manopola
+Pedaliera
+
+# --- Altri mezzi ---
+Slittone
+Motoslitta
+Idroscalo
+Aviorimessa
+Imbarcadero
+
+# ============================================================
+#  PAROLE DA 2 PUNTI (almeno due parole per riga)
+# ============================================================
+Macchina da corsa
+Auto d'epoca
+Auto da rally
+Auto elettrica
+Auto sportiva
+Macchina della polizia
+Pompa di benzina
+Stazione di servizio
+Distributore di benzina
+Patente di guida
+Foglio rosa
+Scuola guida
+Esame di guida
+Codice della strada
+Limite di velocità
+Senso unico
+Doppio senso
+Divieto di sosta
+Divieto di transito
+Zona pedonale
+Isola pedonale
+Strisce pedonali
+Passaggio pedonale
+Passaggio a livello
+Semaforo rosso
+Semaforo verde
+Posto di blocco
+Autostrada del sole
+Casello autostradale
+Area di servizio
+Corsia di sorpasso
+Corsia di emergenza
+Cintura di sicurezza
+Seggiolino per bambini
+Specchietto retrovisore
+Ruota di scorta
+Pieno di benzina
+Spia della benzina
+Cambio automatico
+Cambio manuale
+Marcia indietro
+Freno a mano
+Freno d'emergenza
+Aria condizionata
+Luci abbaglianti
+Luci anabbaglianti
+Frecce di emergenza
+Targa automobilistica
+Libretto di circolazione
+Bollo auto
+Revisione auto
+Assicurazione auto
+Carro attrezzi
+Carro armato
+Camion dei pompieri
+Mezzi pubblici
+Mezzo di trasporto
+Trasporto pubblico
+Biglietto del treno
+Biglietto dell'autobus
+Stazione dei treni
+Binario morto
+Treno merci
+Treno regionale
+Alta velocità
+Vagone letto
+Carrozza ristorante
+Sala d'attesa
+Nave da crociera
+Nave da carico
+Barca a vela
+Barca a motore
+Barca a remi
+Gita in barca
+Giubbotto di salvataggio
+Aereo di linea
+Volo charter
+Carta d'imbarco
+Sala imbarco
+Torre di controllo
+Pista di decollo
+Pista di atterraggio
+Posto finestrino
+Posto corridoio
+Hostess di volo
+Cabina di pilotaggio
+Scatola nera
+Nastro trasportatore
+Ingorgo stradale
+Posto auto
+Parcheggio a pagamento
+Punti della patente
+Mezzo a due ruote
+Veicolo a motore
+Ora di punta
+Vigile urbano
+Lavaggio auto
+Cambio gomme
+Posto a sedere
+Tagliando di revisione

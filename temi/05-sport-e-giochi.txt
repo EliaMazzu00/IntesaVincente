@@ -1,0 +1,644 @@
+# TEMA: Sport e giochi
+# 500 parole da 1 punto (una parola) + 100 da 2 punti (due o più parole).
+
+# --- Discipline sportive ---
+Calcio
+Basket
+Pallavolo
+Tennis
+Pallanuoto
+Pallamano
+Rugby
+Cricket
+Baseball
+Golf
+Hockey
+Football
+Pingpong
+Badminton
+Squash
+Bowling
+Biliardo
+Freccette
+Scherma
+Boxe
+Lotta
+Judo
+Karate
+Taekwondo
+Kungfu
+Aikido
+Sumo
+Jujitsu
+Kickboxing
+Capoeira
+Atletica
+Maratona
+Marcia
+Ginnastica
+Nuoto
+Tuffi
+Canottaggio
+Canoa
+Kayak
+Vela
+Surf
+Windsurf
+Kitesurf
+Sci
+Snowboard
+Pattinaggio
+Slittino
+Curling
+Ciclismo
+Motociclismo
+Automobilismo
+Equitazione
+Arrampicata
+Alpinismo
+Trekking
+Pesistica
+Triathlon
+Pentathlon
+Decathlon
+Biathlon
+
+# --- Altre attività ---
+Parkour
+Skateboard
+Crossfit
+Yoga
+Pilates
+Aerobica
+Spinning
+Zumba
+Bodybuilding
+Fitness
+Stretching
+Calcetto
+Subacquea
+Immersione
+Apnea
+Bocce
+Minigolf
+Paracadutismo
+Deltaplano
+Parapendio
+Bungee
+Rafting
+Canyoning
+Orienteering
+Speleologia
+
+# --- Attrezzi sportivi ---
+Pallone
+Palla
+Pallina
+Racchetta
+Mazza
+Bastone
+Stecca
+Guantone
+Casco
+Caschetto
+Paradenti
+Parastinchi
+Ginocchiera
+Gomitiera
+Polsiera
+Rete
+Canestro
+Tabellone
+Traversa
+Palo
+Bandierina
+Fischietto
+Cronometro
+Manubrio
+Bilanciere
+Cyclette
+Vogatore
+Trampolino
+Pedana
+Parallele
+Anelli
+Cavallina
+Trave
+Spalliera
+Fune
+Cerchio
+Clavetta
+Volano
+Birillo
+Bersaglio
+
+# --- Abbigliamento sportivo ---
+Tuta
+Maglia
+Pantaloncini
+Calzettoni
+Scarpini
+Scarpette
+Sneakers
+Scarponi
+Ramponi
+Muta
+Pinne
+Maschera
+Boccaglio
+Cuffia
+Occhialini
+Costume
+Body
+Felpa
+Cappellino
+Visiera
+
+# --- Luoghi sportivi ---
+Stadio
+Campo
+Palestra
+Palazzetto
+Piscina
+Pista
+Circuito
+Velodromo
+Ippodromo
+Autodromo
+Tatami
+Ring
+Spogliatoio
+Tribuna
+Gradinata
+Spalti
+Panchina
+Parquet
+Vasca
+Bocciodromo
+
+# --- Ruoli e figure ---
+Atleta
+Giocatore
+Campione
+Capitano
+Portiere
+Difensore
+Attaccante
+Centrocampista
+Bomber
+Allenatore
+Mister
+Arbitro
+Guardalinee
+Giudice
+Cronometrista
+Tifoso
+Ultras
+Spettatore
+Avversario
+Rivale
+Sfidante
+Vincitore
+Riserva
+Titolare
+Istruttore
+
+# --- Termini di gara ---
+Partita
+Gara
+Sfida
+Torneo
+Campionato
+Coppa
+Trofeo
+Medaglia
+Podio
+Premiazione
+Classifica
+Punteggio
+Gol
+Meta
+Set
+Game
+Manche
+Ripresa
+Round
+Frazione
+Tappa
+Girone
+Finale
+Semifinale
+Spareggio
+Recupero
+Pareggio
+Vittoria
+Sconfitta
+Record
+
+# --- Termini del calcio ---
+Rigore
+Punizione
+Corner
+Fallo
+Cartellino
+Espulsione
+Ammonizione
+Fuorigioco
+Rimessa
+Cross
+Dribbling
+Contropiede
+Parata
+Rovesciata
+Pallonetto
+Tackle
+Marcatura
+Pressing
+Traversone
+Assist
+Autogol
+Doppietta
+Goleada
+Catenaccio
+Mischia
+
+# --- Azioni e movimenti ---
+Correre
+Saltare
+Lanciare
+Tirare
+Calciare
+Colpire
+Parare
+Segnare
+Nuotare
+Tuffarsi
+Pedalare
+Remare
+Scivolare
+Pattinare
+Arrampicarsi
+Schivare
+Bloccare
+Placcare
+Palleggiare
+Servire
+Schiacciare
+Ribattere
+Allenarsi
+Riscaldarsi
+Sprintare
+Accelerare
+Frenare
+Sorpassare
+Volteggiare
+Spingere
+Sollevare
+Flettere
+Piegarsi
+Stirarsi
+Saltellare
+
+# --- Arti marziali ---
+Cintura
+Kimono
+Dojo
+Sensei
+Kata
+Kumite
+Pugno
+Presa
+Proiezione
+Schienata
+Montante
+Gancio
+Jab
+Diretto
+Crochet
+
+# --- Atletica e nuoto ---
+Velocità
+Resistenza
+Ostacoli
+Staffetta
+Asta
+Disco
+Giavellotto
+Martello
+Peso
+Triplo
+Stile
+Dorso
+Rana
+Crawl
+Bracciata
+Virata
+Tuffo
+Piattaforma
+Slalom
+Discesa
+Fondo
+Volteggio
+Andatura
+Falcata
+Scatto
+
+# --- Sport invernali ---
+Bastoncini
+Pattini
+Slitta
+Piccozza
+Funivia
+Seggiovia
+Skilift
+Sciovia
+Telecabina
+Lamine
+Sciatore
+Discesista
+Fondista
+Saltatore
+Slittinista
+
+# --- Giochi da tavolo ---
+Scacchi
+Dama
+Backgammon
+Domino
+Tombola
+Bingo
+Lotto
+Monopoli
+Risiko
+Cluedo
+Scarabeo
+Trivial
+Memory
+Puzzle
+Solitario
+Mikado
+Shanghai
+Flipper
+Trottola
+Yoyo
+Aquilone
+Carambola
+Dadi
+Pedina
+Casella
+Cruciverba
+Rebus
+Sudoku
+Enigmistica
+Indovinello
+
+# --- Carte da gioco ---
+Carte
+Mazzo
+Asso
+Fante
+Jolly
+Picche
+Cuori
+Quadri
+Briscola
+Scopa
+Tressette
+Burraco
+Ramino
+Poker
+Bridge
+Scala
+Coppe
+Bastoni
+Denari
+Spade
+
+# --- Giochi per bambini ---
+Nascondino
+Acchiapparella
+Campana
+Elastico
+Girotondo
+Altalena
+Scivolo
+Dondolo
+Sabbiera
+Ruzzola
+Trampoli
+Cerbottana
+Fionda
+Filastrocca
+Conta
+Gessetto
+Frisbee
+Bolle
+Macchinina
+Bambola
+Pupazzo
+Costruzioni
+Mattoncini
+Bilia
+Peluche
+Robot
+Trenino
+Soldatino
+Salterello
+Hula
+
+# --- Competizioni e onori ---
+Olimpiade
+Mondiale
+Europeo
+Scudetto
+Fiaccola
+Torcia
+Cerimonia
+Inno
+Stendardo
+Coccarda
+Sponsor
+Targa
+Diploma
+Premio
+Gloria
+Talento
+Tecnica
+Tattica
+Strategia
+Modulo
+
+# --- Motori e ciclismo ---
+Motore
+Volante
+Pedale
+Freno
+Sella
+Telaio
+Ruota
+Pneumatico
+Catena
+Cambio
+Box
+Pole
+Griglia
+Traguardo
+Partenza
+Arrivo
+Sorpasso
+Curva
+Rettilineo
+Chicane
+Cordolo
+Scuderia
+Pilota
+Copilota
+Meccanico
+Casacca
+Pettorale
+Dorsale
+Cronoscalata
+Gruppo
+
+# --- Videogiochi e quiz ---
+Videogioco
+Console
+Joystick
+Controller
+Livello
+Vita
+Bonus
+Avatar
+Personaggio
+Missione
+Arena
+Tessera
+Segnalino
+Clessidra
+Bussolotto
+Quiz
+Indizio
+Soluzione
+Mossa
+Turno
+Regola
+Squadre
+Giocata
+Penalità
+Combo
+Replay
+Schermo
+Pulsante
+Cabina
+Punteggi
+
+# --- Altri termini di gioco ---
+Difesa
+Attacco
+Allungo
+Fuga
+Volata
+
+# ============================================================
+#  PAROLE DA 2 PUNTI (almeno due parole per riga)
+# ============================================================
+Salto in alto
+Salto in lungo
+Salto con l'asta
+Salto triplo
+Salto mortale
+Calcio balilla
+Calcio d'angolo
+Calcio di rigore
+Calcio di punizione
+Tiro libero
+Tiro a segno
+Tiro con l'arco
+Tiro a volo
+Corsa campestre
+Corsa a ostacoli
+Corsa a staffetta
+Cento metri
+Maratona di New York
+Giro d'Italia
+Tour de France
+Formula uno
+Gran premio
+Pista da sci
+Sci di fondo
+Sci alpino
+Salto con gli sci
+Pattinaggio artistico
+Pattinaggio su ghiaccio
+Hockey su ghiaccio
+Hockey su prato
+Nuoto sincronizzato
+Stile libero
+Tuffo dal trampolino
+Palla a volo
+Tennis da tavolo
+Arti marziali
+Cintura nera
+Campo da calcio
+Campo da tennis
+Campo da golf
+Campo da gioco
+Rete da pallavolo
+Porta da calcio
+Canestro da basket
+Pallone da calcio
+Palla da tennis
+Palla da biliardo
+Mazza da golf
+Mazza da baseball
+Racchetta da tennis
+Guantoni da boxe
+Casco da sci
+Scarpe da ginnastica
+Scarpe da calcio
+Tuta da ginnastica
+Maglia da gioco
+Bandiera a scacchi
+Linea di partenza
+Linea di arrivo
+Linea di fondo
+Giro di campo
+Fuori gioco
+Calcio d'inizio
+Tempo supplementare
+Tiri di rigore
+Cartellino rosso
+Cartellino giallo
+Rimessa laterale
+Colpo di testa
+Colpo di scena
+Doppio fallo
+Set point
+Match point
+Palla break
+Gioco di squadra
+Spirito sportivo
+Medaglia d'oro
+Medaglia d'argento
+Medaglia di bronzo
+Coppa del mondo
+Coppa dei campioni
+Giochi olimpici
+Fiamma olimpica
+Anelli olimpici
+Villaggio olimpico
+Gioco dell'oca
+Gioco di carte
+Mazzo di carte
+Scala reale
+Asso di cuori
+Re di picche
+Scacco matto
+Tris di assi
+Caccia al tesoro
+Mosca cieca
+Ruba bandiera
+Palla prigioniera
+Un due tre stella
+Tavolo da biliardo
+Tavolo da ping pong

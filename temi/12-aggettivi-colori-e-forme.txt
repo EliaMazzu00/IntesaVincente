@@ -1,0 +1,662 @@
+# TEMA: Aggettivi, colori e forme
+# 500 parole da 1 punto (una parola) + 100 da 2 punti (due o più parole).
+
+# --- Colori ---
+Rosso
+Blu
+Verde
+Giallo
+Arancione
+Viola
+Rosa
+Marrone
+Nero
+Bianco
+Grigio
+Azzurro
+Celeste
+Turchese
+Indaco
+Magenta
+Fucsia
+Lilla
+Lavanda
+Porpora
+Amaranto
+Bordeaux
+Vermiglio
+Scarlatto
+Cremisi
+Corallo
+Salmone
+Ocra
+Senape
+Beige
+Avorio
+Sabbia
+Carminio
+Malva
+Glicine
+
+# --- Tinte e capelli ---
+Dorato
+Argentato
+Ramato
+Cobalto
+Petrolio
+Antracite
+Cipria
+Castano
+Biondo
+Rossiccio
+Brizzolato
+Canuto
+Olivastro
+Bruno
+Fulvo
+
+# --- Forme ---
+Rotondo
+Quadrato
+Triangolare
+Rettangolare
+Ovale
+Circolare
+Sferico
+Cubico
+Cilindrico
+Conico
+Piatto
+Curvo
+Dritto
+Storto
+Obliquo
+Diagonale
+Verticale
+Orizzontale
+Appuntito
+Aguzzo
+Tondeggiante
+Spigoloso
+Angolare
+Simmetrico
+Asimmetrico
+
+# --- Superfici e profili ---
+Bombato
+Concavo
+Convesso
+Appiattito
+Schiacciato
+Gonfio
+Sgonfio
+Arrotondato
+Affilato
+Smussato
+Frastagliato
+Ondulato
+Increspato
+Bitorzoluto
+Spiraliforme
+
+# --- Dimensioni ---
+Grande
+Piccolo
+Enorme
+Gigante
+Immenso
+Minuscolo
+Microscopico
+Lungo
+Corto
+Alto
+Basso
+Largo
+Stretto
+Spesso
+Sottile
+Profondo
+Superficiale
+Vasto
+Ampio
+Esteso
+Grosso
+Minuto
+Massiccio
+Esile
+Voluminoso
+
+# --- Carattere positivo ---
+Buono
+Gentile
+Generoso
+Altruista
+Onesto
+Sincero
+Leale
+Fedele
+Coraggioso
+Audace
+Forte
+Saggio
+Intelligente
+Furbo
+Astuto
+Sveglio
+Bravo
+Capace
+Abile
+Diligente
+Paziente
+Calmo
+Tranquillo
+Sereno
+Allegro
+Gioioso
+Socievole
+Simpatico
+Cordiale
+Educato
+
+# --- Carattere negativo ---
+Cattivo
+Crudele
+Egoista
+Avaro
+Bugiardo
+Falso
+Traditore
+Vigliacco
+Codardo
+Debole
+Sciocco
+Stupido
+Ingenuo
+Pigro
+Svogliato
+Distratto
+Impaziente
+Nervoso
+Agitato
+Triste
+Cupo
+Scontroso
+Antipatico
+Scortese
+Maleducato
+Permaloso
+Capriccioso
+Viziato
+Prepotente
+Arrogante
+
+# --- Aspetto fisico ---
+Bello
+Brutto
+Carino
+Grazioso
+Elegante
+Magro
+Grasso
+Robusto
+Snello
+Tozzo
+Atletico
+Muscoloso
+Pallido
+Abbronzato
+Roseo
+Giovane
+Vecchio
+Anziano
+Liscio
+Ruvido
+Peloso
+Calvo
+Rugoso
+Florido
+Goffo
+
+# --- Stati e condizioni ---
+Felice
+Contento
+Soddisfatto
+Infelice
+Annoiato
+Stanco
+Affaticato
+Riposato
+Assonnato
+Affamato
+Sazio
+Assetato
+Sano
+Malato
+Ferito
+Guarito
+Vivo
+Morto
+Addormentato
+Bagnato
+Asciutto
+Sporco
+Pulito
+Ordinato
+Disordinato
+
+# --- Temperatura e meteo ---
+Caldo
+Freddo
+Tiepido
+Gelido
+Bollente
+Rovente
+Ghiacciato
+Fresco
+Mite
+Afoso
+Umido
+Secco
+Nuvoloso
+Soleggiato
+Ventoso
+
+# --- Sapori e odori ---
+Dolce
+Salato
+Amaro
+Acido
+Aspro
+Piccante
+Saporito
+Insipido
+Gustoso
+Delizioso
+Squisito
+Disgustoso
+Profumato
+Puzzolente
+Aromatico
+Fragrante
+Maturo
+Acerbo
+Marcio
+Stantio
+
+# --- Materiali e consistenza ---
+Duro
+Morbido
+Tenero
+Rigido
+Flessibile
+Elastico
+Fragile
+Resistente
+Solido
+Liquido
+Molle
+Compatto
+Poroso
+Appiccicoso
+Viscido
+Scivoloso
+Vellutato
+Setoso
+Spugnoso
+Gommoso
+
+# --- Velocità e movimento ---
+Veloce
+Rapido
+Lento
+Svelto
+Lesto
+Scattante
+Fulmineo
+Immobile
+Fermo
+Mobile
+Agile
+Sciolto
+Impacciato
+Frenetico
+Inarrestabile
+
+# --- Quantità ---
+Molto
+Poco
+Tanto
+Troppo
+Pieno
+Vuoto
+Numeroso
+Scarso
+Abbondante
+Raro
+Frequente
+Singolo
+Doppio
+Triplo
+Multiplo
+
+# --- Tempo ed età ---
+Nuovo
+Antico
+Moderno
+Recente
+Attuale
+Eterno
+Temporaneo
+Precoce
+Tardivo
+Puntuale
+Annuale
+Quotidiano
+Improvviso
+Imminente
+Duraturo
+
+# --- Suoni ---
+Rumoroso
+Silenzioso
+Squillante
+Stridente
+Assordante
+Sommesso
+Roco
+Melodioso
+Armonioso
+Sordo
+
+# --- Luce ---
+Luminoso
+Buio
+Scuro
+Chiaro
+Brillante
+Splendente
+Opaco
+Trasparente
+Abbagliante
+Fioco
+
+# --- Difficoltà e utilità ---
+Facile
+Difficile
+Semplice
+Complicato
+Complesso
+Arduo
+Impossibile
+Possibile
+Fattibile
+Comodo
+Scomodo
+Pratico
+Utile
+Inutile
+Necessario
+
+# --- Valore ---
+Prezioso
+Pregiato
+Costoso
+Caro
+Economico
+Gratuito
+Ricco
+Povero
+Misero
+Lussuoso
+Sfarzoso
+Modesto
+Umile
+Grezzo
+Raffinato
+
+# --- Importanza e originalità ---
+Importante
+Famoso
+Celebre
+Noto
+Ignoto
+Sconosciuto
+Speciale
+Comune
+Normale
+Strano
+Bizzarro
+Insolito
+Originale
+Banale
+Ordinario
+
+# --- Verità ed esattezza ---
+Vero
+Reale
+Finto
+Autentico
+Giusto
+Sbagliato
+Corretto
+Errato
+Esatto
+Preciso
+Approssimativo
+Sicuro
+Incerto
+Probabile
+Evidente
+
+# --- Pericolo ---
+Pericoloso
+Rischioso
+Innocuo
+Velenoso
+Mortale
+Letale
+Dannoso
+Salutare
+Protetto
+Vulnerabile
+
+# --- Umore ed emozioni ---
+Spensierato
+Malinconico
+Nostalgico
+Spaventato
+Impaurito
+Terrorizzato
+Sorpreso
+Entusiasta
+Eccitato
+Deluso
+Geloso
+Invidioso
+Orgoglioso
+Imbarazzato
+Curioso
+
+# --- Comportamento ---
+Timido
+Estroverso
+Introverso
+Riservato
+Chiacchierone
+Vivace
+Iperattivo
+Ribelle
+Obbediente
+Testardo
+Ostinato
+Cocciuto
+Severo
+Indulgente
+Permissivo
+
+# --- Aspetto e cura ---
+Lucente
+Splendido
+Sfavillante
+Sgargiante
+Sbiadito
+Spento
+Scolorito
+Macchiato
+Lindo
+Immacolato
+Impeccabile
+Trasandato
+Sciatto
+Curato
+Sgualcito
+
+# --- Generale ---
+Pesante
+Leggero
+Colmo
+Stracolmo
+Denso
+Rado
+Fitto
+Folto
+Sparso
+Aperto
+Chiuso
+Coperto
+Scoperto
+Nudo
+Vestito
+Visibile
+Invisibile
+Nascosto
+Mimetizzato
+Appariscente
+
+# --- Posizione ---
+Vicino
+Lontano
+Centrale
+Laterale
+Interno
+Esterno
+Superiore
+Inferiore
+Anteriore
+Posteriore
+
+# --- Intensità ---
+Intenso
+Tenue
+Potente
+Vigoroso
+Energico
+Fiacco
+Smorto
+Vivido
+Acceso
+Marcato
+
+# ============================================================
+#  PAROLE DA 2 PUNTI (almeno due parole per riga)
+# ============================================================
+Alla moda
+Fuori moda
+Fuori di testa
+Su di giri
+Giù di morale
+Di buon umore
+Di cattivo umore
+A posto
+A pezzi
+Per bene
+Senza senso
+Senza fiato
+Senza paura
+Pieno zeppo
+Rosso fuoco
+Rosso fiamma
+Rosso vivo
+Rosso scuro
+Rosso ciliegia
+Verde bottiglia
+Verde mela
+Verde acqua
+Verde oliva
+Verde smeraldo
+Blu notte
+Blu mare
+Blu cielo
+Azzurro cielo
+Giallo limone
+Giallo oro
+Giallo canarino
+Grigio topo
+Grigio perla
+Grigio fumo
+Bianco latte
+Bianco neve
+Bianco panna
+Nero pece
+Nero corvino
+Rosa antico
+Rosa confetto
+Rosa shocking
+Marrone scuro
+Color carne
+Color pastello
+Tinta unita
+A righe
+A pois
+A quadri
+A fiori
+A scacchi
+A pallini
+A strisce
+Forma quadrata
+Forma rotonda
+Forma a stella
+Forma a cuore
+A forma di stella
+A forma di cuore
+Angolo retto
+Linea retta
+Linea curva
+Più grande
+Più piccolo
+Molto alto
+Molto basso
+Troppo lungo
+Bello e buono
+Brutto e cattivo
+Sano e salvo
+Stanco morto
+Bagnato fradicio
+Pulito e ordinato
+Lungo e stretto
+Corto e tozzo
+Alto e magro
+Basso e grasso
+Duro come la pietra
+Leggero come una piuma
+Bianco come la neve
+Nero come la pece
+Rosso come un peperone
+Veloce come il vento
+Lento come una lumaca
+Furbo come una volpe
+Forte come un toro
+Buono come il pane
+Dolce come il miele
+Freddo come il ghiaccio
+Caldo come il fuoco
+Liscio come l'olio
+Chiaro e tondo
+Sano come un pesce
+Vecchio come il mondo
+Pazzo da legare
+Bello da morire
+Brutto da far paura
+Ricco sfondato
+Povero in canna
+Muto come un pesce

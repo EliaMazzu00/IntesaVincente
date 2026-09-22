@@ -1,0 +1,634 @@
+# TEMA: Azioni e verbi
+# 500 parole da 1 punto (una parola) + 100 da 2 punti (due o più parole).
+
+# --- Movimento ---
+Andare
+Venire
+Correre
+Camminare
+Saltare
+Salire
+Scendere
+Entrare
+Uscire
+Arrivare
+Partire
+Tornare
+Passare
+Attraversare
+Girare
+Voltare
+Cadere
+Inciampare
+Scivolare
+Rotolare
+Strisciare
+Gattonare
+Saltellare
+Galoppare
+Marciare
+Vagare
+Fuggire
+Scappare
+Inseguire
+Raggiungere
+Avvicinarsi
+Allontanarsi
+Spostare
+Muovere
+Fermare
+Sostare
+Volare
+Atterrare
+Decollare
+Nuotare
+Tuffarsi
+Immergersi
+Affondare
+Galleggiare
+Navigare
+
+# --- Azioni con le mani ---
+Prendere
+Lasciare
+Tenere
+Afferrare
+Stringere
+Mollare
+Lanciare
+Gettare
+Tirare
+Spingere
+Premere
+Schiacciare
+Toccare
+Sfiorare
+Accarezzare
+Colpire
+Battere
+Picchiare
+Bussare
+Spaccare
+Rompere
+Spezzare
+Tagliare
+Strappare
+Piegare
+Torcere
+Sollevare
+Alzare
+Abbassare
+Appoggiare
+Posare
+Reggere
+Sorreggere
+Portare
+Trasportare
+Trascinare
+Avvolgere
+Legare
+Slegare
+Annodare
+Sciogliere
+Attaccare
+Staccare
+Incollare
+Cucire
+
+# --- Comunicazione ---
+Parlare
+Dire
+Raccontare
+Spiegare
+Chiedere
+Domandare
+Rispondere
+Replicare
+Gridare
+Urlare
+Sussurrare
+Mormorare
+Bisbigliare
+Chiamare
+Chiacchierare
+Discutere
+Litigare
+Protestare
+Lamentarsi
+Borbottare
+Esclamare
+Annunciare
+Dichiarare
+Comunicare
+Avvertire
+Avvisare
+Informare
+Promettere
+Giurare
+Mentire
+Ingannare
+Confessare
+Ammettere
+Negare
+Tacere
+Zittire
+Salutare
+Ringraziare
+Scusarsi
+
+# --- Pensiero ---
+Pensare
+Riflettere
+Ragionare
+Ricordare
+Dimenticare
+Sapere
+Conoscere
+Capire
+Comprendere
+Imparare
+Studiare
+Insegnare
+Immaginare
+Sognare
+Inventare
+Creare
+Ideare
+Progettare
+Decidere
+Scegliere
+Dubitare
+Credere
+Sperare
+Desiderare
+Volere
+Pretendere
+Considerare
+Valutare
+Giudicare
+Indovinare
+
+# --- Percezione ---
+Vedere
+Guardare
+Osservare
+Fissare
+Sbirciare
+Spiare
+Notare
+Scorgere
+Intravedere
+Sentire
+Ascoltare
+Udire
+Annusare
+Fiutare
+Odorare
+Assaggiare
+Gustare
+Percepire
+Accorgersi
+Distinguere
+
+# --- Emozioni ---
+Ridere
+Sorridere
+Piangere
+Singhiozzare
+Sospirare
+Gioire
+Esultare
+Festeggiare
+Divertirsi
+Annoiarsi
+Arrabbiarsi
+Spaventarsi
+Temere
+Tremare
+Preoccuparsi
+Calmarsi
+Rilassarsi
+Emozionarsi
+Commuoversi
+Vergognarsi
+Arrossire
+Stupirsi
+Meravigliarsi
+Sorprendersi
+Innamorarsi
+
+# --- Vita quotidiana ---
+Mangiare
+Bere
+Masticare
+Inghiottire
+Sorseggiare
+Cucinare
+Cuocere
+Friggere
+Bollire
+Mescolare
+Sbucciare
+Dormire
+Svegliarsi
+Alzarsi
+Coricarsi
+Riposare
+Russare
+Lavarsi
+Lavare
+Pulire
+Spazzare
+Spolverare
+Stirare
+Vestirsi
+Spogliarsi
+Pettinarsi
+Truccarsi
+Radersi
+Sbadigliare
+Starnutire
+Tossire
+Soffiare
+Respirare
+Fischiare
+Cantare
+Ballare
+Suonare
+Disegnare
+Dipingere
+
+# --- Lavoro ---
+Lavorare
+Costruire
+Edificare
+Fabbricare
+Produrre
+Riparare
+Aggiustare
+Sistemare
+Montare
+Smontare
+Avvitare
+Svitare
+Inchiodare
+Segare
+Martellare
+Misurare
+Pesare
+Contare
+Calcolare
+Scrivere
+Leggere
+Copiare
+Cancellare
+Stampare
+Firmare
+Timbrare
+Spedire
+Consegnare
+Vendere
+Comprare
+Pagare
+Guadagnare
+Spendere
+Risparmiare
+
+# --- Cambiamento ---
+Cambiare
+Trasformare
+Modificare
+Migliorare
+Peggiorare
+Crescere
+Diminuire
+Aumentare
+Allargare
+Restringere
+Allungare
+Accorciare
+Riempire
+Svuotare
+Aprire
+Chiudere
+Accendere
+Spegnere
+Iniziare
+Cominciare
+Finire
+Terminare
+Continuare
+Smettere
+Interrompere
+
+# --- Relazioni ---
+Incontrare
+Presentare
+Invitare
+Accogliere
+Ospitare
+Aiutare
+Soccorrere
+Difendere
+Proteggere
+Salvare
+Curare
+Accudire
+Abbracciare
+Baciare
+Coccolare
+Consolare
+Sgridare
+Punire
+Premiare
+Perdonare
+Tradire
+Abbandonare
+Seguire
+Accompagnare
+Obbedire
+
+# --- Gioco ---
+Giocare
+Vincere
+Perdere
+Pareggiare
+Gareggiare
+Competere
+Sfidare
+Segnare
+Parare
+Calciare
+Palleggiare
+Barare
+Scommettere
+Nascondersi
+Cercare
+Trovare
+Acchiappare
+Rincorrere
+Mischiare
+
+# --- Verbi fondamentali ---
+Essere
+Avere
+Stare
+Fare
+Dare
+Diventare
+Sembrare
+Apparire
+Esistere
+Vivere
+Morire
+Nascere
+Restare
+Rimanere
+Mancare
+Bastare
+Servire
+Usare
+Adoperare
+Provare
+Tentare
+Riuscire
+Fallire
+Sbagliare
+Correggere
+Controllare
+Verificare
+Mostrare
+Nascondere
+Coprire
+Scoprire
+Rivelare
+Indicare
+Segnalare
+Dimostrare
+Ottenere
+Ricevere
+Donare
+Regalare
+Offrire
+
+# --- Conflitto e ordine ---
+Accettare
+Rifiutare
+Permettere
+Vietare
+Proibire
+Comandare
+Ordinare
+Ubbidire
+Disubbidire
+Ribellarsi
+Combattere
+Lottare
+Assalire
+Conquistare
+Arrendersi
+Catturare
+Liberare
+Imprigionare
+Rinchiudere
+Sorvegliare
+Custodire
+Vigilare
+Pedinare
+Indagare
+Investigare
+Risolvere
+Svelare
+Confondere
+Imbrogliare
+Truffare
+Rubare
+Derubare
+Saccheggiare
+Restituire
+Prestare
+Affittare
+Noleggiare
+Scambiare
+Barattare
+Distribuire
+Dividere
+Spartire
+Condividere
+Unire
+Separare
+Raggruppare
+Accumulare
+Ammucchiare
+Sparpagliare
+Disperdere
+
+# --- Trasformazioni e fenomeni ---
+Sviluppare
+Espandere
+Comprimere
+Gonfiare
+Sgonfiare
+Bucare
+Forare
+Perforare
+Trapanare
+Scavare
+Seppellire
+Sotterrare
+Piantare
+Seminare
+Coltivare
+Raccogliere
+Cogliere
+Potare
+Annaffiare
+Bagnare
+Asciugare
+Inumidire
+Gelare
+Congelare
+Scongelare
+Riscaldare
+Raffreddare
+Bruciare
+Incendiare
+Illuminare
+Oscurare
+Brillare
+Splendere
+Luccicare
+Scintillare
+Lampeggiare
+Ardere
+Fumare
+Esplodere
+Scoppiare
+Detonare
+Sparare
+Mirare
+Centrare
+Recitare
+Declamare
+Narrare
+Elencare
+Enumerare
+Sommare
+Sottrarre
+Moltiplicare
+Numerare
+Datare
+Programmare
+Pianificare
+Organizzare
+Preparare
+Allestire
+Addobbare
+Decorare
+Abbellire
+Ornare
+Tessere
+
+# ============================================================
+#  PAROLE DA 2 PUNTI (almeno due parole per riga)
+# ============================================================
+Fare la spesa
+Fare i compiti
+Fare il bagno
+Fare la doccia
+Fare colazione
+Fare merenda
+Fare festa
+Fare pace
+Fare finta
+Fare a meno
+Fare il pieno
+Fare le valigie
+Fare la fila
+Fare la nanna
+Fare un pisolino
+Fare un giro
+Fare un salto
+Fare un favore
+Fare i conti
+Fare gli auguri
+Fare un regalo
+Fare il bravo
+Fare il tifo
+Fare il punto
+Fare il bucato
+Fare luce
+Saltare la corda
+Saltare la fila
+Saltare il fosso
+Andare a scuola
+Andare a casa
+Andare a letto
+Andare in bici
+Andare in vacanza
+Andare di fretta
+Andare a fondo
+Prendere il treno
+Prendere l'autobus
+Prendere sonno
+Prendere appunti
+Prendere fiato
+Prendere il volo
+Prendere in giro
+Prendere nota
+Perdere tempo
+Perdere la pazienza
+Perdere la testa
+Perdere il filo
+Tirare un calcio
+Tirare le somme
+Tirare avanti
+Mettere in ordine
+Mettere a posto
+Mettere da parte
+Mettere su casa
+Mettere a fuoco
+Mettere in moto
+Dare una mano
+Dare i numeri
+Dare retta
+Dare voce
+Tenere d'occhio
+Tenere il passo
+Tagliare la corda
+Battere le mani
+Battere i denti
+Alzare la voce
+Alzare le spalle
+Chiudere un occhio
+Chiudere bottega
+Aprire le danze
+Aprire bocca
+Rompere il ghiaccio
+Cambiare idea
+Stare zitto
+Stare attento
+Stare in piedi
+Girare a vuoto
+Buttare via
+Mettersi in gioco
+Darsi da fare
+Tirarsi indietro
+Farsi avanti
+Andarsene via
+Venire incontro
+Correre ai ripari
+Cadere a terra
+Saltare in aria
+Lavarsi le mani
+Lavarsi i denti
+Soffiarsi il naso
+Grattarsi la testa
+Stringere la mano
+Storcere il naso
+Cogliere al volo
+Stendere i panni
+Apparecchiare la tavola
+Sparecchiare la tavola
+Fare il letto
+Fare il furbo

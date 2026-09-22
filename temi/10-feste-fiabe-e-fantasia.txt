@@ -1,0 +1,656 @@
+# TEMA: Feste, fiabe e fantasia
+# 500 parole da 1 punto (una parola) + 100 da 2 punti (due o più parole).
+
+# --- Festività ---
+Natale
+Capodanno
+Epifania
+Befana
+Carnevale
+Pasqua
+Pasquetta
+Halloween
+Ferragosto
+Compleanno
+Onomastico
+Anniversario
+Battesimo
+Comunione
+Cresima
+Matrimonio
+Nozze
+Laurea
+Festa
+Ricorrenza
+Vigilia
+Veglione
+Cenone
+Sagra
+Fiera
+Processione
+Corteo
+Sfilata
+Parata
+Celebrazione
+
+# --- Natale ---
+Presepe
+Albero
+Stella
+Cometa
+Renna
+Slitta
+Regalo
+Dono
+Calza
+Camino
+Ghirlanda
+Agrifoglio
+Vischio
+Candela
+Addobbo
+Pallina
+Festone
+Luci
+Mangiatoia
+Pastore
+Pecorella
+Capanna
+Zampognaro
+Pungitopo
+Stalla
+
+# --- Carnevale ---
+Maschera
+Costume
+Travestimento
+Coriandoli
+Carro
+Burla
+Scherzo
+Pulcinella
+Arlecchino
+Pantalone
+Brighella
+Colombina
+Balanzone
+Pierrot
+Zanni
+Bautta
+Trombetta
+Frittella
+Castagnola
+Coccarda
+
+# --- Halloween e brivido ---
+Zucca
+Ragnatela
+Teschio
+Tomba
+Lapide
+Cimitero
+Bara
+Stregoneria
+Incubo
+Brivido
+Paura
+Buio
+Cappio
+Catacomba
+Spavento
+
+# --- Feste e compleanno ---
+Torta
+Candeline
+Palloncini
+Invito
+Sorpresa
+Auguri
+Brindisi
+Striscione
+Cappellino
+Fischietto
+Confetti
+Bomboniera
+Fuochi
+Petardo
+Girandola
+Tombola
+Spumante
+Banchetto
+Cotillon
+Stella filante
+
+# --- Personaggi delle fiabe ---
+Principe
+Principessa
+Re
+Regina
+Imperatore
+Cavaliere
+Cenerentola
+Biancaneve
+Raperonzolo
+Cappuccetto
+Pollicino
+Pinocchio
+Cipollino
+Aladino
+Sirenetta
+Trilli
+Geppetto
+Lucignolo
+Mangiafuoco
+Merlino
+Artù
+Lancillotto
+Ginevra
+Pollicina
+Tremotino
+Pifferaio
+Cappellaio
+Stregatto
+Brontolo
+Dotto
+Eolo
+Gongolo
+Mammolo
+Pisolo
+Cucciolo
+
+# --- Creature fantastiche ---
+Drago
+Unicorno
+Fenice
+Grifone
+Sirena
+Tritone
+Centauro
+Minotauro
+Ciclope
+Gigante
+Orco
+Troll
+Goblin
+Elfo
+Folletto
+Gnomo
+Nano
+Fata
+Strega
+Mago
+Stregone
+Fantasma
+Spettro
+Vampiro
+Licantropo
+Mummia
+Zombie
+Scheletro
+Demone
+Diavolo
+Angelo
+Cherubino
+Genio
+Spiritello
+Yeti
+Golem
+Idra
+Chimera
+Basilisco
+Mostro
+
+# --- Esseri mitologici ---
+Ninfa
+Driade
+Naiade
+Satiro
+Fauno
+Pegaso
+Ippogrifo
+Cerbero
+Gorgone
+Arpia
+Sfinge
+Titano
+Leviatano
+Kraken
+Banshee
+Manticora
+Ondina
+Silfide
+Coboldo
+Salamandra
+
+# --- Magia ---
+Magia
+Incantesimo
+Sortilegio
+Pozione
+Filtro
+Elisir
+Bacchetta
+Calderone
+Pentolone
+Grimorio
+Formula
+Abracadabra
+Incanto
+Trasformazione
+Apparizione
+Sparizione
+Levitazione
+Teletrasporto
+Illusione
+Profezia
+Maleficio
+Talismano
+Amuleto
+Portafortuna
+Runa
+Pentacolo
+Sfera
+Cristallo
+Polvere
+Maledizione
+
+# --- Elementi delle fiabe ---
+Castello
+Torre
+Bosco
+Foresta
+Caverna
+Grotta
+Tana
+Rifugio
+Casetta
+Cottage
+Villaggio
+Regno
+Reame
+Trono
+Corona
+Scettro
+Mantello
+Spada
+Scudo
+Armatura
+Elmo
+Lancia
+Arco
+Freccia
+Carrozza
+Cocchio
+Specchio
+Fuso
+Pozzo
+Cancello
+
+# --- Cavalieri e medioevo ---
+Paladino
+Crociato
+Scudiero
+Damigella
+Menestrello
+Giullare
+Buffone
+Araldo
+Trovatore
+Bardo
+Castellano
+Sovrano
+Vassallo
+Suddito
+Nobile
+Conte
+Duca
+Barone
+Marchese
+Visconte
+Cortigiano
+Guardia
+Sentinella
+Carceriere
+Boia
+
+# --- Supereroi e poteri ---
+Supereroe
+Supercattivo
+Superpoteri
+Poteri
+Invisibilità
+Telepatia
+Telecinesi
+Superforza
+Supervelocità
+Identità
+Nemesi
+Antieroe
+Mutante
+Cyborg
+Androide
+Supereroina
+Vendicatore
+Vigilante
+Giustiziere
+Tuta
+Logo
+Simbolo
+Bersaglio
+Trappola
+Avventura
+
+# --- Oggetti magici ---
+Lampada
+Anello
+Cilindro
+Tappeto
+Chiave
+Mappa
+Tesoro
+Forziere
+Scrigno
+Gemma
+Medaglione
+Pergamena
+Clessidra
+Bussola
+Lanterna
+Torcia
+Stendardo
+Vessillo
+Reliquia
+Cimelio
+
+# --- Pirati ---
+Pirata
+Corsaro
+Bucaniere
+Filibustiere
+Mozzo
+Nostromo
+Ciurma
+Galeone
+Vascello
+Scialuppa
+Uncino
+Benda
+Doblone
+Cannone
+Abbordaggio
+Arrembaggio
+Bottino
+Approdo
+Naufragio
+Relitto
+Polena
+Sartie
+Vela
+Timone
+Stiva
+
+# --- Emozioni e avventura ---
+Sogno
+Coraggio
+Mistero
+Segreto
+Enigma
+Destino
+Fortuna
+Sfortuna
+Desiderio
+Speranza
+Miracolo
+Prodigio
+Meraviglia
+Stupore
+Fantasia
+Leggenda
+Saga
+Mito
+Fiaba
+Favola
+
+# --- Elementi magici ---
+Fuoco
+Acqua
+Aria
+Terra
+Ghiaccio
+Fulmine
+Tuono
+Vento
+Tempesta
+Ombra
+Luce
+Tenebra
+Aura
+Energia
+Vortice
+
+# --- Regali e decorazioni ---
+Nastro
+Fiocco
+Pacchetto
+Scatola
+Etichetta
+Cartolina
+Letterina
+Bigliettino
+Parrucca
+Trucco
+Costumino
+Mascherina
+Tendone
+Palco
+Stagnola
+
+# --- Creature piccole e mascotte ---
+Ogre
+Gnometto
+Fatina
+Nanetto
+Spaventapasseri
+Burattino
+Bambolotto
+Mascotte
+Totem
+Spirito
+Anima
+Ectoplasma
+Demonietto
+Diavoletto
+Angioletto
+
+# --- Luoghi fantastici ---
+Dungeon
+Cripta
+Labirinto
+Prigione
+Segreta
+Cella
+Torrione
+Maniero
+Fortezza
+Cittadella
+Rocca
+Bastione
+Fossato
+Roccaforte
+Avamposto
+
+# --- Eroi e leggende ---
+Eroe
+Eroina
+Campione
+Avventuriero
+Esploratore
+Trofeo
+Statua
+Effigie
+Stemma
+Blasone
+Casata
+Dinastia
+Epopea
+Racconto
+Gloria
+
+# --- Dolci delle feste ---
+Panettone
+Pandoro
+Torrone
+Cioccolatino
+Caramella
+Marzapane
+Croccante
+Mandorlato
+Frittelle
+Chiacchiere
+
+# --- Animali delle fiabe ---
+Lupo
+Gatto
+Rospo
+Ranocchio
+Civetta
+Corvo
+Pipistrello
+Serpente
+Ragno
+Scorpione
+
+# --- Armi fatate ---
+Spadone
+Pugnale
+Daga
+Stiletto
+Alabarda
+Mazza
+Ascia
+Balestra
+Faretra
+Cotta
+
+# --- Dimore e palazzi ---
+Reggia
+Palazzo
+Dimora
+Magione
+Tugurio
+Capanno
+Baracca
+Casupola
+Stamberga
+Villa
+
+# --- Atmosfere ---
+Terrore
+Orrore
+Festino
+Baldoria
+Allegria
+Gozzoviglia
+
+# ============================================================
+#  PAROLE DA 2 PUNTI (almeno due parole per riga)
+# ============================================================
+Babbo Natale
+Albero di Natale
+Stella cometa
+Slitta di Babbo Natale
+Calza della Befana
+Vigilia di Natale
+Notte di Natale
+Mercatino di Natale
+Palla di Natale
+Pranzo di Natale
+Buon anno
+Anno nuovo
+Notte di San Silvestro
+Pesce d'aprile
+Uovo di Pasqua
+Coniglio pasquale
+Colomba pasquale
+Festa della mamma
+Festa del papà
+Festa della donna
+Festa della Repubblica
+Torta di compleanno
+Festa di compleanno
+Festa a sorpresa
+Stelle filanti
+Carro allegorico
+Re Magi
+Tappeto volante
+Lampada di Aladino
+Bacchetta magica
+Pozione magica
+Sfera di cristallo
+Specchio magico
+Cappello a cilindro
+Coniglio dal cilindro
+Tavola rotonda
+Spada nella roccia
+Pietra filosofale
+Polvere magica
+Acqua santa
+Scopa volante
+Cavallo alato
+Drago sputafuoco
+Castello incantato
+Bosco incantato
+Foresta incantata
+Casa stregata
+Casa di marzapane
+Torre d'avorio
+Palazzo reale
+Sala del trono
+Pentola d'oro
+Pozzo dei desideri
+Lampada magica
+Anello del potere
+Mantello dell'invisibilità
+Stivali delle sette leghe
+Scarpetta di cristallo
+Mela avvelenata
+Bella addormentata
+Biancaneve e i sette nani
+Cappuccetto Rosso
+Gatto con gli stivali
+Brutto anatroccolo
+Soldatino di piombo
+Pifferaio magico
+Sette nani
+Tre porcellini
+Lupo cattivo
+Strega cattiva
+Regina cattiva
+Fata madrina
+Fata turchina
+Genio della lampada
+Spirito del male
+Fantasma del castello
+Cavaliere errante
+Cavaliere senza testa
+Principe azzurro
+Principessa sul pisello
+Rana principe
+Lieto fine
+C'era una volta
+Tanto tempo fa
+Regno lontano
+Mondo incantato
+Terra di mezzo
+Isola che non c'è
+Paese dei balocchi
+Bosco delle fate
+Grotta del tesoro
+Mappa del tesoro
+Caccia al tesoro
+Forziere del tesoro
+Nave dei pirati
+Bandiera dei pirati
+Gamba di legno
+Occhio bendato
+Pentola magica

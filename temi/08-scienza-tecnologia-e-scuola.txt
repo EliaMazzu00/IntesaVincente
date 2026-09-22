@@ -1,0 +1,652 @@
+# TEMA: Scienza, tecnologia e scuola
+# 500 parole da 1 punto (una parola) + 100 da 2 punti (due o più parole).
+
+# --- Materie scolastiche ---
+Matematica
+Geometria
+Algebra
+Aritmetica
+Italiano
+Storia
+Geografia
+Scienze
+Biologia
+Chimica
+Fisica
+Filosofia
+Latino
+Greco
+Inglese
+Francese
+Tecnologia
+Informatica
+Economia
+Diritto
+Musica
+Ginnastica
+Religione
+Disegno
+Astronomia
+
+# --- A scuola ---
+Scuola
+Classe
+Aula
+Banco
+Cattedra
+Lavagna
+Gesso
+Cancellino
+Quaderno
+Diario
+Libro
+Pagella
+Voto
+Compito
+Esercizio
+Lezione
+Ricreazione
+Intervallo
+Campanella
+Zaino
+Astuccio
+Penna
+Matita
+Gomma
+Righello
+Squadra
+Compasso
+Pennarello
+Evidenziatore
+Temperino
+Forbici
+Colla
+Cartella
+Appello
+Assenza
+Bocciatura
+Promozione
+Interrogazione
+Verifica
+Tema
+
+# --- Persone della scuola ---
+Maestro
+Maestra
+Professore
+Professoressa
+Insegnante
+Docente
+Preside
+Bidello
+Alunno
+Studente
+Scolaro
+Allievo
+Compagno
+Bidella
+Supplente
+Ripetente
+Secchione
+Laureato
+Diplomato
+Tutor
+
+# --- Gradi e luoghi di studio ---
+Asilo
+Materna
+Elementare
+Media
+Liceo
+Istituto
+Università
+Facoltà
+Ateneo
+Convitto
+Collegio
+Biblioteca
+Laboratorio
+Palestra
+Mensa
+Segreteria
+Aula magna
+Auditorium
+Dormitorio
+Campus
+
+# --- Strumenti scientifici ---
+Microscopio
+Telescopio
+Cannocchiale
+Lente
+Provetta
+Beuta
+Becher
+Pipetta
+Contagocce
+Imbuto
+Bilancia
+Bunsen
+Crogiolo
+Termometro
+Barometro
+Igrometro
+Cronometro
+Calibro
+Goniometro
+Bussola
+Magnete
+Calamita
+Pendolo
+Prisma
+Dinamometro
+
+# --- Discipline scientifiche ---
+Anatomia
+Botanica
+Zoologia
+Genetica
+Geologia
+Mineralogia
+Meteorologia
+Ecologia
+Acustica
+Ottica
+Termodinamica
+Elettronica
+Robotica
+Aerodinamica
+Idraulica
+Statistica
+Logica
+Linguistica
+Archeologia
+Paleontologia
+
+# --- Concetti di fisica ---
+Forza
+Energia
+Massa
+Peso
+Velocità
+Accelerazione
+Gravità
+Attrito
+Pressione
+Calore
+Temperatura
+Corrente
+Tensione
+Resistenza
+Frequenza
+Onda
+Vibrazione
+Suono
+Luce
+Radiazione
+Magnetismo
+Elettricità
+Moto
+Equilibrio
+Inerzia
+
+# --- Chimica ---
+Atomo
+Molecola
+Elemento
+Composto
+Miscuglio
+Soluzione
+Acido
+Base
+Sale
+Ossigeno
+Idrogeno
+Carbonio
+Azoto
+Ferro
+Rame
+Oro
+Argento
+Mercurio
+Zolfo
+Sodio
+Cloro
+Calcio
+Potassio
+Reazione
+Catalizzatore
+
+# --- Matematica ---
+Numero
+Cifra
+Somma
+Sottrazione
+Moltiplicazione
+Divisione
+Addizione
+Frazione
+Decimale
+Percentuale
+Equazione
+Incognita
+Funzione
+Grafico
+Angolo
+Triangolo
+Quadrato
+Cerchio
+Rettangolo
+Rombo
+Trapezio
+Poligono
+Diametro
+Raggio
+Perimetro
+
+# --- Universo e natura scientifica ---
+Universo
+Galassia
+Stella
+Pianeta
+Satellite
+Cometa
+Meteorite
+Asteroide
+Costellazione
+Nebulosa
+Orbita
+Eclissi
+Cellula
+Tessuto
+Organo
+Batterio
+Virus
+Microbo
+Gene
+Cromosoma
+Proteina
+Enzima
+Neurone
+Embrione
+Fossile
+
+# --- Tecnologia e dispositivi ---
+Computer
+Portatile
+Tablet
+Smartphone
+Cellulare
+Telefono
+Schermo
+Monitor
+Tastiera
+Mouse
+Stampante
+Scanner
+Webcam
+Microfono
+Altoparlante
+Cuffie
+Auricolari
+Modem
+Router
+Cavo
+Caricatore
+Batteria
+Chiavetta
+Hardware
+Software
+
+# --- Informatica ---
+Internet
+Rete
+Server
+Browser
+Sito
+Pagina
+File
+Collegamento
+Programma
+Applicazione
+Sistema
+Memoria
+Processore
+Schermata
+Finestra
+Icona
+Cursore
+Tasto
+Password
+Account
+Email
+Messaggio
+Documento
+Database
+Algoritmo
+
+# --- Mondo digitale ---
+Robot
+Drone
+Sensore
+Chip
+Circuito
+Transistor
+Microchip
+Scheda
+Display
+Pixel
+Bit
+Byte
+Codice
+Malware
+Aggiornamento
+Backup
+Download
+Antivirus
+Firewall
+Console
+Visore
+Realtà
+Simulazione
+Automazione
+Intelligenza
+
+# --- Energia e ambiente ---
+Solare
+Eolico
+Idrico
+Nucleare
+Pannello
+Turbina
+Generatore
+Motore
+Centrale
+Diga
+Reattore
+Carburante
+Combustibile
+Petrolio
+Metano
+Carbone
+Biogas
+Inquinamento
+Riciclo
+Sostenibilità
+
+# --- Strumenti di misura e officina ---
+Metro
+Riga
+Livella
+Cronografo
+Voltmetro
+Amperometro
+Manometro
+Contatore
+Sismografo
+Radar
+Sonar
+Navigatore
+Antenna
+Parabola
+Trasmettitore
+Ricevitore
+Bobina
+Condensatore
+Interruttore
+Lampadina
+
+# --- Metodo e attività scientifica ---
+Esperimento
+Teoria
+Ipotesi
+Formula
+Legge
+Principio
+Scoperta
+Invenzione
+Brevetto
+Ricerca
+Studio
+Analisi
+Misura
+Calcolo
+Risultato
+Dato
+Tabella
+Schema
+Modello
+Prototipo
+
+# --- Altri dispositivi ---
+Joystick
+Gamepad
+Telecomando
+Decoder
+Citofono
+Megafono
+Proiettore
+Plotter
+Fotocopiatrice
+Calcolatrice
+Sveglia
+Pendrive
+Masterizzatore
+Lettore
+Adattatore
+Spina
+Presa
+Pila
+Accumulatore
+Trasformatore
+
+# --- Comandi e web ---
+Clic
+Salva
+Cancella
+Copia
+Incolla
+Taglia
+Apri
+Chiudi
+Invio
+Desktop
+Avvio
+Riavvio
+Accesso
+Login
+Chat
+Post
+Hashtag
+Profilo
+Notifica
+Emoji
+
+# --- Operazioni e numeri ---
+Quoziente
+Resto
+Prodotto
+Differenza
+Potenza
+Radice
+Cubo
+Esponente
+Mediana
+Insieme
+Retta
+Curva
+Vettore
+Matrice
+Coordinate
+
+# --- Figure geometriche ---
+Pentagono
+Esagono
+Ottagono
+Cilindro
+Cono
+Piramide
+Parallelogramma
+Spirale
+Ellisse
+Ovale
+Semicerchio
+Vertice
+Lato
+Spigolo
+Diagonale
+
+# --- Particelle e stati ---
+Volume
+Densità
+Particella
+Elettrone
+Protone
+Neutrone
+Nucleo
+Ione
+Isotopo
+Legame
+Valenza
+Combustione
+Evaporazione
+Condensazione
+Sublimazione
+
+# --- Biologia ---
+Organismo
+Specie
+Habitat
+Ecosistema
+Fotosintesi
+Respirazione
+Riproduzione
+Evoluzione
+Mutazione
+Membrana
+Citoplasma
+Mitocondrio
+Ameba
+Metamorfosi
+Larva
+Anticorpo
+
+# --- Pianeti e spazio ---
+Luna
+Sole
+Terra
+Marte
+Venere
+Giove
+Saturno
+Urano
+Nettuno
+Plutone
+Cosmo
+Razzo
+Navicella
+Sonda
+Cratere
+
+# ============================================================
+#  PAROLE DA 2 PUNTI (almeno due parole per riga)
+# ============================================================
+Buco nero
+Intelligenza artificiale
+Sistema solare
+Via Lattea
+Stazione spaziale
+Stella cadente
+Anno luce
+Velocità della luce
+Forza di gravità
+Campo magnetico
+Energia solare
+Energia nucleare
+Energia rinnovabile
+Pannello solare
+Cella solare
+Tavola periodica
+Numero atomico
+Reazione chimica
+Reazione nucleare
+Acqua distillata
+Punto di fusione
+Punto di ebollizione
+Stato solido
+Stato liquido
+Stato gassoso
+Corrente elettrica
+Carica elettrica
+Onde radio
+Raggi solari
+Raggi ultravioletti
+Luce ultravioletta
+Spettro luminoso
+Cellula staminale
+Codice genetico
+Gruppo sanguigno
+Sistema nervoso
+Catena alimentare
+Effetto serra
+Buco nell'ozono
+Strato di ozono
+Calcolo mentale
+Numero primo
+Numero pari
+Numero dispari
+Numero decimale
+Frazione decimale
+Tabellina del nove
+Teorema di Pitagora
+Angolo retto
+Angolo acuto
+Angolo ottuso
+Sezione aurea
+Computer portatile
+Posta elettronica
+Motore di ricerca
+Pagina web
+Sito internet
+Rete wireless
+Disco rigido
+Scheda madre
+Scheda grafica
+Scheda di memoria
+Memoria interna
+Schermo touch
+Touch screen
+Tasto invio
+Barra spaziatrice
+Cestino dei rifiuti
+Realtà virtuale
+Realtà aumentata
+Stampante laser
+Lettore ottico
+Lavagna interattiva
+Aula informatica
+Laboratorio di chimica
+Laboratorio di fisica
+Banco di scuola
+Anno scolastico
+Gita scolastica
+Pagella scolastica
+Voto in condotta
+Compito in classe
+Materia preferita
+Esame di maturità
+Tesi di laurea
+Libro di testo
+Libro di scuola
+Metodo scientifico
+Esperimento di laboratorio
+Camice da laboratorio
+Provetta di vetro
+Lente d'ingrandimento
+Microscopio elettronico
+Telescopio spaziale
+Pila elettrica
+Circuito elettrico
+Energia cinetica
+Energia potenziale
+Fonte di energia

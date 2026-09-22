@@ -1,0 +1,658 @@
+# TEMA: Mondo dei bambini: scuola e cartoni
+# 500 parole da 1 punto (una parola) + 100 da 2 punti (due o più parole).
+
+# --- Giocattoli ---
+Bambola
+Bambolotto
+Pupazzo
+Peluche
+Orsacchiotto
+Trenino
+Macchinina
+Camioncino
+Aeroplanino
+Trottola
+Yoyo
+Palla
+Pallone
+Cerchio
+Birilli
+Biglie
+Aquilone
+Bolle
+Soldatini
+Costruzioni
+Mattoncini
+Cubi
+Incastri
+Puzzle
+Tombola
+Dama
+Memory
+Domino
+Carte
+Dadi
+Burattino
+Marionetta
+Cavallo
+Dondolo
+Monopattino
+Triciclo
+Bicicletta
+Pattini
+Skateboard
+Robottino
+
+# --- Altri giocattoli ---
+Carillon
+Caleidoscopio
+Lavagnetta
+Abaco
+Xilofono
+Tamburello
+Fischietto
+Spadina
+Scudo
+Elmetto
+Coroncina
+Bacchetta
+Mascherina
+Cucinetta
+Garage
+Pista
+Slittino
+Elicotterino
+Barchetta
+Sottomarino
+Razzetto
+Trattorino
+Ruspetta
+Carriola
+Secchiello
+
+# --- A scuola ---
+Scuola
+Asilo
+Maestra
+Banco
+Cattedra
+Lavagna
+Zaino
+Astuccio
+Quaderno
+Diario
+Libro
+Penna
+Matita
+Pastello
+Pennarello
+Gomma
+Colla
+Forbici
+Temperino
+Righello
+Album
+Cartella
+Grembiule
+Merenda
+Ricreazione
+Compito
+Disegno
+Cancellino
+Gesso
+Cartelletta
+
+# --- Imparare ---
+Sussidiario
+Abbecedario
+Sillabario
+Pagella
+Faccina
+Timbrino
+Cartellone
+Lavoretto
+Numeri
+Lettere
+Alfabeto
+Vocali
+Tabelline
+Sillabe
+Parole
+Quadernone
+Astuccino
+Matitone
+Cartolina
+Disegnetto
+
+# --- Parco giochi ---
+Altalena
+Scivolo
+Giostra
+Carosello
+Sabbiera
+Castello
+Casetta
+Scaletta
+Tunnel
+Trampolino
+Gonfiabile
+Rete
+Fune
+Pertica
+Bilico
+Molla
+Arrampicata
+Scivoletto
+Recinto
+Aiuola
+
+# --- Giochi dei bambini ---
+Nascondino
+Acchiapparella
+Campana
+Elastico
+Girotondo
+Bandiera
+Indovinello
+Filastrocca
+Conta
+Cantilena
+Battimani
+Solletico
+Gincana
+Travestimento
+Plastilina
+Pongo
+Didò
+Stampino
+Perline
+Origami
+
+# --- Disegno e creatività ---
+Acquerelli
+Tempere
+Pastelli
+Pennarelli
+Pennello
+Foglio
+Cartoncino
+Adesivi
+Brillantini
+Glitter
+Cartapesta
+Creta
+Stencil
+Timbri
+Spugnette
+Cera
+Gessetti
+Ritaglio
+Scarabocchio
+Quadretto
+Tratto
+Cornicetta
+Disegnino
+Coloratura
+Pittura
+
+# --- Cartoni e personaggi ---
+Cartone
+Animazione
+Personaggio
+Eroe
+Supereroe
+Principessa
+Mostro
+Robot
+Dinosauro
+Drago
+Folletto
+Fata
+Mago
+Pirata
+Cavaliere
+Astronauta
+Cowboy
+Indiano
+Clown
+Pagliaccio
+Mascotte
+Protagonista
+Cattivo
+Spalla
+Pupazzetto
+
+# --- Personaggi e ruoli ---
+Sceriffo
+Detective
+Ninja
+Samurai
+Vichingo
+Esploratore
+Avventuriero
+Capitano
+Spia
+Gnometto
+Fatina
+Sirenetta
+Mostriciattolo
+Marziano
+Genietto
+Diavoletto
+Angioletto
+Streghetta
+Maghetto
+Principino
+
+# --- Dolci e merende ---
+Caramella
+Cioccolato
+Cioccolatino
+Leccalecca
+Biscotto
+Merendina
+Brioche
+Cornetto
+Gelato
+Ghiacciolo
+Marshmallow
+Liquirizia
+Confetto
+Torta
+Budino
+Succo
+Snack
+Patatine
+Popcorn
+Zucchero
+
+# --- Merende e spuntini ---
+Panino
+Tramezzino
+Toast
+Pizzetta
+Focaccina
+Crackers
+Grissini
+Yogurt
+Frutta
+Frullato
+Frappè
+Granita
+Chewinggum
+Zuccherino
+Caramellina
+
+# --- Dolcetti ---
+Ovetto
+Sorpresina
+Gelatina
+Tortina
+Cupcake
+Muffin
+Biscottino
+Pasticcino
+Bonbon
+Croccantino
+
+# --- Cuccioli e peluche ---
+Coniglietto
+Gattino
+Cagnolino
+Cucciolo
+Pulcino
+Paperella
+Topolino
+Elefantino
+Leoncino
+Scimmietta
+Pinguino
+Koala
+Panda
+Unicorno
+Dinosauretto
+
+# --- La cameretta ---
+Lettino
+Culla
+Comodino
+Armadio
+Scaffale
+Baule
+Cassettiera
+Tappeto
+Tenda
+Lampada
+Sveglia
+Poster
+Adesivo
+Mensola
+Scrivania
+Sedia
+Cuscino
+Coperta
+Lenzuolo
+Materasso
+
+# --- Oggetti della cameretta ---
+Cassapanca
+Appendiabiti
+Sgabello
+Pouf
+Tappetino
+Cestino
+Portagiochi
+Lucina
+Mobiletto
+Cassettone
+Calendario
+Orologio
+Tendina
+Federa
+Cuscinone
+
+# --- Bebè ---
+Neonato
+Bebè
+Bambino
+Bimbo
+Bimba
+Lattante
+Biberon
+Ciuccio
+Tettarella
+Sonaglio
+Pannolino
+Carrozzina
+Passeggino
+Seggiolone
+Girello
+Fasce
+Tutina
+Pagliaccetto
+Vasino
+Salviette
+
+# --- Favole e storie ---
+Favola
+Fiaba
+Storia
+Racconto
+Ninnananna
+Leggenda
+Avventura
+Magia
+Incantesimo
+Morale
+Principe
+Regina
+Orco
+Gigante
+Nano
+
+# --- Festa dei bambini ---
+Festa
+Compleanno
+Candeline
+Palloncini
+Coriandoli
+Regalo
+Regalino
+Sorpresa
+Pacco
+Fiocco
+Invito
+Auguri
+Animatore
+Pentolaccia
+Cappellino
+Trombetta
+Festone
+Striscione
+Coreografia
+Stelline
+
+# --- Suoni e versi ---
+Squittio
+Ronzio
+Risata
+Pianto
+Strillo
+Gridolino
+Singhiozzo
+Schiamazzo
+Vocio
+Chiasso
+Baccano
+Fracasso
+Rumore
+Sussurro
+Pernacchia
+
+# --- Esclamazioni ---
+Drin
+Bum
+Splash
+Eccì
+Uffa
+Evviva
+Ahia
+Ops
+Boom
+Cucù
+
+# --- Attività fisica ---
+Capriola
+Capovolta
+Ruota
+Salto
+Corsa
+Tuffo
+Nuotata
+Pedalata
+Tiro
+Canestro
+Volteggio
+Equilibrio
+Slalom
+Capitombolo
+Saltello
+
+# --- Giochi da tavolo ---
+Pedina
+Tabellone
+Casella
+Figurine
+Doppione
+Bustina
+Raccolta
+Soldini
+Monetine
+Cartoncini
+Tessere
+Magnete
+Scatola
+Coperchio
+Regolamento
+
+# --- Persone vicine ---
+Educatrice
+Tata
+Compagno
+Compagna
+Amichetto
+Amichetta
+Cuginetto
+Sorellina
+Fratellino
+Maestro
+Bidello
+Nonnino
+Nonnina
+Mammina
+Papino
+
+# --- In spiaggia e fuori ---
+Pedalò
+Paletta
+Rastrello
+Formina
+Setaccio
+Annaffiatoio
+Retino
+Salvagente
+Braccioli
+Ciambella
+
+# --- Schermi e giochi moderni ---
+Soldatino
+Cavalluccio
+Trottolina
+Palloncino
+Bollicina
+Cannuccia
+Macchinetta
+Telecomando
+Videogioco
+Console
+Tablet
+Schermo
+Episodio
+Sigla
+Puntata
+Robottone
+Astronavetta
+Visiera
+Joystick
+Cellulare
+
+# --- Ancora giochi ---
+Cerbottana
+Fionda
+Trampoli
+Frisbee
+Volano
+Birillo
+Cerchietto
+Sonaglino
+Girandola
+Bolla
+Sapone
+Lavagnina
+Quadernino
+Libretto
+Storiella
+Fumetto
+Vignetta
+Figurina
+Pupazzino
+Orsetto
+Anatroccolo
+Sticker
+Slime
+Sgambetto
+Capriolina
+
+# ============================================================
+#  PAROLE DA 2 PUNTI (almeno due parole per riga)
+# ============================================================
+Banco di scuola
+Cavallo a dondolo
+Casa delle bambole
+Carrozzina dei bambini
+Macchina a pedali
+Trenino elettrico
+Pista delle macchinine
+Gioco da tavolo
+Gioco di società
+Gioco dell'oca
+Scala e serpenti
+Carte da gioco
+Album delle figurine
+Bambola di pezza
+Orsacchiotto di peluche
+Costruzioni di legno
+Mattoncini colorati
+Cubo di Rubik
+Corda per saltare
+Cerchio hula hoop
+Palla da spiaggia
+Bolle di sapone
+Aquilone colorato
+Macchina telecomandata
+Robot giocattolo
+Spada laser
+Pistola ad acqua
+Gioco di ruolo
+Caccia al tesoro
+Mosca cieca
+Un due tre stella
+Sedia musicale
+Tiro alla fune
+Gara di corsa
+Salto della corda
+Scuola materna
+Scuola elementare
+Maestra d'asilo
+Primo giorno di scuola
+Gita scolastica
+Recita di Natale
+Compiti delle vacanze
+Diario di scuola
+Astuccio a tre piani
+Zaino di scuola
+Quaderno a righe
+Quaderno a quadretti
+Penna stilografica
+Colori a cera
+Pennarelli colorati
+Foglio da disegno
+Disegno colorato
+Lavoretto di Natale
+Cartone animato
+Cartoni animati
+Sigla del cartone
+Eroe dei cartoni
+Personaggio dei cartoni
+Festa di compleanno
+Torta di compleanno
+Candeline sulla torta
+Palloncini colorati
+Pentolaccia di Carnevale
+Festa in maschera
+Caccia alle uova
+Merenda a scuola
+Succo di frutta
+Latte e biscotti
+Pane e marmellata
+Pane e cioccolato
+Caramelle gommose
+Zucchero filato
+Gelato al cioccolato
+Lecca lecca gigante
+Sorpresa nell'ovetto
+Libro di fiabe
+C'era una volta
+Lieto fine
+Ninna nanna
+Filastrocca per bambini
+Tata dei bambini
+Amico immaginario
+Migliore amico
+Compagno di banco
+Compagno di giochi
+Cameretta dei bambini
+Letto a castello
+Lampada da notte
+Orsetto del cuore
+Coperta di Linus
+Ciuccio del neonato
+Box dei giochi
+Scatola dei giocattoli
+Parco giochi
+Luna park
+Ruota panoramica
+Castello gonfiabile
+Trenino di legno
+Gessetti colorati
+Gioco preferito

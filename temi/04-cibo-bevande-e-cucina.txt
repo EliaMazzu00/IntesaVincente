@@ -1,0 +1,654 @@
+# TEMA: Cibo, bevande e cucina
+# 500 parole da 1 punto (una parola) + 100 da 2 punti (due o più parole).
+
+# --- Frutta ---
+Mela
+Pera
+Banana
+Arancia
+Mandarino
+Clementina
+Limone
+Lime
+Pompelmo
+Uva
+Fragola
+Ciliegia
+Albicocca
+Pesca
+Nettarina
+Susina
+Prugna
+Nespola
+Cachi
+Fico
+Melograno
+Kiwi
+Ananas
+Mango
+Papaya
+Cocco
+Dattero
+Melone
+Anguria
+Lampone
+Mirtillo
+Mora
+Ribes
+Uvaspina
+Litchi
+Maracuja
+Guava
+Bergamotto
+Carambola
+Tamarindo
+Mandarancio
+Cedro
+Avocado
+Cocomero
+Fragolina
+
+# --- Verdura e ortaggi ---
+Pomodoro
+Patata
+Carota
+Cipolla
+Aglio
+Zucchina
+Zucca
+Melanzana
+Peperone
+Cetriolo
+Lattuga
+Radicchio
+Rucola
+Spinaci
+Bietola
+Cavolo
+Cavolfiore
+Broccolo
+Verza
+Carciofo
+Finocchio
+Sedano
+Porro
+Scalogno
+Asparago
+Fagiolino
+Pisello
+Fava
+Barbabietola
+Rapa
+Ravanello
+Topinambur
+Indivia
+Scarola
+Catalogna
+Cicoria
+Crescione
+Mais
+Batata
+Manioca
+Zenzero
+Curcuma
+Tartufo
+Champignon
+Cardo
+
+# --- Legumi ---
+Fagioli
+Lenticchie
+Ceci
+Soia
+Cicerchia
+Lupini
+Piselli
+Fave
+Borlotti
+Cannellini
+
+# --- Carne ---
+Manzo
+Vitello
+Maiale
+Agnello
+Capretto
+Pollo
+Tacchino
+Coniglio
+Lepre
+Cinghiale
+Cervo
+Quaglia
+Fagiano
+Bistecca
+Costata
+Filetto
+Lombata
+Arrosto
+Spezzatino
+Cotoletta
+Scaloppina
+Braciola
+Salsiccia
+Hamburger
+Polpetta
+
+# --- Salumi ---
+Prosciutto
+Salame
+Mortadella
+Pancetta
+Guanciale
+Bresaola
+Speck
+Coppa
+Capocollo
+Cotechino
+Zampone
+Wurstel
+Soppressata
+Lardo
+Ciccioli
+Porchetta
+Lonza
+Nduja
+Culatello
+Salamino
+
+# --- Pesce e frutti di mare ---
+Baccalà
+Stoccafisso
+Bottarga
+Caviale
+Surimi
+Tonno
+Salmone
+Aringa
+Sgombro
+Acciuga
+Sardina
+Polpo
+Calamaro
+Gambero
+Cozze
+Vongole
+Ostriche
+Scampi
+Aragosta
+Granchio
+
+# --- Latticini e formaggi ---
+Latte
+Panna
+Burro
+Yogurt
+Ricotta
+Mozzarella
+Mascarpone
+Stracchino
+Crescenza
+Robiola
+Caciotta
+Pecorino
+Parmigiano
+Grana
+Gorgonzola
+Fontina
+Asiago
+Provolone
+Scamorza
+Caciocavallo
+Taleggio
+Emmental
+Groviera
+Brie
+Burrata
+
+# --- Formati di pasta ---
+Spaghetti
+Penne
+Rigatoni
+Fusilli
+Farfalle
+Maccheroni
+Tortellini
+Ravioli
+Tagliatelle
+Fettuccine
+Lasagne
+Cannelloni
+Gnocchi
+Orecchiette
+Linguine
+Bucatini
+Vermicelli
+Tortelli
+Agnolotti
+Trofie
+Pappardelle
+Conchiglie
+Ditalini
+Cavatelli
+Paccheri
+
+# --- Cereali e farine ---
+Riso
+Farro
+Orzo
+Avena
+Segale
+Miglio
+Quinoa
+Grano
+Frumento
+Semola
+Farina
+Crusca
+Cuscus
+Bulgur
+Polenta
+
+# --- Pane e prodotti da forno ---
+Pane
+Panino
+Baguette
+Focaccia
+Piadina
+Grissino
+Cracker
+Crostino
+Bruschetta
+Pizza
+Calzone
+Tramezzino
+Schiacciata
+Michetta
+Rosetta
+Ciabatta
+Filone
+Pagnotta
+Brioche
+Cornetto
+
+# --- Dolci e dessert ---
+Torta
+Crostata
+Biscotto
+Cannolo
+Tiramisù
+Panettone
+Pandoro
+Colomba
+Cassata
+Babà
+Profiterole
+Bignè
+Sfogliatella
+Krapfen
+Bombolone
+Ciambella
+Muffin
+Cupcake
+Pancake
+Waffle
+Budino
+Gelato
+Sorbetto
+Granita
+Semifreddo
+Mousse
+Crema
+Zabaione
+Meringa
+Marshmallow
+Caramella
+Cioccolatino
+Torrone
+Croccante
+Confetto
+
+# --- Spezie ed erbe aromatiche ---
+Sale
+Pepe
+Origano
+Basilico
+Prezzemolo
+Rosmarino
+Salvia
+Timo
+Maggiorana
+Alloro
+Menta
+Aneto
+Coriandolo
+Cumino
+Zafferano
+Vaniglia
+Cannella
+Paprika
+Curry
+Noce
+Chiodo
+Cardamomo
+Anice
+Senape
+Pinoli
+
+# --- Condimenti e salse ---
+Olio
+Aceto
+Zucchero
+Miele
+Maionese
+Ketchup
+Pesto
+Sugo
+Ragù
+Besciamella
+Salsa
+Brodo
+Dado
+Marmellata
+Confettura
+Gelatina
+Glassa
+Lievito
+Sottaceti
+Mostarda
+
+# --- Bevande ---
+Acqua
+Vino
+Birra
+Spumante
+Prosecco
+Champagne
+Cocktail
+Aperitivo
+Aranciata
+Limonata
+Gassosa
+Chinotto
+Succo
+Spremuta
+Frullato
+Caffè
+Cappuccino
+Espresso
+Macchiato
+Tè
+Tisana
+Camomilla
+Cioccolata
+Liquore
+Grappa
+Whisky
+Rum
+Vodka
+Gin
+Cognac
+Brandy
+Amaro
+Sidro
+Sangria
+Mojito
+
+# --- Piatti e preparazioni ---
+Risotto
+Minestrone
+Minestra
+Zuppa
+Vellutata
+Frittata
+Omelette
+Frittura
+Polpettone
+Stufato
+Brasato
+Bollito
+Carpaccio
+Tartare
+Caponata
+Parmigiana
+Timballo
+Sformato
+Soufflé
+Crocchetta
+Supplì
+Arancino
+Insalata
+Antipasto
+Contorno
+
+# --- In cucina ---
+Cottura
+Bollitura
+Grigliata
+Impasto
+Pastella
+Ripieno
+Farcia
+Marinatura
+Affumicatura
+Stagionatura
+Aroma
+Sapore
+Gusto
+Boccone
+Porzione
+Ricetta
+Menu
+Pietanza
+Pasto
+Merenda
+
+# --- Frutta secca e noci ---
+Mandorla
+Nocciola
+Pistacchio
+Arachide
+Anacardo
+Pecan
+Macadamia
+
+# --- Dolciumi ---
+Caramello
+Liquirizia
+Leccalecca
+Gianduiotto
+Cremino
+Wafer
+Brownie
+Cheesecake
+Strudel
+Plumcake
+Ciambellone
+Zeppola
+Panforte
+Cantucci
+Savoiardi
+
+# --- Altre verdure ---
+Pastinaca
+Rabarbaro
+Cipollotto
+Friggitello
+Daikon
+Crauti
+Germogli
+Misticanza
+Songino
+Valeriana
+Bietolina
+Puntarelle
+Agretti
+Borragine
+Portulaca
+
+# --- In cucina: cotture ---
+Cuocere
+Friggere
+Bollire
+Arrostire
+Grigliare
+Stufare
+Lessare
+Soffriggere
+Impanare
+Farcire
+Condire
+Affettare
+Tritare
+Sbucciare
+Infornare
+
+# --- Sapori ---
+Dolce
+Salato
+Agrodolce
+Acido
+Piccante
+Aspro
+Saporito
+Insipido
+Gustoso
+Cremoso
+Fragrante
+Succoso
+
+# --- Pasti e locali ---
+Colazione
+Pranzo
+Cena
+Spuntino
+Buffet
+Banchetto
+Trattoria
+Pizzeria
+Pasticceria
+Mensa
+
+# --- Pane e impasti ---
+Tarallo
+Frisella
+Panzerotto
+Sfilatino
+Bagel
+Pretzel
+Crostatina
+Treccia
+
+# --- Altre bevande ---
+Centrifugato
+Smoothie
+Milkshake
+Granatina
+Orzata
+Sciroppo
+Bibita
+Infuso
+
+# ============================================================
+#  PAROLE DA 2 PUNTI (almeno due parole per riga)
+# ============================================================
+Pasta al forno
+Pasta al pesto
+Pasta al pomodoro
+Spaghetti alla carbonara
+Penne all'arrabbiata
+Risotto allo zafferano
+Risotto ai funghi
+Lasagne alla bolognese
+Tortellini in brodo
+Gnocchi di patate
+Olio di oliva
+Olio extravergine
+Aceto balsamico
+Sale grosso
+Sale fino
+Zucchero a velo
+Zucchero di canna
+Pepe nero
+Noce moscata
+Chiodi di garofano
+Succo di frutta
+Succo d'arancia
+Spremuta d'arancia
+Acqua minerale
+Acqua frizzante
+Acqua naturale
+Vino rosso
+Vino bianco
+Vino rosato
+Birra artigianale
+Caffè macchiato
+Caffè corretto
+Tè verde
+Tè freddo
+Cioccolata calda
+Latte di mandorla
+Latte scremato
+Pane integrale
+Pane fresco
+Pane casereccio
+Pizza margherita
+Pizza marinara
+Pizza ai funghi
+Insalata mista
+Insalata di mare
+Insalata russa
+Macedonia di frutta
+Frutta secca
+Frutta candita
+Marmellata di arance
+Crema pasticcera
+Panna montata
+Crema al cioccolato
+Gelato alla crema
+Gelato al cioccolato
+Torta di mele
+Torta al cioccolato
+Torta nuziale
+Crostata di frutta
+Pan di Spagna
+Pane e burro
+Pane e cioccolato
+Prosciutto crudo
+Prosciutto cotto
+Carne alla griglia
+Pollo arrosto
+Bistecca alla fiorentina
+Cotoletta alla milanese
+Vitello tonnato
+Uovo sodo
+Uovo fritto
+Uova strapazzate
+Patatine fritte
+Purè di patate
+Patate al forno
+Fagioli all'uccelletto
+Zuppa di legumi
+Minestrone di verdure
+Brodo di pollo
+Sugo di pomodoro
+Salsa di soia
+Pesto alla genovese
+Formaggio grattugiato
+Formaggio fuso
+Mozzarella di bufala
+Parmigiano reggiano
+Pecorino romano
+Frutti di bosco
+Frutti di mare
+Pesce spada
+Filetto di branzino
+Tonno in scatola
+Sale e pepe
+Olio e aceto
+Spicchio d'aglio
+Foglia di basilico
+Mazzetto di prezzemolo
+Bicchiere di vino
+Tazza di caffè
+Lista della spesa

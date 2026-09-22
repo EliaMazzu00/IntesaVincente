@@ -1,0 +1,159 @@
+/* ==========================================================================
+   Telecomando: il pulsante STOP per il telefono
+   --------------------------------------------------------------------------
+   Si usa al volo, guardandolo poco: il pulsante prende quasi tutto lo schermo
+   e si centra sotto il pollice.
+   ========================================================================== */
+
+.remote {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vh;
+    padding: max(3vh, env(safe-area-inset-top)) 6vw max(4vh, env(safe-area-inset-bottom));
+    background: var(--bg-spotlight);
+    overflow: hidden;
+    transition: background .4s ease;
+}
+
+.remote.is-live {
+    background:
+        radial-gradient(ellipse 120% 70% at 50% 50%, rgba(251, 113, 133, .16) 0%, transparent 65%),
+        linear-gradient(180deg, var(--c-bg) 0%, var(--c-bg-deep) 100%);
+}
+
+/* ==========================================================================
+   Cronometro
+   ========================================================================== */
+
+.clock {
+    color: var(--c-azure);
+    font-size: clamp(2.4rem, 14vw, 5rem);
+    font-weight: 800;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -.02em;
+}
+
+.clock.danger {
+    color: var(--c-red);
+    animation: clock-pulse 1s ease-in-out infinite;
+}
+
+@keyframes clock-pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.06);
+    }
+}
+
+/* ==========================================================================
+   Il pulsante
+   ========================================================================== */
+
+.stop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vh;
+    width: min(74vw, 74vh, 420px);
+    aspect-ratio: 1;
+    border: none;
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 30%, #ff8fa3 0%, #e11d48 55%, #8d0f2c 100%);
+    color: #fff;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow:
+        0 1.4vh 0 #6b0a20,
+        0 3vh 6vh rgba(225, 29, 72, .45),
+        inset 0 .4vh 1vh rgba(255, 255, 255, .35);
+    transition: transform .08s ease, box-shadow .08s ease;
+}
+
+/* Alla pressione il pulsante "affonda", come un pulsantone arcade. */
+.stop:active {
+    transform: translateY(1.2vh);
+    box-shadow:
+        0 .2vh 0 #6b0a20,
+        0 1vh 3vh rgba(225, 29, 72, .4),
+        inset 0 .4vh 1vh rgba(0, 0, 0, .25);
+}
+
+.stop-icon {
+    font-size: clamp(2.5rem, 16vw, 5rem);
+    line-height: 1;
+}
+
+.stop-text {
+    font-size: clamp(1.8rem, 11vw, 3.6rem);
+    font-weight: 800;
+    letter-spacing: .14em;
+}
+
+.note {
+    margin: 0;
+    max-width: 30ch;
+    color: var(--c-text-faint);
+    font-size: clamp(.85rem, 3.6vw, 1.05rem);
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* ==========================================================================
+   Stati in cui non c'è niente da premere
+   ========================================================================== */
+
+.state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2vh;
+    text-align: center;
+}
+
+.state-icon {
+    font-size: clamp(3.5rem, 20vw, 7rem);
+    line-height: 1;
+    filter: drop-shadow(0 0 5vh rgba(56, 189, 248, .3));
+}
+
+.state-text {
+    color: var(--c-text);
+    font-size: clamp(1.7rem, 9vw, 3rem);
+    font-weight: 800;
+}
+
+.state-sub {
+    color: var(--c-text-faint);
+    font-size: clamp(.9rem, 4vw, 1.15rem);
+    letter-spacing: .06em;
+}
+
+.state-clock {
+    margin-top: 2vh;
+    padding: .5rem 1.6rem;
+    border-radius: var(--r-pill);
+    background: rgba(255, 255, 255, .07);
+    color: var(--c-azure);
+    font-size: clamp(1.3rem, 7vw, 2.2rem);
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+}
+
+.remote.is-frozen .state-icon {
+    filter: drop-shadow(0 0 5vh rgba(251, 191, 36, .4));
+}
+
+.state.finished .state-text {
+    color: var(--c-amber);
+}

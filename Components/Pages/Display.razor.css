@@ -1,0 +1,458 @@
+/* ==========================================================================
+   Display: la parola per i suggeritori
+   --------------------------------------------------------------------------
+   Va guardato da lontano, quindi tutto è in unità di viewport: riempie lo
+   schermo che trova (TV, monitor, proiettore) senza bisogno di regolazioni.
+   ========================================================================== */
+
+.display {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: var(--c-text);
+    background: var(--bg-spotlight);
+    transition: background .5s ease;
+}
+
+/* Alone di luce dietro alla parola, come il fondale di uno studio. */
+.display::before {
+    content: "";
+    position: absolute;
+    inset: -20%;
+    background: radial-gradient(circle at 50% 45%, rgba(56, 189, 248, .2) 0%, transparent 55%);
+    pointer-events: none;
+}
+
+.display.is-frozen::before {
+    background: radial-gradient(circle at 50% 45%, rgba(251, 191, 36, .18) 0%, transparent 55%);
+}
+
+.display.is-finished {
+    background:
+        radial-gradient(ellipse 120% 80% at 50% -10%, rgba(251, 191, 36, .22) 0%, transparent 60%),
+        linear-gradient(180deg, #14100a 0%, #08060a 100%);
+}
+
+/* ==========================================================================
+   Pannello dei numeri
+   ========================================================================== */
+
+.hud {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    gap: min(3vw, 5vh);
+    padding: min(2.4vh, 1.6vw) 3vw min(1.4vh, 1vw);
+}
+
+.hud-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .4vh;
+    min-width: min(12vw, 20vh);
+    padding: min(1vh, .7vw) min(1.6vw, 2.2vh);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-lg);
+    background: rgba(255, 255, 255, .05);
+}
+
+.hud-label {
+    color: var(--c-text-faint);
+    font-size: min(1vw, 1.8vh);
+    font-weight: 700;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+}
+
+.hud-value {
+    font-size: min(3vw, 5vh);
+    font-weight: 800;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+}
+
+.hud-of {
+    color: var(--c-text-faint);
+    font-size: .5em;
+    font-weight: 600;
+}
+
+/* Il tempo è il numero che conta: colorato, e rosso quando sta per finire. */
+.hud-cell.time .hud-value {
+    color: var(--c-azure);
+}
+
+.hud-cell.time.danger {
+    border-color: var(--c-red);
+    background: rgba(251, 113, 133, .12);
+}
+
+.hud-cell.time.danger .hud-value {
+    color: var(--c-red);
+    animation: pulse 1s ease-in-out infinite;
+}
+
+.hud-cell.score {
+    border-color: rgba(251, 191, 36, .45);
+    background: rgba(251, 191, 36, .1);
+}
+
+.hud-cell.score .hud-value {
+    color: var(--c-amber);
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.08);
+        opacity: .75;
+    }
+}
+
+/* ==========================================================================
+   Barra del tempo
+   ========================================================================== */
+
+.timebar {
+    flex-shrink: 0;
+    height: .9vh;
+    min-height: 5px;
+    margin: 0 3vw;
+    border-radius: var(--r-pill);
+    background: rgba(255, 255, 255, .07);
+    overflow: hidden;
+}
+
+.timebar-fill {
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, var(--c-azure-deep), var(--c-azure));
+    transition: width .95s linear;
+}
+
+.timebar-fill.danger {
+    background: linear-gradient(90deg, var(--c-red-deep), var(--c-red));
+}
+
+/* ==========================================================================
+   Palco centrale
+   ========================================================================== */
+
+.stage {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: min(3vh, 2vw);
+    padding: min(2vh, 1.4vw) 4vw;
+}
+
+/* ---- La parola ---- */
+.word {
+    max-width: 92vw;
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -.01em;
+    text-align: center;
+    text-wrap: balance;
+    color: #fff;
+    text-shadow: 0 0 6vh rgba(56, 189, 248, .45);
+    animation: word-in .3s cubic-bezier(.2, 1.3, .4, 1) both;
+}
+
+/* Quattro misure: la parola più è lunga, più il carattere si riduce. */
+.word.size-xl {
+    font-size: min(13vw, 22vh);
+}
+
+.word.size-l {
+    font-size: min(9vw, 16vh);
+}
+
+.word.size-m {
+    font-size: min(6.5vw, 12vh);
+}
+
+.word.size-s {
+    font-size: min(4.5vw, 9vh);
+}
+
+@keyframes word-in {
+    from {
+        transform: scale(.88);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* ---- Etichetta "vale ×2" ---- */
+.double-tag {
+    padding: min(.8vh, .6vw) min(2.4vw, 3.2vh);
+    border-radius: var(--r-pill);
+    background: linear-gradient(180deg, var(--c-amber) 0%, var(--c-amber-deep) 100%);
+    color: #241703;
+    font-size: min(2.2vw, 3.6vh);
+    font-weight: 800;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    box-shadow: 0 0 3vh rgba(251, 191, 36, .5);
+    animation: double-in .35s cubic-bezier(.2, 1.4, .4, 1) both;
+}
+
+@keyframes double-in {
+    from {
+        transform: translateY(-1.5vh) scale(.85);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+}
+
+/* ---- Tempo fermo ---- */
+.frozen {
+    color: var(--c-amber);
+    font-size: min(2vw, 3.4vh);
+    font-weight: 700;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+/* ==========================================================================
+   Fra una parola e l'altra
+   ========================================================================== */
+
+.waiting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5vh;
+}
+
+.waiting-text {
+    color: var(--c-text-dim);
+    font-size: min(7vw, 11vh);
+    font-weight: 800;
+    letter-spacing: .06em;
+}
+
+.waiting-dots {
+    display: flex;
+    gap: 1.6vh;
+}
+
+.waiting-dots span {
+    width: 1.6vh;
+    height: 1.6vh;
+    border-radius: 50%;
+    background: var(--c-azure);
+    animation: dot-bounce 1.2s ease-in-out infinite;
+}
+
+.waiting-dots span:nth-child(2) {
+    animation-delay: .15s;
+}
+
+.waiting-dots span:nth-child(3) {
+    animation-delay: .3s;
+}
+
+@keyframes dot-bounce {
+
+    0%,
+    60%,
+    100% {
+        transform: translateY(0);
+        opacity: .4;
+    }
+
+    30% {
+        transform: translateY(-1.4vh);
+        opacity: 1;
+    }
+}
+
+/* ==========================================================================
+   Fine partita
+   ========================================================================== */
+
+.ending {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    text-align: center;
+    animation: ending-in .4s cubic-bezier(.2, 1.2, .4, 1) both;
+}
+
+.ending-title {
+    color: var(--c-amber);
+    font-size: min(6vw, 10vh);
+    font-weight: 800;
+    letter-spacing: .04em;
+    text-shadow: 0 0 5vh rgba(251, 191, 36, .5);
+}
+
+.ending-score {
+    display: flex;
+    align-items: baseline;
+    gap: 1.2vw;
+}
+
+.ending-score-value {
+    font-size: min(12vw, 20vh);
+    font-weight: 800;
+    line-height: 1;
+    color: #fff;
+}
+
+.ending-score-label {
+    color: var(--c-text-dim);
+    font-size: min(2.6vw, 4.4vh);
+    font-weight: 700;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+}
+
+.ending-stats {
+    display: flex;
+    gap: min(2.5vw, 4vh);
+}
+
+.stat {
+    padding: min(.8vh, .6vw) min(1.8vw, 2.4vh);
+    border-radius: var(--r-pill);
+    background: rgba(255, 255, 255, .06);
+    font-size: min(2.2vw, 3.6vh);
+    font-weight: 700;
+}
+
+.stat.correct {
+    color: var(--c-green);
+}
+
+.stat.wrong {
+    color: var(--c-red);
+}
+
+.stat.passed {
+    color: var(--c-text-dim);
+}
+
+@keyframes ending-in {
+    from {
+        transform: scale(.85);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* ==========================================================================
+   Schermata di attesa
+   ========================================================================== */
+
+.idle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5vh;
+    text-align: center;
+}
+
+.idle-icon {
+    font-size: min(11vw, 17vh);
+    filter: drop-shadow(0 0 4vh rgba(56, 189, 248, .35));
+    animation: idle-float 5s ease-in-out infinite;
+}
+
+@keyframes idle-float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-1.6vh);
+    }
+}
+
+.idle-text {
+    font-size: min(5.5vw, 9vh);
+    font-weight: 800;
+    background: linear-gradient(180deg, #fff 0%, var(--c-azure) 95%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.idle-sub {
+    color: var(--c-text-faint);
+    font-size: min(1.8vw, 3vh);
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+/* ==========================================================================
+   Schermi in verticale (telefono usato come display di scorta)
+   ========================================================================== */
+
+@media (orientation: portrait) and (max-width: 860px) {
+    .hud {
+        gap: 2vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    .hud-cell {
+        flex: 1;
+        min-width: 0;
+        padding-left: var(--s-1);
+        padding-right: var(--s-1);
+    }
+
+    .hud-label {
+        font-size: 2.2vw;
+    }
+
+    .hud-value {
+        font-size: 5.5vw;
+    }
+
+    .word.size-xl {
+        font-size: 15vw;
+    }
+
+    .word.size-l {
+        font-size: 12vw;
+    }
+
+    .word.size-m {
+        font-size: 9vw;
+    }
+
+    .word.size-s {
+        font-size: 7vw;
+    }
+}
